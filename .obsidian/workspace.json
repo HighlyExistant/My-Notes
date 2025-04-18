@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "26baf26cdec52acf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b49182b1aca7d32b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9056df8d0496dfee",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do List/Mathematics.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Mathematics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6c2ecac283505927",
+    "type": "split",
+    "children": [
+      {
+        "id": "243fe847fbfa4fbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "067a403290a55181",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7b19952873df986f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "79c26eff5c8b5066",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c98a389758d27c09",
+    "type": "split",
+    "children": [
+      {
+        "id": "de219ec552eb9bfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb802be7ddce2843",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tasks/Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Programming"
+            }
+          },
+          {
+            "id": "146ef76ae2a7352f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tasks/Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Programming"
+            }
+          },
+          {
+            "id": "5df483424a1dfd0d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cea716491404e0c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tasks/Programming.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Programming"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "9056df8d0496dfee",
+  "lastOpenFiles": [
+    "Mathematics/Topology.md",
+    "Mathematics/Manifolds.md",
+    "Mathematics/Category Theory.md",
+    "Mathematics/Algebraic Structures.md",
+    "Mathematics/Geometric Algebra.md",
+    "To-Do List/Personal/ORGANIZADOR GRÁFICO TAREA PARA ENTREGAR EL 6 DE FEBRERO (1).pdf",
+    "To-Do List/Personal/Personal.md",
+    "To-Do List/Personal/POSTAL - TAREA PARA ENTREGAR.pdf",
+    "To-Do List/Personal/Valentines Isaac.md",
+    "To-Do List/Temporary/Make a RegEx library Molly.md",
+    "To-Do List/Temporary",
+    "To-Do List/Personal",
+    "Programming/Dynamic Programming.md",
+    "Programming",
+    "To-Do List/Mathematics.md",
+    "Diagrams/Drawing 2025-01-01 21.17.28.excalidraw.md",
+    "To-Do List/Programming.md",
+    "RatScript/Syntax.md",
+    "RatScript/Rat Script.md",
+    "RatScript",
+    "To-Do List/Personal/Timeline To Do.md",
+    "Personal/To-Do List",
+    "To-Do List",
+    "Diagrams",
+    "Drawing 2024-12-30 19.16.16.excalidraw.md",
+    "Drawing 2024-12-29 23.26.27.excalidraw.md",
+    "Allocators/Allocators Board.md",
+    "Allocators/Freelist/Definition.md",
+    "Definition 1.md",
+    "Memory Allocators.md",
+    "Tasks/Programming.md",
+    "Welcome.md"
+  ]
+}
