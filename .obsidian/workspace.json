@@ -4,27 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b49182b1aca7d32b",
+        "id": "07c3801ce2de6f38",
         "type": "tabs",
         "children": [
           {
-            "id": "9056df8d0496dfee",
+            "id": "c67190c745e28ab3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do List/Mathematics.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Mathematics"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -171,12 +161,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9056df8d0496dfee",
+  "active": "c67190c745e28ab3",
   "lastOpenFiles": [
-    "Mathematics/Topology.md",
-    "Mathematics/Manifolds.md",
-    "Mathematics/Category Theory.md",
+    "Mathematics/Integration/Line Integrals.md",
+    "Mathematics/Integration/Green's Theorem.md",
     "Mathematics/Algebraic Structures.md",
+    "Mathematics/Category Theory.md",
+    "Mathematics/Manifolds.md",
+    "Mathematics/Topology.md",
+    "To-Do List/Drawing 2025-04-18 20.16.26.excalidraw.md",
+    "To-Do List/Drawing 2025-04-19 22.05.44.excalidraw.md",
+    "To-Do List/Drawing 2025-04-19 08.17.07.excalidraw.md",
+    "Mathematics/Integration",
+    "To-Do List/Mathematics.md",
+    "Mathematics/Untitled",
     "Mathematics/Geometric Algebra.md",
     "To-Do List/Personal/ORGANIZADOR GRÁFICO TAREA PARA ENTREGAR EL 6 DE FEBRERO (1).pdf",
     "To-Do List/Personal/Personal.md",
@@ -187,7 +185,6 @@
     "To-Do List/Personal",
     "Programming/Dynamic Programming.md",
     "Programming",
-    "To-Do List/Mathematics.md",
     "Diagrams/Drawing 2025-01-01 21.17.28.excalidraw.md",
     "To-Do List/Programming.md",
     "RatScript/Syntax.md",
@@ -196,14 +193,11 @@
     "To-Do List/Personal/Timeline To Do.md",
     "Personal/To-Do List",
     "To-Do List",
-    "Diagrams",
     "Drawing 2024-12-30 19.16.16.excalidraw.md",
     "Drawing 2024-12-29 23.26.27.excalidraw.md",
     "Allocators/Allocators Board.md",
     "Allocators/Freelist/Definition.md",
     "Definition 1.md",
-    "Memory Allocators.md",
-    "Tasks/Programming.md",
-    "Welcome.md"
+    "Memory Allocators.md"
   ]
 }
