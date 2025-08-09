@@ -4,17 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "07c3801ce2de6f38",
+        "id": "b1ac78cc80e8344f",
         "type": "tabs",
         "children": [
           {
-            "id": "c67190c745e28ab3",
+            "id": "2e72c3384c70fb8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "kanban",
+              "state": {
+                "file": "To-Do List/Mathematics.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Mathematics"
             }
           }
         ]
@@ -161,43 +171,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c67190c745e28ab3",
+  "active": "067a403290a55181",
   "lastOpenFiles": [
-    "Mathematics/Integration/Line Integrals.md",
-    "Mathematics/Integration/Green's Theorem.md",
-    "Mathematics/Algebraic Structures.md",
-    "Mathematics/Category Theory.md",
-    "Mathematics/Manifolds.md",
+    "RAMBLINGS/Drawing 2025-07-18 16.19.17.excalidraw.md",
+    "Physics/Lagrangian Mechanics.md",
+    "Mathematics/Lagrange Multiplier.md",
+    "RAMBLINGS/Drawing 2025-07-29 17.08.43.excalidraw.md",
+    "RAMBLINGS/Drawing 2025-07-29 18.57.07.excalidraw.md",
     "Mathematics/Topology.md",
-    "To-Do List/Drawing 2025-04-18 20.16.26.excalidraw.md",
-    "To-Do List/Drawing 2025-04-19 22.05.44.excalidraw.md",
-    "To-Do List/Drawing 2025-04-19 08.17.07.excalidraw.md",
-    "Mathematics/Integration",
+    "Mathematics/Manifolds.md",
+    "Mathematics/Derivatives.md",
+    "Mathematics/Category Theory.md",
+    "Mathematics/Gaussian Elimination.md",
+    "Mathematics/Linear Algebra.md",
+    "GPU Algorithms/Reduce Diagram.excalidraw.md",
+    "GPU Algorithms/Reduce.md",
+    "TI84-CE Toolchain/Self Documentation.md",
+    "Physics/Rigid Body Equations.md",
     "To-Do List/Mathematics.md",
+    "RAMBLINGS",
+    "To-Do List/Drawing 2025-06-09 20.25.20.excalidraw.md",
+    "To-Do List/Drawing 2025-05-19 20.50.57.excalidraw.md",
+    "Mathematics/Algebraic Structures.md",
+    "Linea Algebra.md",
+    "Linear-Algebra.md",
+    "Linear.md",
+    "RAMBLINGS/Drawing 2025-07-15 20.47.31.excalidraw.md",
+    "RAMBLINGS",
+    "TI84-CE Toolchain/Drawing 2025-04-25 14.42.38.excalidraw.md",
+    "Mathematics/Gradient.md",
+    "Physics",
+    "Mathematics/Integration/Line Integrals.md",
+    "GPU Algorithms",
+    "TI84-CE Toolchain",
+    "Mathematics/Integration",
     "Mathematics/Untitled",
-    "Mathematics/Geometric Algebra.md",
     "To-Do List/Personal/ORGANIZADOR GRÁFICO TAREA PARA ENTREGAR EL 6 DE FEBRERO (1).pdf",
-    "To-Do List/Personal/Personal.md",
     "To-Do List/Personal/POSTAL - TAREA PARA ENTREGAR.pdf",
-    "To-Do List/Personal/Valentines Isaac.md",
-    "To-Do List/Temporary/Make a RegEx library Molly.md",
-    "To-Do List/Temporary",
-    "To-Do List/Personal",
-    "Programming/Dynamic Programming.md",
-    "Programming",
-    "Diagrams/Drawing 2025-01-01 21.17.28.excalidraw.md",
-    "To-Do List/Programming.md",
-    "RatScript/Syntax.md",
-    "RatScript/Rat Script.md",
-    "RatScript",
-    "To-Do List/Personal/Timeline To Do.md",
-    "Personal/To-Do List",
-    "To-Do List",
-    "Drawing 2024-12-30 19.16.16.excalidraw.md",
-    "Drawing 2024-12-29 23.26.27.excalidraw.md",
-    "Allocators/Allocators Board.md",
-    "Allocators/Freelist/Definition.md",
-    "Definition 1.md",
-    "Memory Allocators.md"
+    "To-Do List/Temporary"
   ]
 }

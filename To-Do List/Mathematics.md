@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] Flow spaces
 - [ ] Quotient Spaces
 - [ ] Study 5 Topology problems
+- [ ] Constrained Physics
 
 
 ## Already studying
