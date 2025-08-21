@@ -1,0 +1,2 @@
+#### Triangle inequality
+states that for a triangle with sides $a, b, c$ the sum of any two sides will be larger than or equal to (in the case of degenerate triangles) the third side. Ej. $c \leq a + b$.

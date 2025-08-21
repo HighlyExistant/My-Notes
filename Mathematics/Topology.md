@@ -1,5 +1,4 @@
-Is concerned with geometric objects, and continuous deformations between them.
-
+Is concerned with geometric objects, and continuous deformations between them. W
 ### Space
 is just a set that defines relations with elements within the set. So depending on the objects within your set and the operations that govern those objects, they will define the space that your objects live in. It is important to note that the following spaces are ordered in terms of least to most general. That is to say an inner product space is a special case of normed vector space, a normed vector space is a special case of metric space, etc.
 ### Vector Space
@@ -33,15 +32,17 @@ Say we have a set $X=\{ a,b,c \}$. To build a topology we must first see what ar
 $$
 \{\{a, b, c\}, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \emptyset\}
 $$
-A topology on a set $X$ is a collection $\Large{\tau}$ of subsets of $X$ such that:
+A topology on a set $X$ is a collection $\Large{\tau}$ of **subsets ([[Manifolds#What are Open Sets?|called open sets]])** of $X$ such that:
 * $\emptyset, X \in \Large{\tau}$
 * The union of subsets of $\Large{\tau}$ is in $\Large{\tau}$ $(\cup_{i}A_{i} \in \Large{\tau}$ for any $A_{i} \in \Large{\tau} \normalsize)$
 * the finite intersection of subsets of $\Large{\tau}$ is in $\Large{\tau}$ $(\cap^{n}_{i=1}A_{i} \in \Large{\tau}$ for any $A_{i} \in \Large{\tau}\normalsize)$
+More simply put: "$X$ is open, $\emptyset$ is open, the intersection of any two open sets is open, and the union of every collection of open sets is open"$^{(1)}$
+
 The pair $(X, \Large{\tau}\normalsize)$ are called a topological space. Every set $X$ has 2 guaranteed topologies
 * $\Large{\tau}_{\normalsize d}\normalsize = \mathcal{P}(X)$ where $\mathcal{P}$ is the powerset, is called the discrete topology
 * $\Large{\tau}_{\normalsize i}\normalsize = \{ \emptyset, X \}$ is called the indiscrete or trivial topology.
 #### Convergence in Topological Space
-Let $(X, \Large\tau\normalsize)$ be a topological space and let $(a_{n})$ where $n \in \mathbb{N}$ be a sequence in $X$.
+Let $(X, \Large\tau\normalsize)$ be a topological space and let $(a_{n})$ where $n \in \mathbb{N}$ be a [[Sequences|sequence]] in $X$.
 as
 $$
 a_{n} \to a \textnormal{ as } n \to \infty: 
@@ -53,7 +54,9 @@ $$
 \textnormal{ for each } U \in \Large\tau\normalsize \textnormal{ with } a \in U \textnormal{, there is } N \in \mathbb{N} \textnormal{ such that for all } n \geq N: a_{n} \in U
 $$
 
-$U$ is equal to a subset of $X$ that is also in topology $T$. a is in subset $U$
-
+$U$ is equal to a subset of $X$ that is also in topology $\Large{\tau}$. a is in subset $U$.
 # Hausdorff Space
 Is a topological space with a separation property. That is to say that for any distinct points $p \in U_{p}$ and $q \in U_{q}$ inside topological space $(X, \Large\tau\normalsize)$ the intersection between those 2 open sets is the empty set: $U_{p} \cap U_{q} = \emptyset$. In this manner we can make it so convergence can only go towards one value, unlike normal topological spaces. It is guaranteed for a discrete topology to be a valid Hausdorff Space.
+
+# References
+(1) Walter Rudin Functional Analysis Second Edition

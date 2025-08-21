@@ -69,7 +69,7 @@ We need to have 1 morphism from the object to itself
 # Types of Categories
 
 ### Homomorphisms
-Are categories that satisfy the property $f(a \cdot b) = f(a) \cdot f(b)$. 
+Are categories that satisfy the property $f(a \cdot b) = f(a) \cdot f(b)$. It's known as a structure-preserving map between two [[Algebraic Structures|algebraic structures]].
 ### Isomorphisms
 are morphisms with inverses. If there exists an isomorphism between 2 objects, then those objects are isomorphic, $A \cong B$. It is said that two structures are isomorphic if there is an isomorphism from one space onto another space. 
 

@@ -31,7 +31,6 @@ $$
 $$
 ## RNG or Rong's
 Have the same properties as a ring without the multiplicative identity
-
 ## Fields
 A field is a set again denoted by a capital letter. Here our Field is **$F$**. A field is similar to a ring as it has 2 operations $\oplus$ and $*$ except that it has the following additional properties:
 * $F$ is a commutative ring under $\oplus$ and $*$ (that is to say that both $\oplus$ and $*$ are commutative)
