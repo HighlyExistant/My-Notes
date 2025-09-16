@@ -1,8 +1,9 @@
 Is concerned with geometric objects, and continuous deformations between them. W
 ### Space
-is just a set that defines relations with elements within the set. So depending on the objects within your set and the operations that govern those objects, they will define the space that your objects live in. It is important to note that the following spaces are ordered in terms of least to most general. That is to say an inner product space is a special case of normed vector space, a normed vector space is a special case of metric space, etc.
+is just a set that defines relations with elements within the set. So depending on the objects within your set and the operations that govern those objects, they will define the space that your objects live in.
 ### Vector Space
-vectors are written as $\vec{v}$
+vectors are written as $\vec{v}$ the arrow denoting it as a vector, or as $\mathbf{v}$ as a boldened letter.
+
 the vector space needs to cover the following criteria:
 * has a zero element also defined as $\vec{0} \in V$ where $V$ is a vector space.
 * for all $\vec{u}, \vec{v} \in V$, then $\vec{u} + \vec{v} \in V$.
@@ -20,12 +21,16 @@ has the operation $\vert \vert \vec{v} \rvert \rvert := \sqrt{\langle\vec{v}, \v
 * $\vert \vert \vec{u} + \vec{v} \rvert \rvert \leq \vert \vert \vec{u} \rvert \rvert + \vert \vert \vec{v} \rvert \rvert$
 ### Metric Space
 have a concept of distance, and are defined as such for all $x, y, z$ in the space:
-* $d(x, x) = 0$
-* $d(x, y) > 0$
-* $d(x, y) = d(y, x)$
-* $d(x, z) \leq d(x,y) + d(y, z)$
-Metric spaces can be defined as a pair $(X, d)$ where $X$ is a set and $d$ is a distance function.
-
+* $d(x,y)\geq 0$ and $d(x,y)=0 \text{ iff } x=y$.
+* $d(x,y)=d(y,x)$
+* $d(x,y)\leq d(x,z) + d(z,y)$ due to [[Geometry#Triangle inequality|the triangle axiom]].
+Metric spaces can be defined as a pair $(X, d)$ where $X$ is a set and $d$ is a distance function. Due to this definition of distance, a distance function doesn't necessarily need to be the standard distance function we know $d(x,y)=|x-y|$, it can also be described be an entirely new ways.
+#### Examples of alternate metric spaces on $\mathbb{R}$
+1. The following metric gives a circular shape that describes distance.
+$$d(x,y)=\sqrt{{\sum_{i=1}^{n}}{(x_i-y_i)^2}}$$
+2. The following metric gives a square shape that describes distance
+$$p(x,y)=\text{max}|x_i-y_i|$$
+Every different metric creates a new metric space for some set $X$.
 ### Topological Space
 Getting rid of distance we reach a topological space, which is purely defined in set theory. It works as a foundation for all mathematical spaces.
 Say we have a set $X=\{ a,b,c \}$. To build a topology we must first see what are all the subsets of $X$. here it would be:

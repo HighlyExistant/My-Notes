@@ -1,0 +1,1 @@
+Prove that for a set on $\mathbb{R}$ there exists or does not exist a local maximal and minimum point on a defined function $f(x)=x$ in $(-\infty, 0]$ and $f(x)=-x+10$ between $(0,\infty)$.

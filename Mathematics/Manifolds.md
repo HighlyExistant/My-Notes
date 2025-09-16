@@ -1,4 +1,4 @@
-### Types of points in a topology 
+o### Types of points in a topology 
 Say we have a topological space $(X, \Large\tau\normalsize)$ where $S \subseteq X, p \in X$
 * An interior point $p$ of $S\Leftrightarrow p \in U$ and $U \subseteq S$ where $U \in \Large\tau$
 * An exterior point $p$ of $S\Leftrightarrow p \in U$ and $U \subseteq X \setminus S$ where $U \in \Large\tau$

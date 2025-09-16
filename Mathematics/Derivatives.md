@@ -10,13 +10,28 @@ $$
 $$
 where $h$ is some infinitesimal value as expressed in the limit $h\to0$. This is very similar to the way you get a line intersecting two points using the equation:
 $$\large{\frac{p_y-q_y}{p_x=q_x}}$$
-And that is not a coincidence. What the derivative function is doing is changing the function $f$ by an infinitesimal amount and subtracting it by the previous value. After that it is dividing it by $h$. An easier way of computing derivatives is via the power rule where:
+And that is not a coincidence. What the derivative function is doing is changing the function $f$ by an infinitesimal amount and subtracting it by the previous value. After that it is dividing it by $h$. An easier way of computing derivatives is via the ==**power rule**== where:
 $$
 	\large{\frac{d}{dx}x^n=nx^{n-1}}
 $$
+### The Chain Rule
+This rule applies for derivatives of composite functions (functions of the form $f(g(x))$ or $f(x)^n$). The way we calculate the derivatives of these two functions is as follows.
+$$
+	\frac{d}{dx}f(g(x))=f'(g(x))\cdot g'(x)
+$$
+and for the case of $f(x)^n$ it's calculated:
+$$
+	\frac{d}{dx}f(x)^n=n(f(x))^{n-1}\cdot f'(x)
+$$
+the chain rule can also apply to functions with just a basic variable such as $f(x)$, but since the derivative of $x=1$, then it gets simplified to just $f'(x)$. This changes however for $f(2x)$ where it would then be $2f'(x)$.
+### Time Derivatives
+Some equations relating to physics correspond variables of position such as  and  as functions over time, that is $x=x(t)$. This leads to these positions being differentiable over time, written as:
+$$
+	\frac{dx}{dt}x(t)=\dot{x}
+$$
+which is used for velocity. The second derivative $\frac{d^2x}{d^2t}=\ddot{x}$ being acceleration. These $\dot{x}$ and $\ddot{x}$ are also called newtons notation.
 # Partial Derivatives
 The partial derivative of a function denotes the **change over time** of a **multivariable function**. The reason why it's called a partial derivative is because you only care about one of those variables in the multivariable function, and treat any other variable as a constant.
-
 ### Example
 Lets say we have some function $f(x, y)=x^2 + xsin(y)$  and we want to compute its partial derivative with respect to $y$. The variables $x$ are treated as constants with derivatives equal to $0$ so if they don't share a term with $y$, they can be ignored. Instead the term we care about is $xsin(y)$ who's derivative is $xcos(y)$. Therefore the answer is $xcos(y)$.
 # Gradients

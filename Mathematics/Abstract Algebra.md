@@ -3,4 +3,4 @@ This property states that given two positive numbers $x, y$ there exists an inte
 #### Infimum of a set
 For any non empty set $A$ there exists $a \in A$ such that $a$ is lesser than or equal to each element of the set $A$.
 #### Supremum of a set
-For any non empty set $A$ there exists $a \in A$ such that $a$ is greater than or equal to each element of the set $A$
+For any non empty set $A$ there exists $a \in A$ such that $a$ is greater than or equal to each element of the set $A$. This can be denoted as $\text{sup}$ for supremum. 
