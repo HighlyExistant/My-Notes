@@ -9,13 +9,13 @@ kanban-plugin: board
 - [ ] Flow spaces
 - [ ] Quotient Spaces
 - [ ] Study 5 Topology problems
+- [ ] Gauss's Law
+- [ ] Green's Theorem
 - [ ] Constrained Physics
 
 
 ## Already studying
 
-- [ ] Gauss's Law
-- [ ] Green's Theorem
 
 
 ## Learned

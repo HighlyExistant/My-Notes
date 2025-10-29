@@ -4,27 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "87d72e03b7b04838",
+        "id": "50d042125823b022",
         "type": "tabs",
         "children": [
           {
-            "id": "5004f27961ecd455",
+            "id": "a2627086eeddc3ed",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do List/Mathematics.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Mathematics"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -59,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,45 +162,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5004f27961ecd455",
+  "active": "a2627086eeddc3ed",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "GPU Algorithms/Reduce Diagram.excalidraw.md",
+    "Mathematics/Relations.md",
+    "Untitled.md",
+    "Philosophy/Plato/Euthyphro.md",
+    "Philosophy/Plato/Menexenus.md",
+    "Philosophy/Immanuel Kant/Critique of Pure Reason.md",
+    "Philosophy/Plato/Plato's Theory of Man.md",
+    "Philosophy/Plato/Works Read of Plato.md",
+    "Philosophy/Rhetoric.md",
     "To-Do List/Untitled.md",
-    "To-Do List/Random Proofs.md",
-    "To-Do List/Mathematics.md",
-    "To-Do List/Drawing 2025-08-17 20.55.22.excalidraw.md",
-    "Physics/Friction.md",
-    "Physics/Concepts.md",
-    "Physics/Assets/kinematic_friction_example.svg",
-    "Physics/Assets/static_friction_example.svg",
-    "Physics/Assets",
-    "Physics/Hooke's Law.md",
-    "Physics/Types of Forces.md",
-    "Scratch Work/EXPLAINING MACROECONOMICS TO MY BOOTIFUL HUSBAND.md",
-    "Mathematics/Derivatives.md",
-    "Physics/Linear Velocity problems.md",
-    "Mathematics/Topology.md",
-    "Mathematics/Manifolds.md",
-    "Physics/Lagrangian Mechanics.md",
-    "Mathematics/Functions.md",
-    "Physics/Rigid Body Equations.md",
-    "Scratch Work/Every union and intersection of a balanced set is balanced..md",
-    "Mathematics/Linear Algebra.md",
-    "Mathematics/Lagrange Multiplier.md",
-    "Mathematics/Geometry.md",
-    "Mathematics/Gaussian Elimination.md",
-    "Mathematics/Category Theory.md",
-    "Mathematics/Algebraic Structures.md",
-    "Mathematics/Abstract Algebra.md",
-    "Scratch Work/Induction proof.md",
+    "To-Do List/Drawing 2025-10-22 20.42.42.excalidraw.md",
     "Mathematics/Sequences.md",
-    "Scratch Work",
-    "RAMBLINGS",
-    "RAMBLINGS",
-    "Physics",
-    "GPU Algorithms",
-    "TI84-CE Toolchain",
-    "Mathematics/Integration",
-    "Mathematics/Untitled",
-    "To-Do List/Personal/ORGANIZADOR GRÁFICO TAREA PARA ENTREGAR EL 6 DE FEBRERO (1).pdf"
+    "Mathematics/Derivatives.md",
+    "Mathematics/Extremum.md",
+    "Philosophy/Aspasia of Miletus.md",
+    "Economy/Oferta Agregada.md",
+    "Economy/Tools of Monetary Policy.md",
+    "Physics/Rigid Body Equations.md",
+    "Physics/Linear Velocity problems.md",
+    "Physics/Lagrangian Mechanics.md",
+    "Physics/Friction.md",
+    "Physics/Free fall.md",
+    "Mathematics/Algebraic Structures.md",
+    "Economy",
+    "Biologia/Transformations.md",
+    "Mathematics/Abstract Algebra.md",
+    "Civil Rights/Conservative Literature",
+    "Untitled",
+    "Fascism",
+    "Biologia",
+    "Philosophy/Logic",
+    "Civil Rights",
+    "Philosophy/Immanuel Kant",
+    "Quimica",
+    "Physics/Assets/free_fall_2.svg",
+    "Physics/Assets/free_fall.svg",
+    "Physics/Assets/incline_friction.svg",
+    "Physics/Assets/kinematic_friction_example.svg",
+    "Physics/Assets/static_friction_example.svg"
   ]
 }

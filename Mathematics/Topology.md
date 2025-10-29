@@ -10,7 +10,7 @@ the vector space needs to cover the following criteria:
 * For scalar $c$, then $c\vec{v} \in V$.
 * There is no notion of distance, and no notion of angles between vectors
 ### Inner Product Space
-* the product is written as $\langle\vec{v}, \vec{w}\rangle$
+* the product is written as $\langle\vec{v}, \vec{w}\rangle$ or just as a multiplication $\vec{v} \cdot \vec{w}$.
 the inner product space needs to cover the following criteria:
 * $\langle a\vec{u} + b\vec{v}, \vec{w}\rangle = a\langle\vec{u}, \vec{w}\rangle + b\langle\vec{v}, \vec{w}\rangle$
 * $\langle\vec{v}, \vec{v}\rangle$ with $\langle\vec{v}, \vec{v}\rangle = 0 \Leftrightarrow \vec{v} = 0$

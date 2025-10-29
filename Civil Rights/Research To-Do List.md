@@ -1,0 +1,11 @@
+- [ ] The Black Panthers
+- [ ] The Young Lords
+- [ ] The Young Patriots
+- [ ] Fred Hampton
+- [ ] Martin Luther King Jr
+- [ ] Malcolm X
+- [ ] Marsha P. Johnson
+- [ ] The Authoritarian Personality (Book)
+- [ ] Jim Crow
+- [ ] Haitian Revolution
+- [ ] John Lee Anderson Che Guevera

@@ -35,7 +35,7 @@ The partial derivative of a function denotes the **change over time** of a **mul
 ### Example
 Lets say we have some function $f(x, y)=x^2 + xsin(y)$  and we want to compute its partial derivative with respect to $y$. The variables $x$ are treated as constants with derivatives equal to $0$ so if they don't share a term with $y$, they can be ignored. Instead the term we care about is $xsin(y)$ who's derivative is $xcos(y)$. Therefore the answer is $xcos(y)$.
 # Gradients
-A gradient is a vector valued function containing the partial derivatives of a function. The symbol for the gradient is nabla: $\nabla$. A useful property of the gradient is that it points to the **direction of steepest ascent**, while the length of the vector field shows the steepness of the graph.
+==A gradient is a vector valued function containing the partial derivatives of a function that produces a scalar value==. The symbol for the gradient is **nabla**: $\nabla$. A useful property of the gradient is that it points to the **direction of steepest ascent**, or where the functions value increases, while the length of the vector field shows the steepness of the graph.
 ### Example
 Lets say we have some function $f(x, y)=x^2 + xsin(y)$, similar to the last example, and we want to get its gradient. First we'll need to get the partial derivatives of $x$ and $y$.
 $$
@@ -61,7 +61,7 @@ $$
 		\partial f_2 / \partial x & \partial f_2 / \partial y \\
 	\end{bmatrix}
 $$
-This matrix is very similar to the gradient from earlier, except that the gradient is for multivariable functions that produce a scalar value, while the Jacobian is for multivariable functions that produce a vector value.
+This matrix is very similar to the gradient from earlier, except that the gradient is for multivariable functions that produce a scalar value, while ==the Jacobian is for multivariable functions that produce a vector value==.
 ### Example
 This example comes from the following [khan academy video](https://www.youtube.com/watch?v=CGbBbH1e7Yw&list=PLEZWS2fT1672lJI7FT5OXHJU6cTgkSzV2&index=3).
 Lets say $f(x,y)=\begin{bmatrix} x + sin(y) \\ y + sin(x) \end{bmatrix}$ . The Jacobian of $f$ usually denoted $J$ is the partial derivative of the 1st component with respect to $x$ and the partial derivative of the 2nd component with respect to $x$ for the first column. Then you take the partial derivative of the 1st component with respect to $y$ followed by the partial derivative of the 2nd component with respect to $y$ for the second column:

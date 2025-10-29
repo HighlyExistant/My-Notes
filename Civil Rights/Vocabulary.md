@@ -1,0 +1,1 @@
+* ==**Collectivism**==: the theory and practice of the ownership of land and the means of production by the people or the state.

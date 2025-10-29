@@ -1,0 +1,1 @@
+* ==**Non Sequitur**==: Latin phrase for, "**It does not follow",** a conclusion or statement that does not logically follow from the previous argument or statement.

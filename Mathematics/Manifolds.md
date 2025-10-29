@@ -1,6 +1,6 @@
-o### Types of points in a topology 
+### Types of points in a topology 
 Say we have a topological space $(X, \Large\tau\normalsize)$ where $S \subseteq X, p \in X$
-* An interior point $p$ of $S\Leftrightarrow p \in U$ and $U \subseteq S$ where $U \in \Large\tau$
+* An interior point $p$ of $S\Leftrightarrow p \in U$ and $U \subseteq S$ where $U \in \Large\tau$. Translated, this means an interior point $p$ of $S$ means that it's in the interior of $S$.
 * An exterior point $p$ of $S\Leftrightarrow p \in U$ and $U \subseteq X \setminus S$ where $U \in \Large\tau$
 * $p$ is a boundary point of $S$ if it is neither an interior nor exterior point. This can also be defined as $p$ boundary point of $S \Leftrightarrow U \cap S \neq \emptyset$ and $U \cap (X \setminus S) \neq \emptyset$ where $U \in \Large\tau$
 * $p$ accumulation point of $S$ simply means that the point $p$ is not isolated from $S$.
@@ -79,7 +79,8 @@ A topological space $X$ is said to be compact if each open cover of $X$ contains
 #### Extreme Value Theorem
 If a function is continuous under a closed interval $[a, b]$, then the function must have a maximum and a minimum on the interval.$^{(4)}$
 ### Quotient Spaces
-Are spaces formed by gluing points based on an **equivalence relation**. This term is known as **identifying** as all these points are now identified by a single coordinate. A good example of this can be a mobius strip. These types mappings from one set to another are considered quotient spaces.
+Are spaces formed by gluing points based on an [[Relations#Equivalence|equivalence relation]]. This term is known as **identifying** as all these points are now identified by a single coordinate. A good example of this can be a ==mobius strip==, or ==modulus arithmetic==. These types mappings from one set to another are considered quotient spaces.
+* These spaces have the nice property that ==**equivalence is now equality**==.
 ### Banach Spaces
 Are **Complete [[Topology#Normed Vector Space|normed spaces]]**.
 ### Fréchet space / F-space

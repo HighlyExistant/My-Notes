@@ -1,26 +1,34 @@
-An algebraic structure is a collection of objects with one or more operations that can be performed on those objects:
+An algebraic structure is a collection of objects with one or more operations that can be performed on those objects. They are represented by an ordered pair $(X, o)$ where $X$ is a set of our objects, and $o$ is the operation it is defining:
 ### Example
 * Addition
 * Multiplication
-* Subtraction
-* Division
-
 ### Why use them?
 - We use them to draw connections among all the number systems
 - We can prove theorems using systems with the same properties
-
+## Magma (Binar, Groupoid)
+Basic algebraic structure which consists of a set and a binary operation that is closed under that set.
+## Semigroups
+A semigroup is a group without an identity or an inverse. This group only has an associative binary operator
+* Associativity: $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
+## Monoid
+A monoid is simply a semigroup with an identity operation, that means it has a binary operator on a set such that it has
+* Associativity
+* Identity
 ## Groups
 A group is a collection of objects usually denoted by a capital letter. Here our basic group will be known as **G**. operations on these groups are denoted using any abstract symbol such as $\oplus$. The reasoning behind this is that operation $\oplus$ can be multiplication, subtraction, addition, division, etc. Here we can find unique properties:
 * Associativity: $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
 * Identity: $e \oplus g = g \oplus e = g$ $\forall g \in G$
 * Inverse: For every $g \in G$ there exists $g^{-1}$ such that $g \oplus g^{-1} = g^{-1} \oplus g = e$
-##  Abelian Groups
+##  Abelian (Commutative) Groups
 Are groups that have the added property of commutativity, that is $a \oplus b = b \oplus a$.
-
+## Semirings
+Is a ring without the need for an additive inverse.
+## Rng (Non-unital Ring)
+Is a ring without the need for a multiplicative identity.
 ## Rings
-A ring is a set also denoted by a capital letter. Here our ring is **$R$** with 2 operations than can be denoted with $\oplus$ an $*$, where they have the following properties:
-* $R$ is a commutative group (also known as an Abelian Group) under $\oplus$
-* $R$ is associative under $*$
+A ring is a set also denoted by a capital letter. Here our ring is **$\mathcal{R}$** with 2 operations than can be denoted with $\oplus$ an $*$, where they have the following properties:
+* $\mathcal{R}$ is a commutative group (also known as an Abelian Group) under $\oplus$
+* $\mathcal{R}$ is associative under $*$
 * Multiplicative identity: There is an element 1 such that $r * 1 = 1 * r = r \forall r \in R$ 
 * The operation $*$ distributes over $\oplus$
 $$
@@ -29,12 +37,40 @@ $$
 $$
 (a\oplus b)*c=(a*c)\oplus(b*c)
 $$
-## RNG or Rong's
-Have the same properties as a ring without the multiplicative identity
+Some vocabulary that arises from rings:
+* ==**unit**==: also known as an ==**invertible elements**==, is simply: $$
+	u\in\{x\in\mathcal{R}|\exists{y}\in\mathcal{R}, xy=yx=1\}
+$$such that $1$ here is the multiplicative identity. This is just a complicated way of sayin that a unit $u$ in a Ring has a multiplicative inverse. The above statement can be rewritten as $U(\mathcal{R})$.
+* ==**nonunit**==: also known as an ==**irreducible element**== is a non-zero element that is not invertible $v\neq 0,v\notin U(\mathcal{R})$, can be rewritten as $\mathcal{R}^{\#}$.
+* ==**ideal**==: An ideal $I$ is a nonempty subset of $\mathcal{R}$ such that 
+	1. It is closed under addition
+	2. Has the property of [[Abstract Algebra#Absorbing Element|absorbtion]] such that when it is multiplied by the ideal of a ring it is absorbed into its ideal. This can be rephrased as: for $r\in\mathcal{R}$ and $i\in I$ has the property that $ri\in I$ called the left ideal or that $ir\in I$ is satisfied called the right ideal. If both are satisfied it is called two sided ideal. This is because a ring is not necessarily commutative
+	* ==**Example**==: An ideal of the integers can be the set of all even integers $I=\{2n|n \in \mathbb{Z}\}$. This is because it satisfied **1.** closed under addition, any even number summed by an even number gives another even number. **2.** Absorption as when any number is multiplied by an even number, it becomes an even number through associativity: 
+	* ==**Proof**== 
+		* $z \in \mathbb{Z}$ and $i \in I$, then $i=2n$ therefore $iz=2nz$ through associativity it follows that $2(nz)$ and since $\mathbb{Z}$ is closed under multiplication $nz \in \mathbb{Z}$. **Since $\mathbb{Z}$ is a commutative ring it also forms a double ideal**.
+## Commutative Rings
+As the name suggests, this form of a ring makes it so that the multiplicative operator of a ring, is also commutative. that is:
+$$
+	ab=ba
+$$
+## Zero Rings, and Nonzero Rings
+The zero ring, also called **trivial ring**, is one that for all $a, b$ in said ring $ab=0$. Due to how trivial this is, while still being categorized as a Ring, we use the term **Nonzero Ring** to refer to all rings that don't behave like this.
+## Integral Domain
+An integral domain is simply a **nonzero ring** where the product of any two nonzero elements is also non zero. This has the property that:
+* for any elements $a, b, c$ where $a\neq0$, then $ab=ac\Rightarrow b=c$
 ## Fields
 A field is a set again denoted by a capital letter. Here our Field is **$F$**. A field is similar to a ring as it has 2 operations $\oplus$ and $*$ except that it has the following additional properties:
 * $F$ is a commutative ring under $\oplus$ and $*$ (that is to say that both $\oplus$ and $*$ are commutative)
 * Every nonzero $f \in F$ has a multiplicative inverse, that is, some element $g \in F$ for which $f * g = g * f = 1$
+### Field Extensions
+A field extension $L$ is an extension of a preexisting field $K$ called a ==**subfield**== of $L$, because $K \subseteq L$. A field extension can be written as $L/K$ ($L$ over $K$). An ==**intermediate extension**== is derived as follows: If $L$ is an extension of $F$ which is then an extension of  $K$, then $F$ is an intermediate field of $L/K$.
+### Examples
+* The rational numbers $\mathbb{Q}$ are a field
+* The real numbers $\mathbb{R}$ are a field, and $\mathbb{Q}$ is their subfield
+* The complex numbers $\mathbb{C}$ are a field with $\mathbb{R}$ being their subfield.
+* the intermediate extension of $\mathbb{C}/\mathbb{Q}$ is $\mathbb{R}$ because $\mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$.
+## Module
+A module is similar to a vector space, except that instead of $V$ being over a set of scalars $F$ which is a field, instead it is over a set of scalars $R$ which is a ring
 ## Vector Spaces
 A vector space is composed of a set of vectors **$V$** and a set of scalars **$F$** with the following properties:
 * $V$ is a commutative group under vector addition

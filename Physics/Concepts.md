@@ -34,11 +34,8 @@ You might see work denoted as $\mathbf{W}$ or just a simple $W$, but to differen
 Weight $F_g=mg$ where $m$ is mass and $g$ is gravity. It is equal to the force of gravity acting on an objects mass. Depending on where you are, whether it be the moon or on earth, gravity will change and objects will become lighter or heavier according to that change.
 # Energy
 There are two types of energies, **kinetic energy** and **potential energy**. 
-* ==**Kinetic energy**== is denoted as $KE$. Has to do with motion. Anything that moves has kinetic energy. A mass at rest has no kinetic energy. The equation for kinetic energy is 
+* ==**Kinetic energy**== denoted as $KE$. Has to do with motion. Anything that moves has kinetic energy. A mass at rest has no kinetic energy. The equation for kinetic energy is 
 $$
 	\frac{1}{2}\sum_{k=1}^{N}{{m_kv_k^2}}
 $$
-* ==**Potential energy**== as $PE$. This energy is due to position. The energy is equal to the work done against any restoring forces (conservative forces). If we wanted to use a spring as an example $S_p=kx$, then the **work done by this spring would be its integral**, equal to 
-$$
-	\int kx=\frac{1}{2}kx^2
-$$
+* ==**Potential energy**== denoted as $PE$. This energy is due to position. The energy is equal to the work done against any restoring forces (conservative forces). If we wanted to use a spring as an example $S_p=kx$, then the **work done by this spring would be its integral**, equal to: $$ \int kx=\frac{1}{2}kx^2$$ The potential energy is a theoretical energy, as it has the potential to become kinetic energy.

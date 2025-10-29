@@ -6,8 +6,14 @@ where $L$ is the Lagrangian, $T$ is the kinetic energy and $V$ is the potential 
 
 We can describe $T$ as:
 $$
-	T=\frac{1}{2}\sum_{k=1}^{N}{m_kv^{2}_k}
+	T=\frac{1}{2}\sum_{k=1}^{N}{m_k\dot{x}^{2}_k}
 $$
-where $v_{k}^2$ is the dot product of $v_k$ with itself.
+where $\dot{x}_{k}^2$ is the velocity squared.
 
-$V$ is just the position vectors of the particles in the system. An example could be $V=(r_1,r_2,...,v_1,v_2,...)$. Although this explanation doesn't offer that much, it basically contains any energy that displaces the particle based on its position. This can be gravity, or even a spring force.
+$V$ contains the position vectors of the particles in the system. An example could be $V=(r_1,r_2,...,v_1,v_2,...)$. Although this explanation doesn't offer that much, it basically contains any energy that displaces the particle based on its position. This can be gravity, or even a spring force.
+
+Now that we have gathered all of these conservative forces together, we can combine them into the Euler-Lagrange equation:
+$$
+	\frac{d}{dt}\frac{\partial L}{\partial \dot{x}}=\frac{\partial L}{\partial x}
+$$
+What this is basically saying is that we grab the partial derivative of the Lagrangian with respect to position. Then we take the partial derivative of the Lagrangian with respect to velocity, and with that result, take its derivative with respect to time.

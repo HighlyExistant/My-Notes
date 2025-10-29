@@ -1,0 +1,38 @@
+The most important works are ==**highlighted and boldened**==.
+Works I should read have their reasons in parenthesis, and are in italics.
+- [x] Euthyphro
+- [ ] Apology
+- [ ] Crito
+- [ ] Phædo
+- [ ] Cratylus 
+- [x] Theætetus 
+- [ ] Sophist 
+- [ ] Statesman
+- [ ] Parmenides 
+- [ ] Philebus 
+- [ ] Symposium 
+- [ ] Phædrus
+- [ ] Alcibiades 
+- [ ] 2nd Alcibiades 
+- [ ] Hipparchus 
+- [ ] Rival Lovers
+- [ ] Theages 
+- [ ] Charmides 
+- [ ] Laches 
+- [ ] Lysis
+- [ ] Euthydemus 
+- [ ] Protagoras 
+- [ ] Gorgias 
+- [ ] Meno
+- [ ] Hippias major 
+- [ ] Hippias minor 
+- [ ] Ion
+- [x] _Menexenus (contains a speech from Aspasia)_
+- [ ] Clitophon 
+- [ ] ==**Republic**== 
+- [ ] Timæus 
+- [ ] Critias
+- [ ] Minos 
+- [ ] Laws 
+- [ ] Epinomis 
+- [ ] Letters
