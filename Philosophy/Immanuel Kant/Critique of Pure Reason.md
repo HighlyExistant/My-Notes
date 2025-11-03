@@ -1,3 +1,8 @@
+# Tags
+#Philosophy
+#empiricist
+#rationalist
+#kantian
 # Introductory Vocabulary
 * ==**Experience**==: As described, "the raw material of our sensations", It tells us what is, but not necessarily that it has to be that way.
 * ==**Knowledge a priori**==: Pieces of knowledge acquired independent of experience. A priori knowledge can include things such as **mathematics as it is pure deductive reasoning and not empirical observation**.
@@ -7,11 +12,11 @@
 * ==**Transcendental**==: All which is occupied not by objects, but with our a priori concepts of objects.
 ## Of the Distinction between Analytical and Synthetical Judgements
 ### **Proposition 1.0**
-For all judgements in which there is a relation between subject and predicate (==**Affirmative Judgement**==) there exists two kinds of relations:
+For all judgements in which there is a relation between <mark style="background: #FF5582A6;">subject</mark> and <mark style="background: #ADCCFFA6;">predicate</mark> (==**Affirmative Judgement**==) there exists two kinds of relations:
 1. ==**Analytical Judgement (Affirmative)**==: predicate $B$ belongs (is contained within) to subject $A$. $B \subseteq A$. It is said then that you can find it through **identity**.
-	* Ej. "All bodies are extended". This is an analytical judgement. as the predicate $B=$"are extended" are contained within the subject $A=$"All bodies" because all bodies are inherently extended. You cannot have an extensionless body. $\{\text{extended}\} \subset \text{All Bodies}$. 
+	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are extended</mark>". This is an analytical judgement. as the predicate $B=$"are extended" are contained within the subject $A=$"<mark style="background: #FF5582A6;">All bodies</mark>" because all bodies are inherently extended. You cannot have an extensionless body. $\{\text{extended}\} \subset \text{All Bodies}$. 
 2. ==**Synthetical Judgement (Affirmative)**==: $B$ lies outside of the sphere of the concept $A$ but is somehow connected with it. $B \not\subseteq A$ but there exists $x: B \to A$. $x$ being the experience beyond $A$ that rests the possibility of synthesis of the predicate $B$ to the concept $A$.
-	* Ej. "All bodies are heavy". This is a synthetical judgement because weight is not contained in the concept of bodies, that is to say ==bodies are not inherently heavy, we have not included gravity to the concept of bodies==. Here I need some relation $x$ which connects these two concepts $A=$"All Bodies" and $B=$"are heavy", $x: B \to A$.
+	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are heavy</mark>". This is a synthetical judgement because weight is not contained in the concept of bodies, that is to say ==bodies are not inherently heavy, we have not included gravity to the concept of bodies==. Here I need some relation $x$ which connects these two concepts $A=$"All Bodies" and $B=$"are heavy", $x: B \to A$.
 # Elements of Transcendentalism
 ## Vocabulary
 * ==**Intuition**==: Ultimate material of all thought. Possible only when the object is given, through certain affection of the mind also known as ==**sensibility**==.
@@ -79,7 +84,42 @@ Similar to how transcendental aesthetic isolated itself the sensibility, **trans
 * ==**Dialectical (Overview)**==: "If logic is abused as an *organum* of its general and unlimited application by our venturing with pure understanding alone, to judge synthetically of objects in general, or to affirm and decide anything about them"
 * ==**Transcendental Dialectic (Overview)**==: Critique of dialectic semblance. (not meant to produce dogma) by use of transcendental principles only to a mere critique as to protect pure understanding from all [[Plato's Theory of Man#Vocabulary|sophistical illusions]]. Second division of Transcendental Logic.
 
-# Transcendental Logic: Transcendental Analytic
-# ON PAGE 52
-# ON PAGE 52
-# ON PAGE 52
+## Transcendental Analytic
+Dissects all knowledge *a priori* into elements which constitute the knowledge of pure understanding. The four essential points here are:
+1. The concepts must be pure and not empirical
+2. They should not belong to intuition and sensibility, but thought and understanding
+3. Should be elementary, and carefully distinguished from derivative or composite concepts
+4. That it is complete and covers the whole field of pure understanding
+This should include the totality of all its a priori knowledge, with no additions. Here it can be separated into two "books", one containing the concepts and the other the principles of pure understanding.
+### Transcendental Method of the Discovery of all Pure Concepts of the Understanding
+#### Section 1
+* Besides intuition there is no other form of knowledge except by means of concepts. Not intuitive, but ==**discursive**==.
+## Vocabulary
+* ==**Mediate**==: Occupying a middle position
+* ==**Judgement**==: A mediate knowledge of an object, or a representation of a representation of it.
+	* Judgements are functions of unity among representations
+	* ==**Example**==: "*All bodies are divisible*, the concept of divisible applies to various other concepts, but is here applied in particular to the concept of a body, and this concept of body to certain phenomena of our experience"
+* ==**The Understanding**==: The faculty of judging. This comes from the fact that *understanding is the faculty of things* $\rightarrow$ *thinking is knowledge by means of concepts* $\rightarrow$ *concepts, as predicates of possible judgements, refer to some representation of an object yet undermined*
+* ==**Concepts as Predicates of Judgements**==: Refer to some representation of an object yet undermined.
+	* Example: "**<mark style="background: #FF5582A6;">All metals</mark>** <mark style="background: #ADCCFFA6;">are bodies</mark>" We can see how the the subject *metal* can be known by the concept of a *body*. Thus the functions of understanding can be discovered in their completeness, if it is possible to represent the functions of unity in judgements.
+#### Section 2: Of the Logical Function of the Understanding in Judgements
+Leaving out the contents of judgements and fixing our attention on the mere form of the understanding we find the function of thought in a judgement is brought under 4 heads each of them with 3 subdivisions:
+1. Quantity of Judgements: These are forms of the simple monadic proposition: $F$s are $G$s.
+	1.  Universal: All $F$s are $G$s.
+	2. Particular: Some $F$s are $G$s.
+	3. Singular: This $F$ is $G$.
+2. Quality
+	1. Affirmative: "It is the case that $F$s are $G$s"
+	2. Negative: "no $F$s are $G$s"
+	3. Infinite: "$F$s are non $G$s"
+3. Relation: The three basic wars in which a simple 1-place subject-predicate proposition can be either atomic (elementary) or molecular (compound) in respect to their truth value:
+	1. Categorical: Repeat the simple atomic 1-place subject-predicate form: "$F$s are $G$s"
+	2. Hypothetical: "If $F$s are $G$s then $H$s are $I$s."
+	3. Disjunctive: "$F$s are either $G$s or $H$s or ..." This can be thought of as separating all knowledge into mutually exclusive subdivisions, in which their totality contains the whole of one given knowledge.
+4. Modality: Contributes nothing to the contents of the judgement, refers only to the nature of the ==**copula**== in relation to thought in general:
+	1. Problematical: Affirmation or negation are taken as possible (optional). "Possibly $F$s are $G$s"
+	2. Assertory: Asserts something a truth and reality "Actually $F$s are $G$s" or "Actually $P$"
+	3. Apodictic: Represents an assertory modality with respect to these very laws *a priori* and thus expresses logical necessity: "Necessarily $F$s are $G$s" or "Necessarily $P$"
+# PAGE 63
+# PAGE 63
+# PAGE 63

@@ -9,7 +9,6 @@ A category is usually denoted as a short capitalized word or an abbreviation in 
 subject to 2 requirements:
 * Identity Law
 * Associativity law
-
 ### Objects
 In principle it can be anything, usually a number or a set or another mathematical structure.
 ### Morphisms

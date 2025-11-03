@@ -38,9 +38,9 @@ $$
 (a\oplus b)*c=(a*c)\oplus(b*c)
 $$
 Some vocabulary that arises from rings:
-* ==**unit**==: also known as an ==**invertible elements**==, is simply: $$
+* ==**unit**==: also known as an ==**invertible element**==, is simply: $$
 	u\in\{x\in\mathcal{R}|\exists{y}\in\mathcal{R}, xy=yx=1\}
-$$such that $1$ here is the multiplicative identity. This is just a complicated way of sayin that a unit $u$ in a Ring has a multiplicative inverse. The above statement can be rewritten as $U(\mathcal{R})$.
+$$such that $1$ here is the multiplicative identity. This is just a complicated way of saying that a unit $u$ in a Ring has a multiplicative inverse. The above statement can be rewritten as $U(\mathcal{R})$.
 * ==**nonunit**==: also known as an ==**irreducible element**== is a non-zero element that is not invertible $v\neq 0,v\notin U(\mathcal{R})$, can be rewritten as $\mathcal{R}^{\#}$.
 * ==**ideal**==: An ideal $I$ is a nonempty subset of $\mathcal{R}$ such that 
 	1. It is closed under addition

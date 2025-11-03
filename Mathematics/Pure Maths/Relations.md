@@ -1,8 +1,14 @@
 Some vocabulary before talking about relations, we'll be using $x \text{R} y$ to denote a relation between $x$ and $y$, but the symbol used might be different depending on context.  
+## Closure
+Means that an operation on a set $X$ will bring about a result on $X$.
 ## Reflexive
 A relation on some set $A$ is reflexive if $x\text{R} x, \forall x \in A$. This can for example be the identity function, a function that makes $f: x\to x$.
+### Example
+* $x = x$ means that equality is reflexive
 ## Symmetric 
 A relation on some set $A$ is symmetric if $\forall x, y\in A, \text{ if } x\text{R} y \text{ then } y~x$. An example of this is $f: x \leftrightarrow y$. Another example can be a function $f(x,y)=f(y,x)$.
+### Example
+* $x = y \Rightarrow y = x$ means that equality is symmetric
 ## Asymmetric
 A relation on some set $A$ is asymmetric if $\forall x, y \in A$, if $x R y \text{ then } y$ does not have a relation with $x$. It's a one way relation: $f: x \to y$.
 ## Transitive

@@ -1,0 +1,81 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Biologia": {
+      "icon": "lucide-flower-2",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ],
+      "color": "green"
+    },
+    "Economy": {
+      "icon": "lucide-circle-dollar-sign",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ],
+      "color": "yellow"
+    },
+    "Mathematics": {
+      "icon": "lucide-plus",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ],
+      "color": "blue"
+    },
+    "Mathematics/Pure Maths": {
+      "icon": "lucide-x",
+      "color": "cyan",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ]
+    },
+    "Philosophy": {
+      "icon": "lucide-book",
+      "color": "purple",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ]
+    },
+    "Physics": {
+      "icon": "lucide-apple",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ],
+      "color": "red"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}
