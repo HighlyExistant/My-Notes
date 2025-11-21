@@ -1,6 +1,5 @@
 # Founding
 After seeing the police brutality and state oppression of black people in the America, ==**Huey Newton**== and ==**Bobby Seale**==, started the Black Panther Party in **1966**. ==**Kathleen Neal Cleaver**== later joined as well to help with the civil rights movement. Their ideology involved ==Black nationalism, socialism and armed self defense, particularly against police brutality==.$^\text{(1)}$
-
 ## Prominent Members
 * Elaine Brown
 * Fred Hampton

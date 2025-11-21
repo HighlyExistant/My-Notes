@@ -4,33 +4,35 @@
 #rationalist
 #kantian
 # Introductory Vocabulary
-* ==**Experience**==: As described, "the raw material of our sensations", It tells us what is, but not necessarily that it has to be that way.
-* ==**Knowledge a priori**==: Pieces of knowledge acquired independent of experience. A priori knowledge can include things such as **mathematics as it is pure deductive reasoning and not empirical observation**.
-* ==**Knowledge a posteriori**==: What is taken from experience, **empirically**.
-* ==**Pure Knowledge**==: All knowledge not mixed with any heterogeneous.
-* ==**Absolutely Pure Knowledge**==: All knowledge not mixed with any experience or sensation (entire a priori).
-* ==**Transcendental**==: All which is occupied not by objects, but with our a priori concepts of objects.
+* <mark style="background: #971f21;">Knowledge a posteriori</mark>: What is taken from experience, **empirically**.
+* <mark style="background: #F7A51C;">Knowledge a priori</mark>: Pieces of knowledge acquired independent of experience. A priori knowledge can include things such as **mathematics as it is pure [[Reasoning#Deductive Reasoning|deductive reasoning]] and not empirical observation**.
+* <mark style="background: #971f21;">Experience</mark> As described, "the raw material of our sensations", It tells us what is, but not necessarily that it has to be that way.
+* <mark style="background: #F7A51C;">Pure Knowledge</mark>: All knowledge not mixed with any heterogeneous.
+* <mark style="background: #F7A51C;">Absolutely Pure Knowledge</mark>: All knowledge not mixed with any experience or sensation (entire a priori).
+* <mark style="background: #F7A51C;">Transcendental</mark>: All which is occupied not by objects, but with our a priori concepts of objects.
+* <mark style="background: #F7A51C;">Manifold</mark>: *the manifold is the unorganized flux presented to the senses, but not experienced, since experience results from the mind structuring the manifold by means of concepts. The nature of the unstructured manifold is unknowable (transcendental).*
 ## Of the Distinction between Analytical and Synthetical Judgements
 ### **Proposition 1.0**
 For all judgements in which there is a relation between <mark style="background: #FF5582A6;">subject</mark> and <mark style="background: #ADCCFFA6;">predicate</mark> (==**Affirmative Judgement**==) there exists two kinds of relations:
-1. ==**Analytical Judgement (Affirmative)**==: predicate $B$ belongs (is contained within) to subject $A$. $B \subseteq A$. It is said then that you can find it through **identity**.
+1. <mark style="background: #F7A51C;">Analytical Judgement (Affirmative)</mark>: predicate $B$ belongs (is contained within) to subject $A$. $B \subseteq A$. It is said then that you can find it through **identity**.
 	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are extended</mark>". This is an analytical judgement. as the predicate $B=$"are extended" are contained within the subject $A=$"<mark style="background: #FF5582A6;">All bodies</mark>" because all bodies are inherently extended. You cannot have an extensionless body. $\{\text{extended}\} \subset \text{All Bodies}$. 
-2. ==**Synthetical Judgement (Affirmative)**==: $B$ lies outside of the sphere of the concept $A$ but is somehow connected with it. $B \not\subseteq A$ but there exists $x: B \to A$. $x$ being the experience beyond $A$ that rests the possibility of synthesis of the predicate $B$ to the concept $A$.
+2. <mark style="background: #971f21;">Synthetical Judgement (Affirmative)</mark>: $B$ lies outside of the sphere of the concept $A$ but is somehow connected with it. $B \not\subseteq A$ but there exists $x: B \to A$. $x$ being the experience beyond $A$ that rests the possibility of synthesis of the predicate $B$ to the concept $A$.
 	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are heavy</mark>". This is a synthetical judgement because weight is not contained in the concept of bodies, that is to say ==bodies are not inherently heavy, we have not included gravity to the concept of bodies==. Here I need some relation $x$ which connects these two concepts $A=$"All Bodies" and $B=$"are heavy", $x: B \to A$.
 # Elements of Transcendentalism
 ## Vocabulary
-* ==**Intuition**==: Ultimate material of all thought. Possible only when the object is given, through certain affection of the mind also known as ==**sensibility**==.
-* ==**Sensibility**==: Faculty of receiving **_representation_** according to the manner in which we are affected by objects.
+* <mark style="background: #971f21;">Intuition</mark>: Ultimate material of all thought. Possible only when the object is given, through certain affection of the mind also known as <mark style="background: #971f21;">sensibility</mark>.
+* <mark style="background: #971f21;">Sensibility</mark>: Faculty of receiving **_representation_** according to the manner in which we are affected by objects.
 	* Through this definition Objects are therefore given to us via sensibility.
 	* Sensibility supplies intuition.
 	* Intuition becomes thought through understanding, and hence arise conceptions
-	* Conclusion: All thought is derived via intuition
+	* Conclusion: ==**All thought is derived via intuition**==
 	* Sensibility $\to$ Intuition $\to$ thought through understanding $\to$ conceptions $\Rightarrow$ All thought is derived via intuition.
-* ==**Sensation**==: Effect produced by an object upon the faculty of representation (sensibility)
-* ==**Empirical**==: Intuition of an object via sensation.
-* ==**Phenomenon**==: Undefined object of empirical intuition
+* <mark style="background: #971f21;">Sensation</mark>: Effect produced by an object upon the faculty of representation (sensibility)
+* <mark style="background: #971f21;">Empirical</mark>: Intuition of an object via sensation. 
+* <mark style="background: #971f21;">Phenomenon</mark>: Undefined object of empirical intuition. (A common usage to describe phenomenon is as an observable event)
 	* ==**Matter**==: That which corresponds to its sensation
-	* ==**Form**==: That which causes the manifold matter to be perceived as arranged in a certain order.
+	* ==**Form**==: That which causes the manifold matter to be perceived as arranged in a certain order. ^237b9f
+* <mark style="background: #F7A51C;">Noumenon</mark>: That which cannot be directly observed.
 * ==**Pure (in a transcendental sense)**==: All representation in which there is nothing that belongs to sensation
 	* ==**Pure Intuition**==: The pure form of all sensuous intuitions that form in which the manifold elements of the phenomena are seen in a certain order, must be found in the mind a priori.
 * ==**Transcendental Aesthetic**==: The science of all principles of sensibility a priori.
@@ -63,7 +65,7 @@ Knowledge comes from *two fundamental sources of our soul*:
 1. ==**Receptivity of impressions**==: The object is given to us
 2. ==**Spontaneity of Concepts**==: The object is *thought* in relation to that representation.
 ## Vocabulary
-* ==**Pure Intuition**==: Contains the form only by which something is seen
+* ==**Pure Intuition**==: Contains the form only by which something is seen ^ab6015
 * ==**Pure Conception**==: Gives us the the form only by which an object is thought.
 * ==**Sensibility**==: The *receptivity* of our soul
 * ==**Understanding**==: The power to produce representations, or the spontaneity of knowledge.
@@ -91,7 +93,7 @@ Dissects all knowledge *a priori* into elements which constitute the knowledge o
 3. Should be elementary, and carefully distinguished from derivative or composite concepts
 4. That it is complete and covers the whole field of pure understanding
 This should include the totality of all its a priori knowledge, with no additions. Here it can be separated into two "books", one containing the concepts and the other the principles of pure understanding.
-### Transcendental Method of the Discovery of all Pure Concepts of the Understanding
+### Chapter 1: Transcendental Method of the Discovery all Pure Concepts of the Understanding
 #### Section 1
 * Besides intuition there is no other form of knowledge except by means of concepts. Not intuitive, but ==**discursive**==.
 ## Vocabulary
@@ -114,12 +116,45 @@ Leaving out the contents of judgements and fixing our attention on the mere form
 	3. Infinite: "$F$s are non $G$s"
 3. Relation: The three basic wars in which a simple 1-place subject-predicate proposition can be either atomic (elementary) or molecular (compound) in respect to their truth value:
 	1. Categorical: Repeat the simple atomic 1-place subject-predicate form: "$F$s are $G$s"
-	2. Hypothetical: "If $F$s are $G$s then $H$s are $I$s."
+	2. Hypothetical: "If $F$s are $G$s then $H$s are $I$s." ^a34345
 	3. Disjunctive: "$F$s are either $G$s or $H$s or ..." This can be thought of as separating all knowledge into mutually exclusive subdivisions, in which their totality contains the whole of one given knowledge.
 4. Modality: Contributes nothing to the contents of the judgement, refers only to the nature of the ==**copula**== in relation to thought in general:
 	1. Problematical: Affirmation or negation are taken as possible (optional). "Possibly $F$s are $G$s"
 	2. Assertory: Asserts something a truth and reality "Actually $F$s are $G$s" or "Actually $P$"
 	3. Apodictic: Represents an assertory modality with respect to these very laws *a priori* and thus expresses logical necessity: "Necessarily $F$s are $G$s" or "Necessarily $P$"
-# PAGE 63
-# PAGE 63
-# PAGE 63
+#### Section 3: Method of the Discovery of all Pure Concepts of the Understanding
+* ==**Synthesis**==: Our thought requires that first we examine something and connect it to out understanding, in order to produce knowledge. *It is the act of arranging different representations together under one form of knowledge*.
+* <mark style="background: #F7A51C;">Pure Synthesis</mark>: When the process of synthesis is done on a pure manifold, and not given empirically. Steps to achieve this are as follows:
+	1. We need to acquire a manifold in pure intuition, given to us a priori.
+	2. Synthesis of the manifold via imagination.
+This method of synthesis combines several crude concepts into one.
+* ==**Imagination**==: The result of synthesis. *An indispensable function of the soul, without which we should have no knowledge whatsoever, but of the existence of which we are scarcely conscious*.
+Table of Categories for all original pure concepts of synthesis:
+* Of Quantity:
+	* Unity
+	* Plurality
+	* Totality
+* Of Quality
+	* Reality
+	* Negation
+	* Limitation
+* Of Relation
+	* Of Inheritance and Subsistence
+	* Of Causality and Dependence
+	* Of Community 
+* Of Modality
+	* Possibility or Impossibility
+	* Existence or Non-existence
+	* Necessity or Contingency
+
+### Chapter 2: Of the Deduction of a Transcendental Deduction in General
+## Vocabulary
+* ==**Quid Facti**==: What (are the) facts. This is the empirical evidence available to you
+* ==**Quid Juris**==: What (is your) right. These are the deductions you can make based on the facts presented.
+* ==**Quaestio Facti**==: Question (of) fact. Used to refer to an issue being disputed or contested.
+Mention of John Locke:
+> *It is possible, however, with regard to these concepts, as with regard to all knowledge, to try to discover in experience, if not the principle of their possibility, yet the contingent causes of their production. And here we see that the impressions of the senses give the first impulse to the whole faculty of knowledge with respect to them, and thus produce experience which consists of two very heterogeneous elements, namely, **matter of knowledge, derived from the senses**, **and a certain [[#^237b9f|form]] according to which it is arranged**, derived from the internal source of [[#^ab6015|pure intuition]] and pure thought, first brought into action by the former, and then producing concepts. Such an investigation of the first efforts of our faculty of knowledge, beginning with single perceptions and rising to general concepts, is no doubt very useful, and we have to thank the famous Locke for having been the first to open the way to it. - Immanuel Kant*
+
+# PAGE 76
+# PAGE 76
+# PAGE 76

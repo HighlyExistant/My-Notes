@@ -1,5 +1,5 @@
 ## The Federal Reserve Bank (Fed)
-* Can only buy or sell U.S. government bonds
+* Can only buy or sell U.S. government bonds to <mark style="background: #ADCCFFA6;">influence supply and only supply</mark>.
 	* Buying bonds $\Rightarrow$ Decreasing interest rate
 	* Buying bonds $\Rightarrow$ Increases money supply $\Rightarrow$ Increasing Bond Demand $\Rightarrow$ higher equilibrium bond price $\Rightarrow$  Bond interest rate decreases
 	* Selling bonds $\Rightarrow$ Increasing interest rate
@@ -7,14 +7,14 @@
 	1. Interest Rate on Reserve Balances (IORB)
 		* administered rate that the Fed offers to ==**commercial banks on any currency**== that they choose to keep on ==**deposit overnight as reserve balances**== at one of the twelve Federal Reserve Banks
 		* Influence the money supply
+		* ==***The IORB is the rate that banks receive for any money that they lend to the Fed.
 	2. Overnight Reverse Repo Rate (ON RRP)
-		* Select nondepository financial firms, including money market funds
+		* Select nondepository financial firms, including money market funds.
 		* It lets the Fed provide nonbanks with an option besides money market investments.
 		* It uses bonds as collateral in case of default.
 		* It is administered separately from the interest rate on reserve balances.
 		* The IORB helps the Fed control the rate at which banks are willing to lend into the money market.
-		* It has traditionally set the ==**ON RRP rate 0.10 percent below to the IORB rate**==.
-		* ==***The IORB is the rate that banks receive for any money that they lend to the Fed.***==
+		* It has traditionally set the ==**ON RRP rate 0.10 percent below to the IORB rate**==.***==
 	3. Discount Rate
 		* administered rate involves ==**depository institutions**== borrowing money from the Fed
 		* Is the interest rate the Fed charges on loans they make to ==**commercial banks and thrifts**==.
@@ -31,3 +31,8 @@ financial market in which ==**short-term, low-risk debt securities are traded**=
 * U.S. Treasury bills 
 * overnight loans of bank reserves 
 * commercial paper
+# <mark style="background: #F7A51C;">Expansionary Policy</mark>
+The way the Fed does expansionary policy is via:
+1. Buying Bonds to decrease interest rate
+2. Operations on the free market
+3. Reducing the Reserve to make banks lend more

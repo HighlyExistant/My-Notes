@@ -4,24 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "a81b100e5cea07dd",
+        "id": "c494fc49e5cc76e9",
         "type": "tabs",
         "children": [
           {
-            "id": "16b1911c30c1f9b5",
+            "id": "5e5ea4d0c8c1a5b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Immanuel Kant/Critique of Pure Reason.md",
+                "file": "Mathematics/Calculus/Derivatives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Critique of Pure Reason"
+              "title": "Derivatives"
+            }
+          },
+          {
+            "id": "864a3c9e5668d5e6",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do List/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "To-Do"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks/Programming.md",
+                "file": "Language/Español/El infinito en la palma de la mano.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Programming"
+              "title": "Backlinks for El infinito en la palma de la mano"
             }
           },
           {
@@ -167,44 +188,45 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "16b1911c30c1f9b5",
+  "active": "067a403290a55181",
   "lastOpenFiles": [
-    "Philosophy/Logic/Reasoning.md",
-    "Philosophy/Rhetoric.md",
-    "Biologia/Molecules.md",
-    "Philosophy/Logic/Fallacies.md",
-    "Philosophy/Immanuel Kant/Critique of Pure Reason.md",
-    "Biologia/Transformations.md",
-    "Philosophy/Definitions.md",
+    "Mathematics/Trigonometry/Unit Circle.md",
+    "Mathematics/Calculus/Derivatives.md",
+    "Mathematics/Trigonometry/Angles.md",
+    "Economy/Tools of Monetary Policy.md",
+    "Economy/Supply and Demand.md",
+    "Economy/Políticas de Crecimiento Económico.md",
+    "Economy/Oferta Agregada.md",
     "Economy/Crecimiento Economico.md",
-    "Mathematics/Pure Maths/Natural Numbers.md",
-    "Mathematics/Pure Maths/Proofs.md",
-    "Mathematics/Pure Maths/Proofs",
+    "Economy/International Economy.md",
+    "Economy/Banks.md",
     "Mathematics/Pure Maths/Relations.md",
-    "Mathematics/Pure Maths/Algebraic Structures.md",
-    "Mathematics/Pure Maths/Abstract Algebra.md",
-    "Mathematics/Sequences.md",
+    "Programming/Parsers/Abstract Rewriting System.md",
+    "Programming/Parsers/Augmented Grammar.md",
+    "Philosophy/Rhetoric.md",
     "Mathematics/Set Theory.md",
-    "Mathematics/Linear Algebra.md",
-    "Mathematics/Geometry.md",
-    "Mathematics/Calculus/Extremum.md",
-    "Mathematics/Calculus/Lagrange Multiplier.md",
-    "Mathematics/Calculus/Integration/Line Integrals.md",
-    "Mathematics/Gaussian Elimination.md",
-    "Mathematics/Calculus",
-    "Mathematics/Integration/Green's Theorem.md",
-    "Mathematics/Pure Maths",
-    "Mathematics/Pure Maths/Manifolds.md",
-    "Mathematics/Pure Maths/Topology.md",
-    "To-Do List/Drawing 2025-11-02 21.21.14.excalidraw.md",
-    "Mathematics/Pure Maths/Category Theory.md",
-    "Sex",
-    "Untitled.base",
-    "Untitled 1.base",
-    "Economy",
-    "Civil Rights/Conservative Literature",
-    "Fascism",
-    "Biologia",
+    "Philosophy/Immanuel Kant/Critique of Pure Reason.md",
+    "To-Do List/Drawing 2025-11-19 19.32.50.excalidraw.md",
+    "Philosophy/Definitions.md",
+    "Mathematics/tau-factorization/The Tau and Sigma Function.md",
+    "Mathematics/Pure Maths/Lambda Calculus.md",
+    "Civil Rights/Black History/The Black Panther Party.md",
+    "Civil Rights/Black History/Garveyism.md",
+    "Civil Rights/Black History/Malcolm X.md",
+    "Philosophy/Immanuel Kant/The Categorical Imperative.md",
+    "Language/English/The Count of Monte Cristo.md",
+    "To-Do List/To-Do.md",
+    "Civil Rights/Black History/Assets/UNIA-Flag.png",
+    "Civil Rights/Black History/Assets",
+    "Civil Rights/Black History",
+    "Language/English",
+    "Language/Grammar",
+    "Programming/Parsers",
+    "Mathematics/Probability",
+    "Language/Español",
+    "Language",
+    "Programming",
+    "Quantum Mechanics",
     "Physics/Assets/free_fall_2.svg",
     "Physics/Assets/free_fall.svg",
     "Physics/Assets/incline_friction.svg",
