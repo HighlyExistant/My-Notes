@@ -11,7 +11,7 @@ The ideology was so that black people could help other black people further thei
 
 # The UNIA
 ![[UNIA-Flag.png]]
-The flag was adopted in the 1920s stating that the colors of the black race are red, black and green. The lack of a symbol for black people was "the basis of outright racism towards Black people." It's meaning is in a ==**This Flag of Mine by Amy Jacques Garvey**==. The UNIA has inspired people such as:
+The flag was adopted in the 1920s stating that the colors of the black race are red, black and green. The lack of a symbol for black people was "the basis of outright racism towards Black people." It's meaning is in ==**This Flag of Mine by Amy Jacques Garvey**==. The UNIA has inspired people such as:
 * Kwame Nkrumah
 * Jomo Kenyatta
 * Nnamdi Azikiwe

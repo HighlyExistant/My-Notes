@@ -14,3 +14,5 @@ the $|$ should be read as, "such that", therefore the way we read this set is "t
 # Vocabulary
 * **Disjoint Sets**: 2 sets $A$ and $B$ are disjoint if $A \cap B=\emptyset$.
 * **Partition of a set**: let $X$ be an arbitrary set, a **partition of set $X$** would be a set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets.  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==) such that for all elements $x \in X$ there exists a disjoint subset $P \subseteq X$. A nice property of this is: $$\cup{P}=X$$
+# Absorbing Set
+A set $A\subseteq X$ is an absorbing set if, for each $x\in X$ there is a positive number $s_x$ such that $x\in tA$ whenever $t > s_x$.

@@ -30,8 +30,7 @@ $$
 or where $A \subseteq X$
 $$
 	\overline{S} := S \cap\{C|C\subseteq \text{closed under} A\subseteq C\}
-$$
-
+$$ This is the smallest closed set that includes $A$, that is the intersection of all closed sets that include $A$.
 A manifold is defined as a topological space that resembles a Euclidean Space near each point (like $\mathbb{R}^2$ ).
 
 #### What are Open Sets?

@@ -48,12 +48,22 @@ Created in 1992 it presents a few basic operations for basic concurrency modelin
 	* <mark style="background: #FF5582A6;">Output Prefixing</mark>: $\bar{c}\langle y \rangle.P$ or $\bar{c}y .P$ is a name $y$ emitted on channel $c$ before proceeding as $P$.  It could also represent a label $c$ usable only once by $\text{goto } c$. 
 	* <mark style="background: #BBFABBA6;">Input Prefixes</mark>: $c(x).P$ is a process $P$ <mark style="background: #ADCCFFA6;">waiting</mark> on a communication channel $c$ and binding the name received on $x$. It could also represent a $\text{goto } c$ operation.
   If we wanted to represent these mathematically then it would be a function $$f:N^2\times P\to P$$ as it takes two inputs of free names and one process. Where $f$ is either output  $\bar{ }$  or inpu.t $()$. A simple program that represents these two functions is $$\bar{a}b.P|a(x).Q$$ which will output $b$ on channel $a$ then on the other process, receive  $b$ and ==**bind it**== to $x$, therefore $x=b$, then continue running process $Q$. Which can be reduced to: $$\bar{a}b.P|a(x).Q\Rightarrow P|Q\{b/x\}$$
-* ==**Restriction**==: Represented as $(vx)P$ represents an allocation of a new constant $x$ which is always a communication channel with scope $P$.
-* ==**Concurrency**==: $P|Q$ Is the act of two processes running at the same time.
-* ==**Abstract, Sequential**==: $P.Q$ represents a sequential operation which finishes $P$ then continues to $Q$.
-* ==**Replication**==: Written as $!P$ is a process which can always create a new copy of $P$. It is equivalent to $P|!P$.
+* ==**Restriction**==: Represented as $(vx)P$ represents an allocation of a new constant $x$ which is always a communication channel with scope $P$. 
+* ==**Concurrency**==: $P|Q$ Is the act of two processes running at the same time. Is both commutative and associative.
+* ==**Abstract, Sequential**==: $P.Q$ represents a sequential operation which finishes $P$ then continues to $Q$. The operation has right distributivity of any $+$ operations.
+* ==**Replication**==: Written as $!P$ is a process which can always create a new copy of $P$. It is equivalent to $P|!P$. This operation is also distributive among processes, example: $!(P|Q)=!P|!Q$. This operation is lazily evaluated, that is, it is only evaluated once an operation involving it is executed, in which case it will then duplicate the process. This is to avoid there being actual infinite amount of processes when calculating programs.
 * ==**Choice (Sum)**==: $P + Q$ does exclusively either $P$ or $Q$.
+* ==**Binding**==: The binding syntax above written as $Q\{b/x\}$ simply says that all $x$ in $Q$ shall know be $b$'s.
 ### Example of the Non-Deterministic nature of $\pi$-Calculus
 Given a program $$\bar{a}y|a(x).\bar{x}w|\bar{a}z$$ We can see the two processes $\bar{a}y$ and $\bar{a}z$ racing to output onto channel $a$. There are two possibilities to this program, either: $$\bar{a}y|\bar{z}w$$ if the channel $\bar{a}z$ wins, or  $$\bar{y}w|\bar{a}z$$ if the channel $\bar{a}y$ wins.
-### Creating a Program in $\pi$-Calculus
-1. Create a set (possibly infinite) of communication channels, also called free names. Here our set can be $N=\{a, b, c\}$.
+### Example of Bound Names within $\pi$-Calculus
+There are 2 ways to create bound names, these are <mark style="background: #BBFABBA6;">positive prefixes also known as inputs</mark>, or ==**restrictions**==. When we start a program, we'll start with a restriction to be able to allocate a new channel. The scope of that channel, or the processes that know of the existence of that channel, are contained within the scope of the restriction. 
+##### Scope Intrusion
+When 2 variables have the same name, due to one being passed and another being restricted, the restricted variable, such as $x$ can be renamed to $x'$ as many times as needed. This renaming of $x \to x'$ is done using the rewrite semantic $\{x'/x\}$.
+##### Scope Extrusion
+When a process with a private variable (a variable within a scope defined by a restriction) wants to pass that variable to another process without that variable in its scope, it will make an extrusion in which that process now belongs to that variable.
+* If the process has no name bounded defined $x$ in its scope, it will just define $x$ of that restriction that is now within its scope.
+* If instead the process already has a channel defined $x$ bounded within its scope, it will redefine the passed down variable to $x'$.
+* After sending a private channel $x$ in a public channel $y$ (e.g. $y\langle x\rangle$) then it will be extruded to all the process becoming a public channel. In contrast if its sent on a private channel, then it will only extrude until that private channel.
+# Synchronous $\pi$-Calculus
+In this version of the calculus, outputs and inputs synchronize with each other, producing silent actions $\tau$. If a pair $\bar{x}y$ does not find its respective $x(y)$, it will wait.

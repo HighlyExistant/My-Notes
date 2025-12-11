@@ -1,0 +1,17 @@
+# To Theorize as a Lesbian?
+Here, Butler is trying to point out the paradoxical nature of the category of lesbian, and really all the other categories that exist within the acronym of LGBTQIA+. They say that if they were in a gay rally they would identify as lesbian politically, but they don't like the idea of ==**identity categories**==.
+
+> *Identity categories tend to be instruments of regulatory regimes, whether as the normalizing categories of oppressive structures or as the rallying points for a liberatory contestation of that very oppression. - Judith Butler*
+
+==**They don't believe the categories should be concretely described**==, as it is the very instability of the categories definitions that drives them to those categories. ==**To conform to a strict definition of what lesbianism is, would be to go against her very sexuality, as they are supposed to represent the liberation of sexuality, not to restrict it**==. 
+
+# On the Being of Gayness as Necessary Drag
+They say that lesbianism is not something played as a role, but rather the repeated play of the sexuality is what reconstitutes them as a lesbian, as well as the instability of the category ([[Rhetoric#^17b962|performative]]). 
+* ==**Abjects**==: Unsubjects, The unnamable and the unthinkable. A form of oppression in which one is not really explicitly prohibited, because they aren't even in the conversation, the topic at hand. They provide an example in which gay men were called sadomasochistic exploiters of children, and how lesbians were actually completely absent from the discourse, not because they wouldn't be subjects towards that very hatred, but because they can't even be imagined to be part of the overall discourse.
+They talk about how often people view heterosexuality as the norm, while lesbianism is simply a copy, derivative of that heterosexuality. implying that in a sense they are saying that lesbianism is always in some way miming. They then compare this with drag, which in a sense is not putting on a gender that belongs properly to some other group, but rightfully its own property, in reference to a book "Mother Camp: Female Impersonators in America". They say there is no proper gender to one sex. 
+
+> *Drag constitutes the mundane way in which genders are appropriated, theatricalized, worn, and done; it implies that all gendering is a kind of impersonation and approximation. If this is true, it seems, there is no original or primary gender that drag imitates, but gender is a kind of imitation for which there is no original; in fact, it is a kind of imitation itself.*
+
+> *Heterosexuality is always in the process of imitating and approximating its own phantasmatic idealization of itself-and failing. Precisely because it is bound to fail, and yet endeavors to succeed, the project of heterosexual identity is propelled into an endless repitition of itself. Indeed, in its efforts to naturalize itself as the original, heterosexuality must be understood as a compulsive and compulsory repitition that can only produce the effect of its own originality; in other words, compulsory heterosexual identities, those ontologically consolidated phantasms of "man" and "woman" are theatrically produced effects that posture as grounds, origins, the normative measure of the real.*
+
+They state that homosexuality is not derivative and that heterosexuality cannot be the origin, as the origin implies that it has produced copies, or derivatives secondary to that origin, which homosexuality is not. 

@@ -67,6 +67,8 @@ Another way of writing modular arithmetic is by giving the binary relation $a=0$
 The transitive closure of the set denoted $R^+$, is the ==**smallest binary relation**== on a set $A$. That is to say that for all elements where there is a transitive relation, the set $A=\{a, b, c\}$ such that $R=\{(a, b), (b, c), (a, c)\}$, it can be reduced to just $R^{+}=\{(a,b), (b,c)\}$, since $a\to c$ can be expressed as $a\to b \to c$.
 ## Preorder
 A binary relation that is ==**reflexive**== and ==**transitive**==. ==**it is not antisymmetric**==.
+# Order
+Is a binary relation that is ==**reflexive**==, ==**transitive**== and ==**antisymmetric**==.
 ### Reflexive Transitive Closure (Smallest Preorder)
 Is the transitive closure of a relation $(R) \cup (I)$ where $I$ is the identity relation. In other words it is the smallest preorder, by acquiring its transitive closure. Represented as $R^{*}$.
 ## Symmetric Closure

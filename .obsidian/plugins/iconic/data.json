@@ -70,6 +70,13 @@
         "96ca85301e4679fd"
       ],
       "color": "red"
+    },
+    "Queer Theory": {
+      "icon": "lucide-rainbow",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ],
+      "color": "pink"
     }
   },
   "bookmarkIcons": {},

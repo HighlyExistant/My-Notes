@@ -7,6 +7,7 @@ The end goal of cellular reproduction is to convert 1 cell into more cells. This
 * ==**Diploid**==: Means that it contains 2 sets of chromosomes. Represented as $2n$.
 * ==**Haploid**==: Means that it contains 1 set of chromosomes. Represented as $n$.
 * ==**Homologous Pairs**==: Approximately the same size and contains the same type of genes in the same locations. ^6cda56
+* ==**Allele**==: one of two or more alternative forms of a gene that arise by mutation and are found at the same place on a chromosome. 
 * ==**Chromatid**==: One of the two threadlike strands from the chromosome, which contains DNA.
 * ==**Chromosome**==: a threadlike structure of nucleic acids and protein found in the nucleus of most living cells, carrying genetic information in the form of genes.
 # <mark style="background: #FFB86CA6;">Mitosis</mark>

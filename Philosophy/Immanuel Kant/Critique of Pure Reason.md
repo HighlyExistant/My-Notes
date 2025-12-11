@@ -4,8 +4,8 @@
 #rationalist
 #kantian
 # Introductory Vocabulary
-* <mark style="background: #971f21;">Knowledge a posteriori</mark>: What is taken from experience, **empirically**.
-* <mark style="background: #F7A51C;">Knowledge a priori</mark>: Pieces of knowledge acquired independent of experience. A priori knowledge can include things such as **mathematics as it is pure [[Reasoning#Deductive Reasoning|deductive reasoning]] and not empirical observation**.
+* <mark style="background: #971f21;">Knowledge a posteriori</mark>: What is taken from experience, **empirically**. Any knowledge that can only be derived after experiencing is know as this.
+* <mark style="background: #F7A51C;">Knowledge a priori</mark>: Pieces of knowledge acquired independent of experience. A priori knowledge can include things such as **mathematics as it is pure [[Reasoning#Deductive Reasoning|deductive reasoning]] and not empirical observation**. Any knowledge that can be known prior to experiencing it can be know as this.
 * <mark style="background: #971f21;">Experience</mark> As described, "the raw material of our sensations", It tells us what is, but not necessarily that it has to be that way.
 * <mark style="background: #F7A51C;">Pure Knowledge</mark>: All knowledge not mixed with any heterogeneous.
 * <mark style="background: #F7A51C;">Absolutely Pure Knowledge</mark>: All knowledge not mixed with any experience or sensation (entire a priori).
@@ -101,7 +101,7 @@ This should include the totality of all its a priori knowledge, with no addition
 * ==**Judgement**==: A mediate knowledge of an object, or a representation of a representation of it.
 	* Judgements are functions of unity among representations
 	* ==**Example**==: "*All bodies are divisible*, the concept of divisible applies to various other concepts, but is here applied in particular to the concept of a body, and this concept of body to certain phenomena of our experience"
-* ==**The Understanding**==: The faculty of judging. This comes from the fact that *understanding is the faculty of things* $\rightarrow$ *thinking is knowledge by means of concepts* $\rightarrow$ *concepts, as predicates of possible judgements, refer to some representation of an object yet undermined*
+* ==**The Understanding**==: The faculty of judging. This comes from the fact that *understanding is the faculty of things* $\rightarrow$ *thinking is knowledge by means of concepts* $\rightarrow$ *concepts, as predicates of possible judgements, refer to some representation of an object yet undermined*. This gives us the ability to spontaneously create representations for objects.
 * ==**Concepts as Predicates of Judgements**==: Refer to some representation of an object yet undermined.
 	* Example: "**<mark style="background: #FF5582A6;">All metals</mark>** <mark style="background: #ADCCFFA6;">are bodies</mark>" We can see how the the subject *metal* can be known by the concept of a *body*. Thus the functions of understanding can be discovered in their completeness, if it is possible to represent the functions of unity in judgements.
 #### Section 2: Of the Logical Function of the Understanding in Judgements
@@ -122,6 +122,12 @@ Leaving out the contents of judgements and fixing our attention on the mere form
 	1. Problematical: Affirmation or negation are taken as possible (optional). "Possibly $F$s are $G$s"
 	2. Assertory: Asserts something a truth and reality "Actually $F$s are $G$s" or "Actually $P$"
 	3. Apodictic: Represents an assertory modality with respect to these very laws *a priori* and thus expresses logical necessity: "Necessarily $F$s are $G$s" or "Necessarily $P$"
+==**These categories are how we understand things**==. Example of the categories in use:
+> *If lightning strikes thunder will sound*
+* Universal Quality because it ranges over every object of lightning
+* Affirmative quality as it is saying that thunder will sound
+* Hypothetical relation as it asserts if then
+* Necessary Modality, as it says this must happen
 #### Section 3: Method of the Discovery of all Pure Concepts of the Understanding
 * ==**Synthesis**==: Our thought requires that first we examine something and connect it to out understanding, in order to produce knowledge. *It is the act of arranging different representations together under one form of knowledge*.
 * <mark style="background: #F7A51C;">Pure Synthesis</mark>: When the process of synthesis is done on a pure manifold, and not given empirically. Steps to achieve this are as follows:
@@ -154,7 +160,35 @@ Table of Categories for all original pure concepts of synthesis:
 * ==**Quaestio Facti**==: Question (of) fact. Used to refer to an issue being disputed or contested.
 Mention of John Locke:
 > *It is possible, however, with regard to these concepts, as with regard to all knowledge, to try to discover in experience, if not the principle of their possibility, yet the contingent causes of their production. And here we see that the impressions of the senses give the first impulse to the whole faculty of knowledge with respect to them, and thus produce experience which consists of two very heterogeneous elements, namely, **matter of knowledge, derived from the senses**, **and a certain [[#^237b9f|form]] according to which it is arranged**, derived from the internal source of [[#^ab6015|pure intuition]] and pure thought, first brought into action by the former, and then producing concepts. Such an investigation of the first efforts of our faculty of knowledge, beginning with single perceptions and rising to general concepts, is no doubt very useful, and we have to thank the famous Locke for having been the first to open the way to it. - Immanuel Kant*
+### Transition to a Transcendental Deduction of the Categories
+* ==**Methods in which two synthetical representations and their objects can agree**==:
+	* The object makes the representation possible (Always Empirical), the representation therefore can never be given a priori.
+	* The representation makes the object possible. (a priori)
+* ==**To know a thing as an object**==:
+	1. Have an intuition of said object (Subject)
+	2. concept that is thought in relation to said object (Predicate)
+* ==**The 3 original faculties of powers of the soul which contain the conditions of the possibility of all experience.**==
+	* Sense
+	* Imagination
+	* ==**Apperception**==: the mental process by which a person makes sense of an idea by assimilating it to the body of ideas they already possess.
+  These are derived consequently via:
+	1. The synopsis of the manifold a priori through the senses
+	2. The synthesis of this manifold through the imagination
+	3. The unity of that synthesis by means of original apperception.
 
-# PAGE 76
-# PAGE 76
-# PAGE 76
+### Deduction of the Pure Concepts of the Understanding
+#### Of the a priori Grounds for the Possibility of Experience
+* Let $A$ be a concept conceived purely a priori, yet it refers to an object, though it doesn't pertain to anything belonging to experience is ==**impossible**==.
+* ==**Thank you Kant for your words of hope at the end!**==.
+#### Of the Synthesis of Apprehension in Intuition
+All objects must be in some way attached to the formal condition of time, in which they are arranged, joined and brought into certain relations to each other. To hold these objects together is what Kant calls synthesis of ==**apprehension**== (understanding; grasp.). As it refers directly to an intuition which offers something manifold, and without synthesis can never make it such as it is contained in one representation.
+
+Here Kant continues what was at the very start of the book, on the a priori transcendental concepts of [[Critique of Pure Reason#Of Space|space]] and [[Critique of Pure Reason#Of Time|time]]. For apprehension we need
+1. A relation of being given something
+2. a function of ordering. These orderings as Kant puts it are through time.
+#### Of the Synthesis of Reproduction in Imagination
+
+# PAGE 83
+# PAGE 83
+# PAGE 83
+# Estimate until I finish the book: 228 days

@@ -1,5 +1,8 @@
 Is concerned with geometric objects, and continuous deformations between them. W
 ### Space
+
+^afc7f5
+
 is just a set that defines relations with elements within the set. So depending on the objects within your set and the operations that govern those objects, they will define the space that your objects live in.
 ### Vector Space
 vectors are written as $\vec{v}$ the arrow denoting it as a vector, or as $\mathbf{v}$ as a boldened letter.

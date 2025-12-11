@@ -1,0 +1,11 @@
+> *When they (my elders) named some object, and accordingly moved towards something, I saw this and I grasped that the thing was called by the sound they uttered when they meant to point it out. Their intention was shewn by their bodily movements, as it were the natural language of all peoples: the expression of the face, the play of the eyes, the movement of other parts of the body, and the tone of voice which expresses our state of mind in seeking, having, rejecting, or avoiding something. Thus, as I heard words repeatedly used in their proper places in various sentences, I gradually learnt to understand what objects they signified; and after I had trained my mouth to form these signs, I used them to express my own desires. - Augustine, Confessions I. 8*
+
+# Language Games
+Here, we can see Ludwig Wittgenstein proposing one of his most important concepts in philosophy. He uses as an example a board game, in which a person gives as an example that a game consists of pieces and certain rules in which those pieces correspond, to which they refute that, that is the definition of board games. Here he says that the definition of a word depends on its context.
+* ==**Ostensive Definition**==: Giving a definition through demonstration. While it is perfectly reasonable to give a definition through a demonstration, it is opening the gates to misunderstandings within so called language games. A person might define two by pointing to a pair of nuts, but they might also define a pair of nuts, and the person might get confused thinking its a numeral.
+Here they are presenting the words of Augustine as being able to think, but not being able to speak. It is as if you came to a strange country, and are learning the language. ==**We typically learn language through these ostensive definitions**==.
+* ==**Demonstrative Pronouns**==: This, that, these, those
+* ==**State of Affairs**==: A truth maker, it is the situation the actual world must be in, for a given proposition about the actual world to be true. From factualism in which the world is not made of things, but of ==**facts**==.
+* ==**Shew**==: Old fashioned way of spelling show.
+* ==**Hitherto**==: Until now
+# On Paragraph 71 Page 21, But probably reread from Paragraph 50 to fully understand

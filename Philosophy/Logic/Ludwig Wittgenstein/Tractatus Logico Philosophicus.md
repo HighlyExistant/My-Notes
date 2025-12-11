@@ -1,0 +1,7 @@
+A book written by Ludwig Wittgenstein. The first passages of the book speak about how this book will only be understood by those with similar experiences as him. This is most likely due to the fact that language as we know it has words with meanings that are in some ways unique to the person who is saying them. He thanks the work to two other philosophers of the analytical school of philosophy: ==**Bertrand Russell**== and ==**Frege**==. He gives a quick summary of his ideas in the following sections:
+
+> *What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent. - Ludwig Wittgenstein*
+
+> *If this work has a value it consists in two things. First that in it thoughts are expressed, and this value will be the greater the better the thoughts are expressed. The more the nail has been hit on the head.—Here I am conscious that I have fallen far short of the possible. Simply because my powers are insufficient to cope with the task.—May others come and do it better. - Ludwig Wittgenstein*
+
+Unlike what my sources seem to say, Ludwig Wittgenstein did not in fact think he, "solved all of philosophies problems", in fact it seems to suggest the opposite.  That Ludwig Wittgenstein was humble enough to see the limit to his thinking and be able to promote the work to future authors, and accept the possibility of his failure if it came to be, when his work became public.

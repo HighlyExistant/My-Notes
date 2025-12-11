@@ -17,6 +17,8 @@ kanban-plugin: board
 - [ ] Green's Theorem
 - [ ] Constrained Physics
 - [ ] Study the Haitian Revolution
+- [ ] Read W. E. B DuBois
+- [ ] Read Frantz Fanon
 
 
 ## Already studying

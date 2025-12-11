@@ -1,3 +1,14 @@
+# Properties
+## Associativity
+$\oplus$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
+$$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
+
+## Identity
+$b$ is the identity in a structure $X$ if $\forall a \in X$:
+$$a\oplus b=b \oplus a=a$$
+## Inverse
+$\forall a \in G$ there exists $g^{-1}$ called the inverse of $g$ such that $$g \oplus g^{-1} = g^{-1} \oplus g = e$$ such that $e$ is the identity
+# Structures
 An algebraic structure is a collection of objects with one or more operations that can be performed on those objects. They are represented by an ordered pair $(X, o)$ where $X$ is a set of our objects, and $o$ is the operation it is defining:
 ### Example
 * Addition
@@ -7,18 +18,24 @@ An algebraic structure is a collection of objects with one or more operations th
 - We can prove theorems using systems with the same properties
 ## Magma (Binar, Groupoid)
 Basic algebraic structure which consists of a set and a binary operation that is closed under that set.
+* Closure
 ## Semigroups
-A semigroup is a group without an identity or an inverse. This group only has an associative binary operator
-* Associativity: $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
+A Magma with an associative operator. 
+* Associativity
+* Closure
 ## Monoid
-A monoid is simply a semigroup with an identity operation, that means it has a binary operator on a set such that it has
-* Associativity ^ea4cb9
+A semigroup with an identity operation, that means it has a binary operator on a set such that it has
+* Associativity
 * Identity
+## Generalized Separation Algebra
+A monoid such that the following equations are satisfied for all $a, b, c\in X$:
+* Right Separation $$ab=ab\Rightarrow b=c$$
+* Left Separation $$ab=cb\Rightarrow a=c$$
 ## Groups
-A group is a collection of objects usually denoted by a capital letter. Here our basic group will be known as **G**. operations on these groups are denoted using any abstract symbol such as $\oplus$. The reasoning behind this is that operation $\oplus$ can be multiplication, subtraction, addition, division, etc. Here we can find unique properties:
-* Associativity: $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
-* Identity: $e \oplus g = g \oplus e = g$ $\forall g \in G$
-* Inverse: For every $g \in G$ there exists $g^{-1}$ such that $g \oplus g^{-1} = g^{-1} \oplus g = e$
+A monoid with the following characteristics:
+* Associativity
+* Identity
+* Inverse
 ##  Abelian (Commutative) Groups
 Are groups that have the added property of commutativity, that is $a \oplus b = b \oplus a$.
 ## Semirings
