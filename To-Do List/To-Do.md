@@ -8,7 +8,6 @@ kanban-plugin: board
 
 - [ ] Study C.A.R. Hoare's CSP
 - [ ] Study Robin Milner's Interleaved Semantics CCS
-- [ ] Study Pi-Calculus
 - [ ] Study Ambient Calculus
 - [ ] Study Join Calculus
 - [ ] Flow spaces
@@ -35,6 +34,7 @@ kanban-plugin: board
 - [ ] Quotient Spaces
 - [ ] Study Dijkstra's Non-deterministic guarded commands
 - [ ] Type Theory and Lambda Calculus (And its applications to logic)
+- [ ] Study Pi-Calculus
 
 
 

@@ -23,7 +23,7 @@
   "rememberDeletedItems": false,
   "dialogState": {
     "iconMode": true,
-    "emojiMode": false,
+    "emojiMode": true,
     "rulePage": "file"
   },
   "appIcons": {},
@@ -42,6 +42,12 @@
         "96ca85301e4679fd"
       ],
       "color": "yellow"
+    },
+    "Fleeting-Notes": {
+      "icon": "🐦‍⬛",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ]
     },
     "Mathematics": {
       "icon": "lucide-plus",
@@ -71,12 +77,24 @@
       ],
       "color": "red"
     },
-    "Queer Theory": {
-      "icon": "lucide-rainbow",
+    "Programming": {
+      "icon": "lucide-computer",
       "unsynced": [
         "96ca85301e4679fd"
-      ],
-      "color": "pink"
+      ]
+    },
+    "Queer Theory": {
+      "icon": "🏳️‍🌈",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ]
+    },
+    "Quimica": {
+      "icon": "lucide-flask-conical",
+      "color": "purple",
+      "unsynced": [
+        "96ca85301e4679fd"
+      ]
     }
   },
   "bookmarkIcons": {},

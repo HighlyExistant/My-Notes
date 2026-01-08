@@ -14,9 +14,9 @@
 ## Of the Distinction between Analytical and Synthetical Judgements
 ### **Proposition 1.0**
 For all judgements in which there is a relation between <mark style="background: #FF5582A6;">subject</mark> and <mark style="background: #ADCCFFA6;">predicate</mark> (==**Affirmative Judgement**==) there exists two kinds of relations:
-1. <mark style="background: #F7A51C;">Analytical Judgement (Affirmative)</mark>: predicate $B$ belongs (is contained within) to subject $A$. $B \subseteq A$. It is said then that you can find it through **identity**.
+1. <mark style="background: #F7A51C;">Analytical Judgement (Affirmative)</mark>: predicate $B$ belongs (is contained within) to subject $A$. $B \subseteq A$. It is said then that you can find it through **identity**. ^a1be38
 	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are extended</mark>". This is an analytical judgement. as the predicate $B=$"are extended" are contained within the subject $A=$"<mark style="background: #FF5582A6;">All bodies</mark>" because all bodies are inherently extended. You cannot have an extensionless body. $\{\text{extended}\} \subset \text{All Bodies}$. 
-2. <mark style="background: #971f21;">Synthetical Judgement (Affirmative)</mark>: $B$ lies outside of the sphere of the concept $A$ but is somehow connected with it. $B \not\subseteq A$ but there exists $x: B \to A$. $x$ being the experience beyond $A$ that rests the possibility of synthesis of the predicate $B$ to the concept $A$.
+2. <mark style="background: #971f21;">Synthetical Judgement (Affirmative)</mark>: $B$ lies outside of the sphere of the concept $A$ but is somehow connected with it. $B \not\subseteq A$ but there exists $x: B \to A$. $x$ being the experience beyond $A$ that rests the possibility of synthesis of the predicate $B$ to the concept $A$. ^9b7ce9
 	* Ej. "<mark style="background: #FF5582A6;">All bodies</mark> <mark style="background: #ADCCFFA6;">are heavy</mark>". This is a synthetical judgement because weight is not contained in the concept of bodies, that is to say ==bodies are not inherently heavy, we have not included gravity to the concept of bodies==. Here I need some relation $x$ which connects these two concepts $A=$"All Bodies" and $B=$"are heavy", $x: B \to A$.
 # Elements of Transcendentalism
 ## Vocabulary
