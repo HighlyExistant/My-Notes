@@ -22,6 +22,9 @@ A relation on some set $A$ is symmetric if $\forall x, y\in A, \text{ if } x\tex
 ### Example
 * $x = y \Rightarrow y = x$ means that equality is symmetric
 # Antisymmetric
+
+^919b4b
+
 A relation is antisymmetric if $aRb$ with $a\neq b$ then $bRa$ must not hold. As an example we can see the relation $a \leq b, a\neq b$, that implies that $b \nleq a$, therefore it is antisymmetric. If $a\leq b$ and $b \leq a$ then $a=b$.
 ## Asymmetric
 A relation on some set $A$ is asymmetric if $\forall x, y \in A$, if $x R y \text{ then } y$ does not have a relation with $x$. It's a one way relation: $f: x \to y$. That is if it is both antisymmetric and irreflexive (not reflexive).

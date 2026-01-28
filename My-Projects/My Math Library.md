@@ -1,0 +1,15 @@
+- [x] Making the core of the library
+	- [x] Implement operator property traits e.g. Associative, Distributive, Commutative, Closure, Identity, Inverse, Absorption. Due date: January 31st
+	- [x] Implement the basic abstract algebra structures e.g. Magma, Semigroup, Monoid, Group, Abelian Group, Semiring, Rong, Ring, Commutative Ring, Field, Module, Vector Space. Due date: February 7th
+	- [x] Make the library nostd 
+	- [x] Document entire library Due date: February 14th
+- [ ] Making the linear algebra portion of the library
+	- [ ] Vector and Module spaces for all types Due Date: February 21st
+	- [ ] Matrices for all types Due date February 28th
+	- [ ] Make the library nostd
+	- [ ] Document entire library Due date: March 7th
+- [ ] Making the geometry portion of the library
+	- [ ] Implementing the basic shapes and hypershapes, triangle, rectangle, circle. Due date: March 14th
+	- [ ] Implementing segments: Linear, Bezier Curves, Linear Equations, Quadratic Equations, Cubic Equations, Rays. Due date: March 21st
+	- [ ] Make the library nostd
+	- [ ] Document entire library Due date: March 28th

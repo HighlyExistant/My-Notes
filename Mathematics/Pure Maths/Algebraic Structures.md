@@ -2,7 +2,6 @@
 ## Associativity
 $\oplus$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
 $$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
-
 ## Identity
 $b$ is the identity in a structure $X$ if $\forall a \in X$:
 $$a\oplus b=b \oplus a=a$$
@@ -27,9 +26,11 @@ A Magma with an associative operator.
 A semigroup with an identity operation, that means it has a binary operator on a set such that it has
 * Associativity
 * Identity
+# Commutative Monoid
+A monoid which also includes commutativity.
 ## Generalized Separation Algebra
 A monoid such that the following equations are satisfied for all $a, b, c\in X$:
-* Right Separation $$ab=ab\Rightarrow b=c$$
+* Right Separation $$ab=ac\Rightarrow b=c$$
 * Left Separation $$ab=cb\Rightarrow a=c$$
 ## Groups
 A monoid with the following characteristics:
@@ -88,6 +89,8 @@ A field extension $L$ is an extension of a preexisting field $K$ called a ==**su
 * The real numbers $\mathbb{R}$ are a field, and $\mathbb{Q}$ is their subfield
 * The complex numbers $\mathbb{C}$ are a field with $\mathbb{R}$ being their subfield.
 * the intermediate extension of $\mathbb{C}/\mathbb{Q}$ is $\mathbb{R}$ because $\mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$.
+# Semimodule
+Can be thought of as a module over a semiring $R$ and that it forms a commutative monoid with respect to addition.
 ## Module
 A module is similar to a vector space, except that instead of $V$ being over a set of scalars $F$ which is a field, instead it is over a set of scalars $R$ which is a ring
 ## Vector Spaces

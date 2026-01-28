@@ -17,11 +17,23 @@ the vector space needs to cover the following criteria:
 the inner product space needs to cover the following criteria:
 * $\langle a\vec{u} + b\vec{v}, \vec{w}\rangle = a\langle\vec{u}, \vec{w}\rangle + b\langle\vec{v}, \vec{w}\rangle$
 * $\langle\vec{v}, \vec{v}\rangle$ with $\langle\vec{v}, \vec{v}\rangle = 0 \Leftrightarrow \vec{v} = 0$
+The dot product is a form of the inner product such that $$\vec{u}\cdot \vec{v}=||\vec{u}||||\vec{v}||cos(\theta)$$
 ### Normed Vector Space
-has the operation $\vert \vert \vec{v} \rvert \rvert := \sqrt{\langle\vec{v}, \vec{v}\rangle}$ which normalizes a vector. Not all norms are defined that way however, and norms are more generally known to have the following criteria:
+has the operation $\vert \vert \vec{v} \rvert \rvert := \sqrt{\langle\vec{v}, \vec{v}\rangle}$ which is the magnitude of a vector. Not all norms are defined that way however, and norms are more generally known to have the following criteria:
 * $\vert \vert \vec{v} \rvert \rvert \geq 0$ with $\vert \vert \vec{v} \rvert \rvert = 0 \Leftrightarrow \vec{v} = 0$
 * $\vert \vert c\vec{v} \rvert \rvert := \vert c \vert \vert \vert \vec{v} \rvert \rvert$ for scalar $c$
 * $\vert \vert \vec{u} + \vec{v} \rvert \rvert \leq \vert \vert \vec{u} \rvert \rvert + \vert \vert \vec{v} \rvert \rvert$
+### Grassman Algebra (Exterior Algebra)
+Is a vector space which forms an associative algebra containing that vector space, with an exterior product, also known as the wedge product $\wedge$. It can be viewed as a more general version of the determinant, as it gives the area of the parallelogram formed by the vectors. The wedge product is [[Relations#^919b4b|antisymmetric]] such that: $$u \wedge v = -v \wedge u$$ It also has the property that: $$u \wedge u=0$$
+It is left associative:
+$$\alpha(u+v)\wedge w=\alpha(u\wedge w)+v\wedge w$$
+Right associative: $$u\wedge(\beta v + w)=\beta u\wedge v + u \wedge w$$
+Distributive over addition: $$u\wedge (v+w)=u\wedge v + u\wedge w$$
+The wedge product produces a bivector. We can also say that the wedge products magnitude is is $||\vec{u}\wedge \vec{v}||=||\vec{u}||||\vec{v}||sin(\theta)$. Two bivectors are equivalent if their area and orientation are the same.
+
+In 2D with orthogonal basis vectors, the wedge product is equivalent to the determinant, while in 3D it is equivalent to the cross product.
+### Geometric Algebra (Clifford Algebra)
+
 ### Metric Space
 have a concept of distance, and are defined as such for all $x, y, z$ in the space:
 * $d(x,y)\geq 0$ and $d(x,y)=0 \text{ iff } x=y$.

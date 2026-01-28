@@ -1,0 +1,4 @@
+# Publish my notes for no spectators
+I want to save my notes in a place they will most likely not get lost. If my computer ever breaks and my hard disks destroyed, having them on an external site makes it so that I can keep them safe. I also just like letting people know my thoughts and opinions, as well as things about myself. While I could use a more known site like Instagram, TikTok or Twitter, I prefer to keep them here, as it would be a more esoteric place, reserved only for those who truly care to hear my thoughts.
+# Forget
+I don't forget because I want to, it's something that I've struggled with a lot lately, and honestly something I'm deeply insecure about. I will forget things that were apparently very fun. Sometimes I wonder if I have some sort of dementia, but I obviously don't. Instead I think I just dissociate a lot, which has caused a lot of gaps in my memory.
