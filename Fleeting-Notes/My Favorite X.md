@@ -43,7 +43,7 @@
 14. My favorite saying: C'est la vie
 15. My favorite computer scientist: Alan Turing
 16. My favorite youtuber: 3Blue1Brown
-17. My favorite book: The Hunger Games
+17. My favorite book: Catcher in the Rye
 18. My favorite songs:
 	* Kendrick Lamar: Pride, XXX, DNA, Alright
 	* George Michael: Careless Whisper

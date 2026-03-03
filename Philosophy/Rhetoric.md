@@ -15,7 +15,8 @@
 * ==**Epistemic Injustice**==: Happens when an individual or group is wronged in their ability to know, meaning that their ability to produce knowledge comes into question. The two types are:
 	* ==**Testimonial Injustice**==: Where ones word is unfairly ignored or not believed due to a variety of accidental characteristics such as sex, sexuality, gender, race, disability, identity, etc...
 	* ==**Hermeneutical Injustice**==: In which someone can't interpret something due to a lack of shared conceptual resources within a society. This can be like lacking a word to describe something, or unable to understand your own behavior due to a lack of writing.
-* ==**Amathia**==: Willful ignorance. Have the ability to know, and choose not to.
+* ==**Amathia**==: Willful ignorance. Have the ability to know, and choose not to. ^bdb169
+* ==**Sophia**==: Wisdom. ^69bf2d
 * ==**Pragmatist**==: Advocating for the approach that evaluates theories or beliefs in terms of how successful and practical they are to apply.
 * ==**Dichotomy**==: a division or contrast between two things that are, or are represented as being, opposed or entirely different.
 * ==**Performative**==: that reiterative power of discourse to produce the phenomena that it regulates and constrains. ==**By saying you also make it so**==. ^17b962

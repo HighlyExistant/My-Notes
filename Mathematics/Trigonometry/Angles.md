@@ -18,7 +18,7 @@ For $\text{sin}$:
 * $\text{sin}(\alpha - \beta)=\text{sin}(\alpha)\text{cos}(\beta)-\text{cos}(\alpha)\text{sin}(\beta)$
 For $\text{cos}$:
 * $\text{cos}(\alpha + \beta)=\text{cos}(\alpha)\text{cos}(\beta)-\text{sin}(\alpha)\text{sin}(\beta)$
-* $\text{cos}(\alpha + \beta)=\text{cos}(\alpha)\text{cos}(\beta)+\text{sin}(\alpha)\text{sin}(\beta)$
+* $\text{cos}(\alpha - \beta)=\text{cos}(\alpha)\text{cos}(\beta)+\text{sin}(\alpha)\text{sin}(\beta)$
 For $\text{tan}$
 * $\text{tan}(\alpha + \beta)$
 ## Formulas for Doubling Angles

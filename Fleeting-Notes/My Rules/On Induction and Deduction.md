@@ -1,0 +1,18 @@
+# Section 1. Justifying Induction
+## Subsection 1. Away with Pure Reason
+For us to truly understand the world around us, we can't just purely rely on pure reason. At some point, we're going to have to derive an assumption from the world around us. For that reason, induction allows us to deduce facts from information we already have. We should always keep in mind however, the inherent probability of induction. Even though we can assume that something that has happened consistently will continue to happen, when it comes to humans, it can fail us  due to how much humans can change over a short period of time. It is for that reason that any synthetic judgements we make about a person shouldn't contain the words "will", but should instead carry the words "will most likely". It is only when someone has [[Responsibility to Another#Section 2. Promises|promised]] that we can say "will", with some greater level of certainty.
+# Subsection 2. Inherent probability of Induction
+==**When performing induction based on empirical facts, it is more likely to assume what has already happened, then what is yet to happen**==. If we were to express this in mathematical terms, the amount of trust you should have in the information should be based on how often that information has proven true. 
+# Section 2. Deduction over Induction
+Whenever there is an opportunity to choose between deduction and induction, deduction should always triumph, as it is much more reliable as according to [[Adaptors and Theories|Adaptors and Theories]].
+# Section 3. Fallacies
+When using induction, it is important to stay away from fallacious ways of constructing ones arguments. It is also important to note that there are situations where you can use these techniques, just not in fallacious ways.
+## Subsection 1. Is-Ought
+One can not use the fact that something is *either or*, for something who's very meaning holds nothing about *either* or *or*. For example, if your argument rests on artificial or natural as the sole reason why something is either good or bad, due to the fact that it suggests that all things natural and or artificial are good or bad. Instead one should provide a reasonable argument with empirical evidence as to why something being natural or artificial makes it better. The justification for this one is through the Hitchens Razor present in the 1st principle, as you are simply stating, without proof, that something is good or bad without proper justification. Secondly, not admitting fault for your misuse of these words will also guilt you of the 5th principle.
+
+The Is-ought problem basically states that you cannot formulate what something ought to be, solely by what something is.
+## Subsection 2. No True Scotsman
+Consider a group $X$ such that for each $x\in X$ they are also considered to have all the characteristics of $y\in Y$, meaning that $X\subset Y$. If someone stated that every $y$ is $x$ (equivalent of saying $Y\subseteq X$) this statement would be wrong, unless it can be proven that $X\subseteq Y$.
+### Cases
+#### No true Scotsman drinks porridge
+Here we'll be analyzing the proposition, "No true Scotsman drinks porridge". We can see that Scotsman $x$ belongs to the group $X$ of Scotsmen. The person saying the proposition is basically saying that no Scotsmen belongs to $Y$ the group of people who drink porridge: $$\forall x\in X, x\notin Y$$If we were to find such an $x\in Y$ then we have just come across a _**No True Scotsman Fallacy**_. If they were then to change their statement to most true Scotsman don't drink porridge, the burden of proof falls unto them according to the 1st principles Hitchens razor.

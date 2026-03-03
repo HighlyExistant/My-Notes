@@ -1,0 +1,1 @@
+Rene Marques nació en 1917, en Arecibo Puerto Rico. Su posición política es independentista.

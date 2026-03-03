@@ -38,4 +38,4 @@ There are two types of energies, **kinetic energy** and **potential energy**.
 $$
 	\frac{1}{2}\sum_{k=1}^{N}{{m_kv_k^2}}
 $$
-* ==**Potential energy**== denoted as $PE$. This energy is due to position. The energy is equal to the work done against any restoring forces (conservative forces). If we wanted to use a spring as an example $S_p=kx$, then the **work done by this spring would be its integral**, equal to: $$ \int kx=\frac{1}{2}kx^2$$ The potential energy is a theoretical energy, as it has the potential to become kinetic energy.
+* ==**Potential energy**== denoted as $PE$. This energy is due to position. The energy is equal to the work done against any restoring forces (conservative forces). If we wanted to use a spring as an example $S_p=kx$, then the **work done by this spring would be its integral**, equal to: $$ \int kx=\frac{1}{2}kx^2$$The potential energy is a theoretical energy, as it has the potential to become kinetic energy.

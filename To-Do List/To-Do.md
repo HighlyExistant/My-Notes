@@ -6,10 +6,11 @@ kanban-plugin: board
 
 ## Things to Study
 
+- [ ] Study Malcolm X
+- [ ] Read The Count of Monte Cristo
+- [ ] Finish Immanuel Kant's Critique of Pure Reason
 - [ ] Study C.A.R. Hoare's CSP
 - [ ] Study Robin Milner's Interleaved Semantics CCS
-- [ ] Study Ambient Calculus
-- [ ] Study Join Calculus
 - [ ] Flow spaces
 - [ ] Study 5 Topology problems
 - [ ] Gauss's Law
@@ -22,10 +23,7 @@ kanban-plugin: board
 
 ## Already studying
 
-- [ ] Read The Count of Monte Cristo
 - [ ] Finish Sun Tzu's The Art of War
-- [ ] Finish Immanuel Kant's Critique of Pure Reason
-- [ ] Study Malcolm X
 
 
 ## Learned
@@ -33,6 +31,8 @@ kanban-plugin: board
 - [ ] Study Abstract Rewriting Systems
 - [ ] Quotient Spaces
 - [ ] Study Dijkstra's Non-deterministic guarded commands
+- [ ] Study Ambient Calculus
+- [ ] Study Join Calculus
 - [ ] Type Theory and Lambda Calculus (And its applications to logic)
 - [ ] Study Pi-Calculus
 
@@ -41,6 +41,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[true,true,true]}
 ```
 %%

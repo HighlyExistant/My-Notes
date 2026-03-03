@@ -1,6 +1,6 @@
 The equation for free fall is:
 $$
-	v_0t+\frac{1}{2}gt^2
+	\frac{1}{2}gt^2+v_0t
 $$
 Analyzing every component of the equation:
 * $v_0$ is the ==initial velocity==. Gravity takes time to build up, so this initial velocity term can denote the velocity at the moment which you throw a ball in the air. 

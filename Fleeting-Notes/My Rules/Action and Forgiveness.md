@@ -8,27 +8,31 @@ When should we be silent, and when should we speak. Here I take a deontological 
 6. ==**Recommended Position**==: Although not mandatory to uphold, it is the preferred way of acting according to the rules set by this deontological approach.
 7. ==**Someone in need**==: Anyone who is currently lacking in human rights.
 8. ==**Cutting off**==: Separating a person from your list of friends, and *choosing* to no longer communicate.
-9. ==**Morally Corrupt**==: Dubious morality which is prone to violate the rights of others. While it applies to all the principles, here it emphasizes more the 2nd principle.
 # Section 2. Acting
 ## Subsection 1. Ability to Speak
-
-The ability of a person to speak can be impeded by several factors such as:
-1. ==**Not being fluent in said subject**==: In which case it is better to stay silent, in the event that you spread misinformation. ==**This is a valid position to have**==.
-2. ==**Choosing not to intervene malicious scenarios**==: No one is forced to intervene anything as of principle 2. There are even moments where the ability to prevent the spread can be limited in which principle 3 will take over, but if principle 3 is not valid, ==**it is the recommended position**== to prevent the spread malicious scenarios.
+The ability that a person has to speak can be impeded by several factors such as:
+1. ==**Not being fluent in the subject being discussed**==: While staying silent is a valid position to have, as it ensures that you will not spread misinformation, it should also be noted that on subjects that are relevant to modern politics, to be informed is also important. For these reasons, the 5th principle applies.
+2. ==**Choosing not to intervene malicious scenarios**==: No one is forced to intervene in a conflict as of principle 2. If principle 2 is not applicable ==**it is the recommended position**== to prevent the spread malicious scenarios.
 ## Subsection 2. Nothing as an Action
 By doing nothing, you promote the current status quo, meaning that any centrist position will automatically default to the current power.
 1. If given the opportunity to help someone in need, without negative consequence to yourself, ==**it is the recommended position**== to help those in need.
 # Section 3. Acquaintances
 ## Subsection 1. Choosing your Allies
-When choosing who your friends are, it is important to acknowledge the following cases:
-1. It is never wrong to cut someone off, for any reason, as everyone has the liberty to do whatever they please regarding themselves, including their relationships, as long as it isn't directly affecting another, ==**according to principle 2**==. It should also be kept in mind, that this is nullified if and only if the reason for cutting someone off, is no longer having a use for them, as it would be ==**in violation of principle 5**==.
-2. Being able to acknowledge morally corrupt, and unforgiveable things about your friends, makes you morally corrupt for allowing yourself to stay with them. There is always an option to cut those friends off, therefore you ==**can**== cut those friends off, and due to the case being morally supported, it ==**ought**== to be done, ==**according to principle 3**==. 
-3. If this person is not your friend, then you shouldn't worry about this, as it only applies to those you are fond of. Not being able to acknowledge morally corrupt things about your acquaintances, also makes you morally corrupt. ==**This following rule is under the assumption that not calling out bad behavior, promotes people to continue doing the same behavior**==. This also applies to those who have a willing ignorance to the actions of  their friends as of the 6th principle.
-4. If you witness and or knowingly aid a friend in violating the liberties of others, keeping in mind that willing ignorance still counts as knowingly aiding, then you are equally as responsible as the perpetrator.
-## Subsection 2. Forgiveness
-It is difficult to forgive those that have done you or others wrong, so when choosing to forgive someone, or when forgiving someone, it is important to keep the following in mind:
-1. Forgiving someone is completely optional, meaning that no one is forced to forgive another, as of principle 2.
-2. Forgiveness does not undo wrongdoing, as to forgive is simply a verbal action, while to undo is a physical action, and damage does not get repaired through speech. This is in part due to the 7th principal.
+The following only applies amongst two individuals that are friends, and or are fond of each other. When choosing who your friends are, it is important to acknowledge the following statements:
+1. ==**It is never wrong to stop interacting with someone, for any reason**==. Everyone has the liberty to do whatever they please regarding themselves, including which relations they partake in, and which ones they do not. It should also be kept in mind, that this is nullified if and only if the reason for cutting someone off, is no longer having a use for them, is no longer having a use for them, as that would be categorized as using that individual as an end to a particular use (which would be in violation of principle 4).
+2. ==**Being able to acknowledge that your friends are not ethical, makes you unethical for allowing yourself to stay with them**==. Due to the fact that you ==**always have a choice to stop interacting with them**==, and you have already acknowledged that these people are unethical, it means that you ==**can**== and ==**ought**==, to do that action, ==**according to principle 2**==. In the case of people you cannot easily stop interacting with however (such as family), or in the case that you fear for your wellbeing (which impedes your ability to exercise your liberty), then this is nullified.
+## Subsection 2. Accomplice
+The following applies to anyone who actively acknowledges or ignores the wrongdoings of their friends keeping in mind that willing ignorance is in violation of principle 5.
+1. If you witness and or knowingly aid a friend in violating the liberties of others then you are equally as responsible as the perpetrator.
+# Forgiveness
+## Subsection 1. Clarifications
+Before choosing to forgive someone, there are a few noteworthy things to keep in mind:
+1. ==**You cannot forgive for someone else**==: Forgiveness is something personal, and therefore should be handled by the person with which it corresponds to. Not only is forgiving someone, on another's behalf imposing your will, it would not even qualify as forgiveness, due to the person wronged not even being present.
+2. ==**Forgiving someone is completely optional**==: No one can force someone to apologize for another, as that would be imposing ones will. It also means you should not have to forgive someone you view does not deserve forgiveness. Not only that, but any forgiveness received without consent does not count.
+3. ==**Forgiving does not undo wrongdoing**==: Forgiving, is only a verbal action, but does not undo any action that has been done in the past.
+4. ==**Forgiveness is meaningless amidst strong emotions**==: It does not matter if someone is, or is not forgiven, for the emotions of the person wronged will determine whether or not someone is or is not forgiven. For this reason, while the words "I forgive you", and any such words similar to them, can imply that the person truly does forgive you, it is not an absolute.
+## Subsection 2. Implications
+When forgiving someone, you are stating explicitly that you no longer feel resentful towards someone for some offense they committed. Just because you have forgiven a single offense however, does not mean that every offense has been forgiven. 
 # Cases
 ## Birds of a feather flock together
 There exists a person $A$ such that they are acquainted with person $B$. Person $A$ is a saint who has yet to break any of the principles, then they can be categorized as a virtuous person, in the eyes of these rules. If person $B$ is a terrible person, who has broken the principles set consistently and without remorse then the following possibilities are present:

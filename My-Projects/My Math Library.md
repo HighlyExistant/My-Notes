@@ -3,13 +3,14 @@
 	- [x] Implement the basic abstract algebra structures e.g. Magma, Semigroup, Monoid, Group, Abelian Group, Semiring, Rong, Ring, Commutative Ring, Field, Module, Vector Space. Due date: February 7th
 	- [x] Make the library nostd 
 	- [x] Document entire library Due date: February 14th
+- [ ] Make a Math quiz tui
 - [ ] Making the linear algebra portion of the library
-	- [ ] Vector and Module spaces for all types Due Date: February 21st
-	- [ ] Matrices for all types Due date February 28th
+	- [x] Vector and Module spaces for all types Due Date: February 21st
+	- [x] Matrices for all types Due date February 28th
 	- [ ] Make the library nostd
-	- [ ] Document entire library Due date: March 7th
+	- [ ] Document entire library Due date: March 21th
 - [ ] Making the geometry portion of the library
-	- [ ] Implementing the basic shapes and hypershapes, triangle, rectangle, circle. Due date: March 14th
-	- [ ] Implementing segments: Linear, Bezier Curves, Linear Equations, Quadratic Equations, Cubic Equations, Rays. Due date: March 21st
+	- [ ] Implementing the basic shapes and hypershapes, triangle, rectangle, circle. Due date: March 28th
+	- [ ] Implementing segments: Linear, Bezier Curves, Linear Equations, Quadratic Equations, Cubic Equations, Rays. Due date: April 4th
 	- [ ] Make the library nostd
-	- [ ] Document entire library Due date: March 28th
+	- [ ] Document entire library Due date: April 11th

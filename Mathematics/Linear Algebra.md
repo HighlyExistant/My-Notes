@@ -1,4 +1,7 @@
 Is the study of linear transformations and the spaces they lie in.
+# Definitions
+* ==**Orthogonal**==: Two vectors are orthogonal if their inner product is 0. One way to achieve this is if both vectors are perpendicular, or if they are both 0 vectors.
+* ==**Orthonormal**==: Two vectors are orthonormal if they are orthogonal and have a magnitude of 1.
 # Basis Vectors
 A set of vectors that span the entire vector space which are linearly independent (meaning they cannot be written in terms of themselves) and can form every other vector in the vector space as a linear combination of said basis vectors. The basis of this vector defines the coordinate system.
 # Linear Transformations

@@ -1,9 +1,0 @@
-# Section 1. Justifying Induction
-## Subsection 1. Away with Pure Reason
-For us to truly understand the world around us, we can't just purely rely on pure reason. At some point, we're going to have to derive an assumption from the world around us. For that reason, induction allows us to deduce facts from information we already have. We should always keep in mind however, the inherent probability of induction. Even though we can assume that something that has happened consistently will continue to happen, when it comes to humans, it can fail us  due to how much humans can change over a short period of time. It is for that reason that any synthetic judgements we make about a person shouldn't contain the words "will", but should instead carry the words "will most likely". It is only when someone has [[Responsibility to Another#Section 2. Promises|promised]] that we can say "will", with some greater level of certainty.
-# Subsection 2. Inherent probability of Induction
-==**When performing induction based on empirical facts, it is more likely to assume what has already happened, then what is yet to happen**==. If we were to express this in mathematical terms, the amount of trust you should have in the information should be based on how often that information has proven true.
-# Section 2. Fallacies
-When using induction, it is important to stay away from fallacious ways of constructing ones arguments. It is also important to note that there are situations where you can use these techniques, just not in fallacious ways.
-## Subsection 1. Neutrality of Artificial and Natural 
-One can not use the fact that something is artificial or natural as the sole reason why something is either good or bad, due to the fact that it suggests that all things natural and or artificial are good or bad. Instead one should provide a reasonable argument with empirical evidence as to why something being natural or artificial makes it better.

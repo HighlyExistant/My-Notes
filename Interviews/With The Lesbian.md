@@ -8,3 +8,11 @@
 6. Cis-Woman (Hell nah) become more masc maybe!?
 7. Trans-woman (Lick you up and down, get on my knees for them)
 8. Nonbinary (Afab or amab)  (Lick you up and down, get on my knees for them)
+9. Favorite Norse God: Odin
+10. Most Relateable Norse God: Fenrir, It's because they trust a lot, even they know the other person is lying, but eventually they'll bite back.
+11. Least favorite Norse God: Thor, he's a genocidal freak.
+12. Least favorite human being that you met: Father
+13. Fursona: Silver Fox
+# What is a Bad Drug
+* It has chemicals that they shouldn't have.
+* If it's laced.
