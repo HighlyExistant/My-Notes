@@ -191,4 +191,3 @@ Here Kant continues what was at the very start of the book, on the a priori tran
 # PAGE 83
 # PAGE 83
 # PAGE 83
-# Estimate until I finish the book: 228 days

@@ -1,7 +1,7 @@
 # Properties
 ## Associativity
-$\oplus$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
-$$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
+$*$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
+$$a * (b * c) = (a * b) * c$$
 ## Identity
 $b$ is the identity in a structure $X$ if $\forall a \in X$:
 $$a\oplus b=b \oplus a=a$$
@@ -15,7 +15,7 @@ An algebraic structure is a collection of objects with one or more operations th
 ### Why use them?
 - We use them to draw connections among all the number systems
 - We can prove theorems using systems with the same properties
-## Magma (Binar, Groupoid)
+## Magma (Binar)
 Basic algebraic structure which consists of a set and a binary operation that is closed under that set.
 * Closure
 ## Semigroups

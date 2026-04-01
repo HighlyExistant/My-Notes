@@ -1,5 +1,6 @@
 # The Basics
 The derivative is the equation $d(x)$ which is tangential to the curve $f(x)$. To start out, the equation for the slope, which will help us derive derivatives, is that of the secant line: $$m_{PQ}=\frac{f(x)-f(a)}{x-a}$$
+
 # Rates of Change
  Suppose $y$ depends on a quantity $x$. We write this function as $$y=f(x)$$If $x$ changes from $x_1$ to $x_2$ then the rate of change would be $$\Delta x=x_2-x_1$$
 The quotient of change (or the rate of change) would then be represented by the slope equation: $$\frac{\Delta y}{\Delta x}=\frac{f(x_2)-f(x_1)}{x_2-x_1}$$Which gives us an average rate of change with respect to $x$ and $y$. Similarly we can reach instantaneous rate of change (misnomer) using limits: $$\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}=\frac{f(x_2)-f(x_1)}{x_2-x_1}$$
@@ -7,7 +8,7 @@ The quotient of change (or the rate of change) would then be represented by the 
 The following uses Lagrange notation, as is listed in the Notations section. $$f'(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$$
 where $h$ is some infinitesimal value as expressed in the limit $h\to0$.
 # When is a Function Differentiable
-If the function $f$ is differentiable in $a$ then $f$ is continuous in $a$. The converse is not necessarily true however, if $a$ is continuous it does not men that $f$ is differentiable in $a$.
+If the function $f$ is differentiable in $a$ then $f$ is continuous in $a$. The converse is not necessarily true however, if $a$ is continuous it does not mean that $f$ is differentiable in $a$.
 ## Example
 $f(x)=|x|$
 $$\lim_{h\to 0}\frac{|x+h|-|x|}{h}$$if we take the limit from the lefthand side we get $-1$ while if we look for it in the righthand side we get $1$, meaning that the limit does not exist, and therefore the derivative doesn't exist. A 
@@ -37,16 +38,15 @@ $$\Large\frac{d}{dx}e^x=e^x$$
 * $\frac{dy}{dx}$ tells you that this is the derivative of a function. For example, if you have the variable $y=x^3$, then the derivative $\frac{dy}{dx}=3x^2$.
 * $\frac{d}{dx}f(x)$ tells you to differentiate $f(x)\to f'(x)$.
 ### Summation and Difference Rules
-$$\frac{d}{dx}(f(x)+g(x))=\frac{d}{dx}f(x)+\frac{d}{dx}g(x)$$
-$$\frac{d}{dx}(f(x)-g(x))=\frac{d}{dx}f(x)-\frac{d}{dx}g(x)$$
+$$\frac{d}{dx}(f(x)\pm  g(x))=\frac{d}{dx}f(x)\pm\frac{d}{dx}g(x)$$
 ### Power Rule
-Given a polynomial $x^n$ is $$\frac{d}{dx}x^n=nx^{n-1}$$
+Given a polynomial $x^n$, their derivative would be: $$\frac{d}{dx}x^n=nx^{n-1}$$
 ### Product Rule
 When getting the derivative of the product of two functions $f(x)g(x)$, their derivative is defined as: $$f(x)g'(x)+g(x)f'(x)$$
-### Quotient Rule
-$$\frac{d}{dx}(\frac{f(x)}{g(x)})=\frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}$$
 ### Constant Product Rule
 Given a constant function $f(x)=c$ then the product rule becomes: $$cg'(x)$$
+### Quotient Rule
+$$\frac{d}{dx}(\frac{f(x)}{g(x)})=\frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}$$
 ### The Chain Rule
 This rule applies for derivatives of composite functions (functions of the form $f(g(x))$ or $f(x)^n$). The way we calculate the derivatives of these two functions is as follows.
 $$
@@ -57,13 +57,40 @@ $$
 	\frac{d}{dx}f(x)^n=n(f(x))^{n-1}\cdot f'(x)
 $$
 the chain rule can also apply to functions with just a basic variable such as $f(x)$, but since the derivative of $x=1$, then it gets simplified to just $f'(x)$. This changes however for $f(2x)$ where it would then be $2f'(x)$. As a more generalized result, such that $y=f(u)$ and $u=g(x)$: $$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$ 
+### L'Hôpital's Rule
+For a limit of the form: $$\lim_{x\to c}\frac{f(x)}{g(x)}=\frac{0}{0}\text{ or }\frac{\infty}{\infty}\text{ etc}$$such that 
+* $f, g$  are differentiable
+* $\lim_{x\to c}f(x)=0\text{ or }\infty$ and $\lim_{x\to c} g(x)=0\text{ or }\infty$ 
+* $f'(x)\neq0\text{ or }\infty$, $g'(x)\neq 0\text{ or }\infty$, and $\lim_{x\to c}\frac{f'(x)}{g'(x)}=L$ 
+then: $$\lim_{x\to c}\frac{f(x)}{g(x)}=L$$
+Useful trick for when t he limit approaches $\infty$ and you get an indefinite form of $\frac{\infty}{\infty}$ is to derive the functions multiple times, until the variables cancel out.
+#### Indefinite Products
+These are of the form $f(x)\cdot g(x)=0\cdot\infty$. We can rewrite this as a quotient to use L'Hôpital's Rule by making it $\frac{f(x)}{(g(x))^{-1}}$ or $\frac{g(x)}{(f(x))^{-1}}$.
+#### Indefinite Exponentials
+These are of the form $\lim_{x\to c}f(x)^{g(x)}=0^0\text{ or }\infty^0\text{ or }1^\infty$. We can resolve these by applying ==**logarithmic differentiation**==: 
+1. Grab your indefinite exponential and turn it into a logarithm:
+$$y=f(x)^{g(x)}$$
+$$\text{ln}(y)=g(x)\text{ln}(f(x))$$
+2. Resolve the limit and check if it gives you a value: $$\lim_{x\to a}\text{ln}(y)=L$$
+3. If the previous step gives you $L$ then: $$\lim_{x\to a}f(x)^{g(x)}=e^{L}$$
 # Implicit Differentiation
 ## Steps
-1. Derive both sides with respect to $x$, remembering that $y=f(x)$, using the chain rule.
+1. Derive both sides with respect to $x$, using the chain rule, remembering that $y=f(x)$.
 2. Isolate $y'$.
 ### Example
 $$\begin{matrix}x^2+y^2=4\\2x+2y(y')=0\\2y(y')=-2x\\y'=-\frac{2x}{2y}\\y'=-\frac{x}{y}\end{matrix}$$
 When differentiating between variables that are not present, like say $\frac{d}{dx}y^2$ then what you have to do is multiply by its derivative with respect to $x$, that is: $$\frac{d}{dx}y^2=2y\cdot\frac{dy}{dx}$$
+# Derivatives of Trigonometric Functions
+## Derivative of $\text{sin}(x)$ and $\text{cos}(x)$
+$$\text{sin}'(x)=\text{cos}(x)$$
+$$\text{cos}'(x)=-\text{sin}(x)$$
+## Derivative of $\text{tan}(x)$ and $\text{cot}(x)$
+$$\text{tan}'(x)=\text{sec}^2(x)$$
+$$\text{cot}'(x)=-\text{csc}^2(x)$$
+## Derivative of $\text{sec}(x)$ and $\text{csc}(x)$
+$$\text{sec}'(x)=\text{sec}(x)\text{tan}(x)$$
+$$\text{csc}'(x)=-\text{csc}(x)\text{cot}(x)$$
+
 # Derivatives of Inverse Trigonometric Functions
 ## Derivative of $\textbf{sin}^{-1}(x)$ and $\textbf{cos}^{-1}(x)$
 $$\large\begin{matrix}\frac{d}{dx}y=\text{sin}^{-1}(x)\\\Rightarrow\frac{d}{dx}\text{sin}(y)=x\\\Rightarrow\text{cos}(y)y'=1\\\Rightarrow y'=\frac{1}{\text{cos(y)}}\\\Rightarrow y'=\frac{1}{\sqrt{1-x^2}}=\frac{d}{dx}\text{sin}^{-1}(x)\end{matrix}$$
@@ -74,12 +101,65 @@ $$\frac{d}{dx}\text{cot}(y)=x\Rightarrow-\frac{1}{1+x^2}=\frac{d}{dx}\text{cot}^
 ## Derivative of $\textbf{sec}^{-1}(x)$ and $\textbf{csc}^{-1}(x)$
 $$\frac{d}{dx}\text{sec}(y)=x\Rightarrow \frac{1}{|x|\sqrt{1-x^2}}=\frac{d}{dx}\text{sec}^{-1}(x)$$
 $$\frac{d}{dx}\text{csc}(y)=x\Rightarrow -\frac{1}{|x|\sqrt{1-x^2}}=\frac{d}{dx}\text{csc}^{-1}(x)$$
-### Time Derivatives
-Some equations relating to physics correspond variables of position such as  and  as functions over time, that is $x=x(t)$. This leads to these positions being differentiable over time, written as:
+# Derivative of Exponentials and Logarithms
+The derivative of an exponential function is: $$\frac{d}{dx}b^x=b^x\text{ln}(b)$$This also gives a unique property to the exponential function $e^x$ as its derivative is itself.
+We can also obtain the derivative of the logarithm implicitly as: $$\begin{matrix}\frac{d}{dx}log_bx=y\\\Rightarrow\frac{d}{dx}x=b^y\\\Rightarrow1=b^yy'\text{ln}(b)\\\Rightarrow\frac{1}{b^y\text{ln}(b)}=y'\\\Rightarrow\frac{1}{x\text{ln}(b)}=y'\end{matrix}$$
+This also has the unique property that $\frac{d}{dx}ln(x)=\frac{1}{x}$.
+# Logarithmic Differentiation
+1. Apply a natural logarithm to both sides of the equation $y=f(x)$
+2. Implicitly differentiate with respect to $x$
+3. Solve for $y'$.
+# Linear Approximations
+We can approximate values of complicated values in functions, by grabbing points near that value around the function. If $x$ is the value we want to approximate, and the constant $a$ is the point we are using to approximate it with, then the linear approximation $L(x)$ would be: $$L(x)=f(a)+f'(a)(x-a)$$
+This works because you've set your starting point at $(a, f(a))$ and you are simply moving along the tangent line formed by the derivative $f'(a)$ by the difference of $x$ and $a$, which could be categorized as $\Delta x=(x-a)$. ==**This concept will be expanded upon more on the section of differentials**==.
+# Differentials
+Previously we obtained that we could approximate functions using their derivatives. if we consider then, that the change in $y$ over the change of $x$, being approximate to $\frac{dy}{dx}$, then we can do a bit of notation manipulation (keeping in mind that $\frac{dy}{dx}$ is not a fraction) and say: $$\frac{dy}{dx}=f'(x)\Rightarrow dy=f'(x)dx$$Which basically states that the change in $y$, which is $dy$ is equal to $f'(x)dx$ where $dx$ is the change in $x$.
+## Error Values
+The error in $y=f(x)$ es $\Delta y$, while the approximate value is $dy=f'(x)dx$. The relative error is $\frac{\Delta y}{y_0}$ while the approximate relative error is $\frac{dy}{y_0}$. The percentage of error is the relative errors times $100\%$.
+# Optimization
+When we want to optimize a function, we are trying to find the maximum and minimum points of a graph. 
+
+Finding the ==**absolute maximum**== (the highest point in the graph) and the ==**absolute minimum**== (the lowest point in the graph) and they are values of $y$ (also known as $f(x)$). These are ==**sometimes called global maximums and minimums**==. This is different from a local maximum and minimum, as those are just values that are greater than or lower than, respectively, to a range surrounding them.
+1. ==**Local Maximum**== of $f$ if $f(c)\geq f(x)$ as $x\to c$.
+2. ==**Local Minimum**== of $f$ if $f(c)\leq f(x)$ as $x\to c$.
+Important to note that a constant function does not have a absolute maximum or minimum as all values are equal.
+## Extreme Value Theorem
+If $f$ is a continuous function in an interval $[a, b]$, then $f$ is an absolute maximum $f(x)$ and an absolute minimum $f(d)$ in $c, d\in [a,b]$.
+
+We can easily find the maximum and local minimums of a function $f(x)$ by locating when $f'(x)=0$.
+## Fermat's Theorem
+If $f$ has a local maximum or minimum in $c$, and $f'(c)$ exists, then $f'(c)=0$.
+### Definition
+A ==**critical number**== of a function $f$ is a number $c$ in the dominion of $f$ such that $f'(c)=0$ or $f'(c)$ does not exist.
+### Summary
+* $\Delta x$ is the discrete difference of $x$ over time
+* $dx$ is the differential, which also denotes difference over time.
+## Rolle's Theorem
+Let $f$ be a function which satisfies the following criteria:
+1. $f$ is continuous on a closed interval $[a,b]$
+2. $f$ is differentiable on an open interval $(a, b)$
+3. $f(a)=f(b)$
+then, there exists a value $c$ in the open interval $(a, b)$ such that $f'(c)=0$. We can consider this to be a ==**special case of the mean value theorem**==, which will be explained after this one.
+## Mean Value Theorem (MVT)
+Satisfies the first 2 hypothesis of Rolle's Theorem, but does not include the 3rd criteria. It simply concludes that for a closed interval $[a, b]$ which is continuous and open interval $(a, b)$ which is differentiable, there must exist a derivative such that: $$f'(c)=\frac{f(b)-f(a)}{b-a}$$which states that there exists a slope of the tangent line which is equal to the slope of the secant line. $$f(b)-f(a)=f'(c)b-a$$
+## Constant Theorem
+If $f'(x)=0\therefore \forall x\in (a,b)\Rightarrow f(x)=c$, where $c$ is a constant.
+### Corollary
+If $f'(x)=g'(x),\forall x\in (a,b)\Rightarrow \forall x\in(a, b)(f(x)-g(x)=c)$ where $c$ is constant. 
+# Physics Applications
+## Time Derivatives
+The average velocity between two points would be: $$\frac{\Delta s}{\Delta t}$$where $s$ is a function of position.
+Some equations relating to physics correspond variables of position such as functions over time, that is $x=x(t)$. This leads to these positions being differentiable over time, written as:
 $$
 	\frac{dx}{dt}x(t)=\dot{x}
 $$
 which is used for velocity. The second derivative $\frac{d^2x}{d^2t}=\ddot{x}$ being acceleration. These $\dot{x}$ and $\ddot{x}$ are also called newtons notation.
+## Distance
+The way we calculate distance is using the formula $$d=vt$$where $v$ is velocity.
+## Acceleration and Deceleration
+We say that something is accelerating when the velocity and acceleration share the same sign and are not equal to $0$, and that it is decelerating when they have different signs. We can write this down as: $$\text{accelerating}\Rightarrow\text{sign}(v(t))=\text{sign}(a(t))\neq0$$$$\text{decelerating}\Rightarrow\text{sign}(v(t))\neq\text{sign}(a(t))\neq0$$
+# Related Rates
+
 # Partial Derivatives
 The partial derivative of a function denotes the **change over time** of a **multivariable function**. The reason why it's called a partial derivative is because you only care about one of those variables in the multivariable function, and treat any other variable as a constant.
 ### Example
@@ -103,7 +183,7 @@ $$
 $$
 # Jacobian
 Before starting to talk about the Jacobian, read a refresher on [[Linear Algebra#Linear Transformations |what a linear transformation is]]. The Jacobian is a way to encode the derivatives of a vector valued function. Even when the transformation that we're dealing with is not linear, it still has local linearity, where if you zoom in enough, the neighborhood of points around it look linear. **By computing the partial derivatives of that nonlinear function we can figure out what that linear transformation is at that point**.
-### Computation
+## Computation
 The way you compute the Jacobian in 2 dimensions (But should work in any n dimensional space) for some vector valued function $f(x, y)$ is through the matrix:
 $$
 	\begin{bmatrix}

@@ -12,4 +12,3 @@ The function $S(n)$ we've been seeing so far is called the successor equivalent 
 This is useful for the following axioms: ==**The axioms of induction**==:
 1. If $K$ is a set such that $0 \in K$ and for $n \in \mathbb{N}\Rightarrow S(n) \in \mathbb{N} \Rightarrow \mathbb{N} \subseteq K$.
 2. If $\phi$ is a unary predicate $s.t. \phi(0)=true$ and for every $n \in \mathbb{N}, \phi(n)=true \Rightarrow \phi(S(n))=true \Rightarrow \phi(n)=true \forall n \in \mathbb{N}$
-3. v

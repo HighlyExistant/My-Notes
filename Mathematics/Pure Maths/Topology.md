@@ -23,8 +23,9 @@ has the operation $\vert \vert \vec{v} \rvert \rvert := \sqrt{\langle\vec{v}, \v
 * $\vert \vert \vec{v} \rvert \rvert \geq 0$ with $\vert \vert \vec{v} \rvert \rvert = 0 \Leftrightarrow \vec{v} = 0$
 * $\vert \vert c\vec{v} \rvert \rvert := \vert c \vert \vert \vert \vec{v} \rvert \rvert$ for scalar $c$
 * $\vert \vert \vec{u} + \vec{v} \rvert \rvert \leq \vert \vert \vec{u} \rvert \rvert + \vert \vert \vec{v} \rvert \rvert$
+When a vector is normalized, it is denoted by a hat symbol $\hat{v}$.
 ### Grassman Algebra (Exterior Algebra)
-Is a vector space which forms an associative algebra containing that vector space, with an exterior product, also known as the wedge product $\wedge$. It can be viewed as a more general version of the determinant, as it gives the area of the parallelogram formed by the vectors. The wedge product is [[Relations#^919b4b|antisymmetric]] such that: $$u \wedge v = -v \wedge u$$ It also has the property that: $$u \wedge u=0$$
+Is a vector space which forms an associative algebra containing that vector space, with an exterior product, also known as the wedge product $\wedge$. It can be viewed as a more general version of the determinant, as it gives the area of the parallelogram formed by the vectors. The wedge product is [[Relations#Antisymmetric|antisymmetric]] such that: $$u \wedge v = -v \wedge u$$ It also has the property that: $$u \wedge u=0$$
 It is left associative:
 $$\alpha(u+v)\wedge w=\alpha(u\wedge w)+v\wedge w$$
 Right associative: $$u\wedge(\beta v + w)=\beta u\wedge v + u \wedge w$$

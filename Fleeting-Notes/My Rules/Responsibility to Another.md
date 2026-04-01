@@ -16,7 +16,7 @@ Definitions of the following words in this document will be:
 It is hereby stated that a promise is made through the use of performative language, which insinuates that the subject in question will enact said action. This can be through 
 1. The use of any personal pronoun or noun relating to yourself, which is paired with the action ([[Linguistics/Grammar/Syntax/The Basics#^641e52|predicate]]) that will be performed.
 2. Agreeing to the terms and conditions of another which relates to you accomplishing a task.
-Wherein all promises must be done consensually as of principle 4. If a promise violates the principles set by the rules from which these are derived, they can be broken without remorse.
+Wherein all promises must be done consensually as of principle 4. If a promise violates the principles set by the rules from which these are derived, they can be broken without remorse. The individual whose being promised something will be known as the ==**promisee**==, and the individual making the promise will be known as the ==**promiser**==.
 ## Subsection 2. Status of Promises
 A promise will have 4 statuses relating to how far along a promise is to completion, as well as whether the promise is in active progress. These are listed as *kept*, *unkept*, *ongoing* and *abandoned*. 
 

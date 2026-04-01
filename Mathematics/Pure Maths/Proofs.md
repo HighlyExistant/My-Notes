@@ -1,1 +1,3 @@
 Proofs are the way we show that things are true in math. There are various types of proofs, and depending on which axioms you are working with, there are different ways of proving things logically.
+# Pigeonhole Principle
+Given a number of "holes" $m$ and a number of "pigeons" which will enter the holes $n$, such that $n>m$, the pigeonhole principle states that at least one hole will have more than 1 pigeon.

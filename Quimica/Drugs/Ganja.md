@@ -5,7 +5,7 @@
 	* Indica: Stereotypically this is the sleepy one. Occasionally used to help sleep.
 	* Sativa: Stereotypically this is the hyper one.
 	* Hybrid: A mix between Indica and Sativa. It is also the one the lesbian smokes, apparently dope.
-* $CBD$: Cannabidiol: Type of cannabis, a component inside of cannabis. Not psychoactive.
+* $CBD$: Cannabidiol: Type of cannabis, and the second most prevalent ingredient in cannabis. Not psychoactive.
 # Ways of using Weed
 * Flower form:
 	* Roll it in a piece of paper to burn. When its only marijuana and a piece of paper its called a spliff. When you roll it with tobacco and marijuana its called a blunt.
@@ -16,3 +16,7 @@
 	* Using it in a tea or baking
 # Greening Out
 Not the same thing as overdosing. Although it is not life threatening, it can pose health risks. It's like a sensory overload.
+
+# Sources
+1. [Harvard Health](https://www.health.harvard.edu/blog/cannabidiol-cbd-what-we-know-and-what-we-dont-201808242496)
+2. 

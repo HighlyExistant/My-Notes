@@ -33,7 +33,6 @@ This is very similar to Kant's 1st formulation of the categorical imperative, al
 Whether you ought to do something only applies if you can even perform such a task.
 
 In this context, the word ==**can**== applies not only to whether you can physically do something, but also whether you are mentally capable of doing said thing. If you are mentally incapable of performing an action, then it is equivalent to being physically incapable of doing said action.
-
 1. Rid you of any responsibility of helping someone from a precarious situation which risks your life e.g. Drowning, mugging etc.
 2. Makes it so that if you can do something and should do something, then you are responsible e.g. A doctors oath to better lives and not harm anyone.
 3. ==**Zugzwang formulation**==: This principle can override any other principle as long as it can be proven that you had no other viable choices (your freedom to choose was completely hindered / every move was a bad move).

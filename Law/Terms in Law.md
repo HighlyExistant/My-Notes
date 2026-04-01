@@ -1,0 +1,2 @@
+* ==**Posse Comitatus**==: Latin phrase which translates to "The power of the country", it describes a group of citizens which assist a sheriff in keeping the peace.
+* ==**Martial Law**==: Used in case of emergency such as rebellions or foreign invasions. It replaces civilian government by military rule.

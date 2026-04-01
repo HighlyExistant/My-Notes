@@ -1,6 +1,6 @@
 Geometric algebra allows us to express scalars, vectors, matrices, quaternions and a whole host of other mathematical structures in one unified manner, to make it easier to deal with. Before starting it is important to introduce a few concepts. This is based off of ==**Doran and Lasenby's Geometric Algebra for Physicists**==.
 # Definitions
-* ==**Frame**==, which serves as a generalization of a basis vector. These frames will be expressed as $e_i$.
+* ==**Frame**==, which serves as a generalization of a [[Linear Algebra#Basis Vectors|basis vector]]. These frames will be expressed as $e_i$.
 * ==**Geometric (Clifford) Algebras**==: For a vector space with signature $(p, q)$ are expressed as $\mathcal{G}(p,q)$.
 * Outer (Exterior) product is written as $A\wedge B$.
 * ==**Linear Space**==: Different wording for vector space.
@@ -95,7 +95,7 @@ This is the final list of operations in geometric algebra. Here we use $\vec{u},
 	* Vector times Vector: $\vec{u}\wedge\vec{v}=\frac{1}{2}(\vec{u}\vec{v}-\vec{u}\vec{v})$.
 	* Vector times Bivector: $\vec{u}\wedge\vec{B}=\frac{1}{2}(\vec{u}B-B\vec{u})$.
 * Inner Product:
-	* Vector times Vector: $\vec{u}\wedge\vec{v}=\frac{1}{2}(\vec{u}\vec{v}+\vec{u}\vec{v})$.
-	* Vector times Bivector: $\vec{u}\wedge\vec{B}=\frac{1}{2}(\vec{u}B+B\vec{u})$.
+	* Vector times Vector: $\vec{u}\cdot\vec{v}=\frac{1}{2}(\vec{u}\vec{v}+\vec{u}\vec{v})$.
+	* Vector times Bivector: $\vec{u}\cdot\vec{B}=\frac{1}{2}(\vec{u}B+B\vec{u})$.
 
 # Page 37

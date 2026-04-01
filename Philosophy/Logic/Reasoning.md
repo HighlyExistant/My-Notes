@@ -1,8 +1,5 @@
 Is to think about something logically.
 # Deductive Reasoning
-
-^dbbf37
-
 Is a type of reasoning in which given [[Rhetoric#^fb57f7|truthful]] premises provides certain conclusions.
 ## Syllogism
 A form of reasoning in which a conclusion is drawn (whether validly or not) from two given or assumed [[Rhetoric#Vocabulary|propositions]], each of which shares a term with the conclusion, and shares a common or middle term not present in the conclusion. It is a type of ==**deductive reasoning**== (Based on inference of particular instances from a general law).

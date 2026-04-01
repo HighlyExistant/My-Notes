@@ -4,10 +4,17 @@
 * ==**Peristalsis**==: Rhythmic wave of muscular contractions which move something along the digestive tract. Occurs in the esophagus.
 	* Si estos ritmos van demasiado rapido, dan diarrhea.
 # Digestion
+## **_Abstract_**
 * ==**Digestion of carbohydrates**== starts in the mouth
 * ==**Digestion of proteins**== starts in the stomach
 * Acid that's liberated in the stomach is hydrochloric acid.
 Termina en las microvellosidades
+## Oral Cavity
+Contains:
+* $H_2O$
+* Mucina Bicarbonato
+* ==**Amilasa**== Salivar $\Rightarrow$ Digests Carbohydrates
+* ==**Maltasa**== Salivar $\Rightarrow$ Digests Lactose
 # Gastric Acids
 1. Mucus
 2. Pepsinogen (protein)
@@ -16,8 +23,8 @@ Termina en las microvellosidades
 Is where the majority of the digestion process occurs here. 
 ## Pancreas
 Can digest and provides insulin.
-* Beta cells make the insulin.
 * Alpha cells make horomones.
+* Beta cells make the insulin.
 * "Islotes de Langerhans" provide "el jugo pancreatico".
 El jugo pancreatico tiene:
 * Bicarbonato de sodio, con Ph de 8 (Basico para combatir el acido del estomago que es dos).
@@ -40,8 +47,6 @@ It has the following functions
 		* amino acidos $\to$ urea
 		* vitamina a $\to$ almacena
 # Vellocidad
-salon
-
 ## Microvellocidades
 Aqui es donde termina el proceso de digestion.
 ### Enzimas
@@ -54,7 +59,7 @@ Ocurre en los capilares sanguineous y los capilares linfáticos.
 * Vellocidad $\to$ Higado $\to$ Higado Filtro $\to$ Vena, Cava $\to$ Cava inferior $\to$ Corazon (auricula derecha)
 * Capilar linfatico $\to$ vaso linfatico $\to$ conducto toraxico $\to$ vena subclavia izquierda $\to$ Vena cava $\to$ Corazon (auricula derecha)
 ==**Todo lo que nosotros absorbemos en las vellosidades va a el corazon en la auricula derecha**==.
-#### En las capilares sanguineous
+#### En los capilares sanguineous
 * Azucares (glucosa)
 * Amino acidos
 * vitaminas

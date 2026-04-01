@@ -28,3 +28,5 @@
 * ==**Copula**==: a word or phrase that links the subject of a sentence to a subject complement
 * ==**Efficacious**==: successful in producing a desired or intended result; effective
 * ==**Impetus**==: something that makes a process or activity happen or happen more quickly.
+* ==**Injunction**==: a court order that directs a person to do something or to stop doing something.
+* ==**Trepidation**==: a feeling of fear or agitation about something that may happen.

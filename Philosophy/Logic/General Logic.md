@@ -3,7 +3,13 @@ Are used to denote how many individuals something applies to.
 * ==**For all**==: $\forall$
 * ==**There Exists**==: $\exists$ 
 * ==**There Exists a Unique**==: $!\exists$
-* ==**Not**==: $\neg$
+## Logical Negation
+* ==**Not**==: $\neg$ or $A'$, $A^C$ or $\overline{A}$. Is known as the complement of a set or the opposite of a given value. If we wanted to draw a truth table
+
+| A     | Output |
+| ----- | ------ |
+| True  | False  |
+| False | True   |
 ## Logical Conjunction
 * ==**And**== $\wedge$ or $\cap$. Is known as the intersection between the two statements. If we wanted to draw a truth table 
 
@@ -15,8 +21,6 @@ Are used to denote how many individuals something applies to.
 | True  | True  | True   |
 
 ## Logical Disjunction
-
-^2facd4
 
 * ==**Or**== $\vee$ or $\cup$. Is known as the union between the two statements. If we wanted to draw a truth table 
 

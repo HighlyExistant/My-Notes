@@ -3,7 +3,7 @@ Is the study of linear transformations and the spaces they lie in.
 * ==**Orthogonal**==: Two vectors are orthogonal if their inner product is 0. One way to achieve this is if both vectors are perpendicular, or if they are both 0 vectors.
 * ==**Orthonormal**==: Two vectors are orthonormal if they are orthogonal and have a magnitude of 1.
 # Basis Vectors
-A set of vectors that span the entire vector space which are linearly independent (meaning they cannot be written in terms of themselves) and can form every other vector in the vector space as a linear combination of said basis vectors. The basis of this vector defines the coordinate system.
+A set of vectors that span the entire vector space which are linearly independent (meaning they cannot be written in terms of themselves) and can form every other vector in the vector space as a linear combination of said basis vectors. The basis of this vector defines the coordinate system. The standard basis vectors are $x=\begin{bmatrix}1 & 0\end{bmatrix}, y=\begin{bmatrix}0 & 1\end{bmatrix}$
 # Linear Transformations
 A linear transformation is usually denoted by a square matrix whose sides are equal to the dimension you are in.  A few properties of these linear transformations are that the origin is pinned in the same place and all the lines that were scaled from said linear transformation aren't curved. For more information I recommend you just watch [3blue1browns linear transformation videos.](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) which explain them really well.
 # Direct-Sum

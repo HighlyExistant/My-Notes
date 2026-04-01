@@ -1,10 +1,11 @@
 [
   "obsidian-kanban",
-  "obsidian-excalidraw-plugin",
-  "obsidian-desmos",
   "iconic",
   "highlightr-plugin",
   "pseudocode-in-obs",
-  "better-word-count",
-  "obsidian-prozen"
+  "obsidian-prozen",
+  "obsidian-excalidraw-plugin",
+  "obsidian-desmos",
+  "tipa-support",
+  "obsidian-tikzjax"
 ]

@@ -19,6 +19,7 @@ kanban-plugin: board
 - [ ] Study the Haitian Revolution
 - [ ] Read W. E. B DuBois
 - [ ] Read Frantz Fanon
+- [ ] Study the Genocide in Ruanda
 
 
 ## Already studying
@@ -41,6 +42,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,true,true]}
+{"kanban-plugin":"board","list-collapse":[false,true,true]}
 ```
 %%

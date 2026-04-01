@@ -1,3 +1,4 @@
+
 # Work
 Work $W$ is the energy exerted by an object when it applies a force $F$ to move it some distance $d$, and is proportional to $F$.
 $$
@@ -28,6 +29,12 @@ y<x
 The area under this curve is no longer $Fx$ but a rectangular triangle. By using this knowledge we can figure out that the area is $\frac{1}{2}Fx$. We also know that $F=mx$ so we can further extend this to be $W=\frac{1}{2}mx^2$ (keeping in mind that $x$ is supposed to represent some delta time meaning it's $W=\frac{1}{2}m\Delta x^2$).
 ## Conservative Force and Potential Energy
 To denote work done by [[Types of Forces#Conservative Forces|conservative force]] we use $W_c$.
+# Mass
+$$m=\sigma V$$
+where $\sigma$ is density and $V$ is volume.
+## Center of Mass
+Is the point where the object would balance on a fulcrum. For arbitrary shapes it would just be the centroid of the object, but in a more discrete sense, it is: $$\frac{1}{\sum_{i=1}^n{m_i}}\sum_{i=1}^nm_ix_i$$
+where $x_i$ is a coordinate in space. This can be seen as a weighted average, where points with higher mass have more say in where the center of mass is. For a continuous object however, this becomes: $$\frac{1}{M}\iiint_Q{\rho(r)rdV}$$where $dV=dxdydz$, $\rho(r)$ is the density per particle coordinate $r$, and $M$ is the total mass of an object. Important to note that this is for 3 dimensions, but the amount of integrals, depends on how many dimensions are present.
 # Weight
 You might see work denoted as $\mathbf{W}$ or just a simple $W$, but to differentiate it from work which is also $W$, it is better to say that weight is $F_g$ where the subscript $g$ stands for gravity.
 
