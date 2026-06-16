@@ -37,5 +37,15 @@ Has low amounts of horomones produced. These slow down energy production.
 3. Bocio: Caused by a deficiency in iodo, which causes the thyroid to grow.
 ### Hipertiroidismo
 Has high amounts of hormones. These make energy production high.
+# Glands and Horomones for Metabolism
+Since these glands regulate the metabolism of $\text{Ca}^{++}$ and $\text{PO}_4^{=}$ in the blood and fibers, therefore it helps with the function of the muscular and nervous system.
 
-1. 
+| Gland        | Hormone        |
+| ------------ | -------------- |
+| Paratiroides | Paratohoromona |
+# Islotes de Langerhans (Pancreas)
+La insulina hace que $\text{Glucosa}\to \text{Glucogeno}$ mientras que el glucagon hace que $\text{Glucogeno}\to \text{Glucosa}$.
+## Diabetes
+1. Diabetis Mellitus: Causado por una deficiencia en la actividad de insulina. Es la mas comun.
+2. Diabetis Insupida: Causado por deficiencia en la hormona antidiaretico (ADH). Es mas raro.
+3. Hipoglicemia: Causado por niveles bajos de glucosa en la sangre.

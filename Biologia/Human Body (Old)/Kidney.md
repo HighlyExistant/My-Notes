@@ -16,7 +16,7 @@ La orina es el producto final de la excrecion. Contiene:
 * Sales
 * Toxinas
 * Hormonas
-# Kidney (Riñon)
+# Kidney (Riñón)
 Is responsible for filtering blood and excreting waste products in urine. It's divided between two regions
 1. ==**Cortex**==: Outer Region
 2. ==**Medulla**==: Inner Region

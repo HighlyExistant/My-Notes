@@ -9,7 +9,7 @@ The process of phagocytosis is:
 1. A pathogen, particle, etc, is transported into the cell via endocytosis, forming a [[Parts of a Cell#Phagosome|phagosome]].
 2. The phagosome fuses with the [[Parts of a Cell#Lysosome|lysosome]] to form a [[Parts of a Cell#Phagolysosome|phagolysosome]].
 3. The phagolysosome will digest the particle, until it is left with residuals that cannot be digested.
-4. The residuals will be removed from the body through exocytosis.
+4. The residuals will be removed from the body through [[Membrane Transportation#Exocytosis|exocytosis]].
 ## Pinocytosis
 We can view pinocytosis as meaning "Cell Drinking"
 * ==**Pino**==: Greek word meaning "to drink"

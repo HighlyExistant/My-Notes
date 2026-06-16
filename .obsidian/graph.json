@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "topol",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.3011947657123812,
-  "close": true
+  "close": false
 }

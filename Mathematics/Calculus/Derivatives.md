@@ -57,22 +57,6 @@ $$
 	\frac{d}{dx}f(x)^n=n(f(x))^{n-1}\cdot f'(x)
 $$
 the chain rule can also apply to functions with just a basic variable such as $f(x)$, but since the derivative of $x=1$, then it gets simplified to just $f'(x)$. This changes however for $f(2x)$ where it would then be $2f'(x)$. As a more generalized result, such that $y=f(u)$ and $u=g(x)$: $$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$ 
-### L'Hôpital's Rule
-For a limit of the form: $$\lim_{x\to c}\frac{f(x)}{g(x)}=\frac{0}{0}\text{ or }\frac{\infty}{\infty}\text{ etc}$$such that 
-* $f, g$  are differentiable
-* $\lim_{x\to c}f(x)=0\text{ or }\infty$ and $\lim_{x\to c} g(x)=0\text{ or }\infty$ 
-* $f'(x)\neq0\text{ or }\infty$, $g'(x)\neq 0\text{ or }\infty$, and $\lim_{x\to c}\frac{f'(x)}{g'(x)}=L$ 
-then: $$\lim_{x\to c}\frac{f(x)}{g(x)}=L$$
-Useful trick for when t he limit approaches $\infty$ and you get an indefinite form of $\frac{\infty}{\infty}$ is to derive the functions multiple times, until the variables cancel out.
-#### Indefinite Products
-These are of the form $f(x)\cdot g(x)=0\cdot\infty$. We can rewrite this as a quotient to use L'Hôpital's Rule by making it $\frac{f(x)}{(g(x))^{-1}}$ or $\frac{g(x)}{(f(x))^{-1}}$.
-#### Indefinite Exponentials
-These are of the form $\lim_{x\to c}f(x)^{g(x)}=0^0\text{ or }\infty^0\text{ or }1^\infty$. We can resolve these by applying ==**logarithmic differentiation**==: 
-1. Grab your indefinite exponential and turn it into a logarithm:
-$$y=f(x)^{g(x)}$$
-$$\text{ln}(y)=g(x)\text{ln}(f(x))$$
-2. Resolve the limit and check if it gives you a value: $$\lim_{x\to a}\text{ln}(y)=L$$
-3. If the previous step gives you $L$ then: $$\lim_{x\to a}f(x)^{g(x)}=e^{L}$$
 # Implicit Differentiation
 ## Steps
 1. Derive both sides with respect to $x$, using the chain rule, remembering that $y=f(x)$.
@@ -134,18 +118,21 @@ A ==**critical number**== of a function $f$ is a number $c$ in the dominion of $
 ### Summary
 * $\Delta x$ is the discrete difference of $x$ over time
 * $dx$ is the differential, which also denotes difference over time.
+## Mean Value Theorem (MVT)
+Let $f$ be a function which satisfies the following criteria:
+1. $f$ is continuous on a closed interval $[a,b]$
+2. $f$ is differentiable on an open interval $(a, b)$
+Then there must exist a derivative such that: $$f'(c)=\frac{f(b)-f(a)}{b-a}$$which states that there exists a slope of the tangent line which is equal to the slope of the secant line. $$f(b)-f(a)=f'(c)(b-a)$$
 ## Rolle's Theorem
 Let $f$ be a function which satisfies the following criteria:
 1. $f$ is continuous on a closed interval $[a,b]$
 2. $f$ is differentiable on an open interval $(a, b)$
 3. $f(a)=f(b)$
-then, there exists a value $c$ in the open interval $(a, b)$ such that $f'(c)=0$. We can consider this to be a ==**special case of the mean value theorem**==, which will be explained after this one.
-## Mean Value Theorem (MVT)
-Satisfies the first 2 hypothesis of Rolle's Theorem, but does not include the 3rd criteria. It simply concludes that for a closed interval $[a, b]$ which is continuous and open interval $(a, b)$ which is differentiable, there must exist a derivative such that: $$f'(c)=\frac{f(b)-f(a)}{b-a}$$which states that there exists a slope of the tangent line which is equal to the slope of the secant line. $$f(b)-f(a)=f'(c)b-a$$
+then, there exists a value $c$ in the open interval $(a, b)$ such that $f'(c)=0$. We can consider this to be a ==**special case of the mean value theorem**==, as the secant line between $f(a)$ and $f(b)$ is $0$.
 ## Constant Theorem
 If $f'(x)=0\therefore \forall x\in (a,b)\Rightarrow f(x)=c$, where $c$ is a constant.
 ### Corollary
-If $f'(x)=g'(x),\forall x\in (a,b)\Rightarrow \forall x\in(a, b)(f(x)-g(x)=c)$ where $c$ is constant. 
+If $f'(x)=g'(x),\forall x\in (a,b)\Rightarrow \forall x\in(a, b), f(x)-g(x)=c$ where $c$ is constant. 
 # Physics Applications
 ## Time Derivatives
 The average velocity between two points would be: $$\frac{\Delta s}{\Delta t}$$where $s$ is a function of position.
@@ -158,12 +145,16 @@ which is used for velocity. The second derivative $\frac{d^2x}{d^2t}=\ddot{x}$ b
 The way we calculate distance is using the formula $$d=vt$$where $v$ is velocity.
 ## Acceleration and Deceleration
 We say that something is accelerating when the velocity and acceleration share the same sign and are not equal to $0$, and that it is decelerating when they have different signs. We can write this down as: $$\text{accelerating}\Rightarrow\text{sign}(v(t))=\text{sign}(a(t))\neq0$$$$\text{decelerating}\Rightarrow\text{sign}(v(t))\neq\text{sign}(a(t))\neq0$$
-# Related Rates
+# ==**Related Rates (TODO)**==
+
+# ==**Analyzing functions using derivatives (TODO)**==
 
 # Partial Derivatives
 The partial derivative of a function denotes the **change over time** of a **multivariable function**. The reason why it's called a partial derivative is because you only care about one of those variables in the multivariable function, and treat any other variable as a constant.
 ### Example
 Lets say we have some function $f(x, y)=x^2 + xsin(y)$  and we want to compute its partial derivative with respect to $y$. The variables $x$ are treated as constants with derivatives equal to $0$ so if they don't share a term with $y$, they can be ignored. Instead the term we care about is $xsin(y)$ who's derivative is $xcos(y)$. Therefore the answer is $xcos(y)$.
+## Definition
+The definition of a partial derivative, is similar to that of a regular derivative: $$\frac{\partial f}{\partial x}=\lim_{h\to0}{\frac{f(x+h,y)-f(x,y)}{h}}=f_x$$
 # Gradients
 ==A gradient is a vector valued function containing the partial derivatives of a function that produces a scalar value==. The symbol for the gradient is **nabla**: $\nabla$. A useful property of the gradient is that it points to the **direction of steepest ascent**, or where the functions value increases, while the length of the vector field shows the steepness of the graph.
 ### Example

@@ -1,0 +1,1 @@
+- [ ] Just because a person does not know something, and doesn't search for knowledge, mean that they are a bad person.

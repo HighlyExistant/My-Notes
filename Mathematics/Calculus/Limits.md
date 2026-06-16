@@ -24,3 +24,23 @@ There's another way of solving these limits, by simply using the limit laws. Let
 In fact for any polynomial equation $a_0x+a_1x^2+...+a_nx^n$ we take into account the highest exponent. If we use: $f(x)=a_0x+a_1x^2+...+a_nx^n$ and $g(x)=b_0x+b_1x^2+...+b_nx^n$, the limit of the equation: $$\lim_{x\to\infty}\frac{f(x)}{g(x)}=\frac{a_n}{b_n}$$
 # Definitions
 * ==**Continuity**==: A function is continuous if $$\lim_{x\to a}f(x)=f(a)$$
+### L'Hôpital's Rule
+For a limit of the form: $$\lim_{x\to c}\frac{f(x)}{g(x)}=\frac{0}{0}\text{ or }\frac{\infty}{\infty}\text{ etc}$$such that 
+* $f, g$  are differentiable
+* $\lim_{x\to c}f(x)=0\text{ or }\infty$ and $\lim_{x\to c} g(x)=0\text{ or }\infty$ 
+* $f'(x)\neq0\text{ or }\infty$, $g'(x)\neq 0\text{ or }\infty$, and $\lim_{x\to c}\frac{f'(x)}{g'(x)}=L$ 
+then: $$\lim_{x\to c}\frac{f(x)}{g(x)}=L$$
+Useful trick for when the limit approaches $\infty$ and you get an indefinite form of $\frac{\infty}{\infty}$ is to derive the functions multiple times, until the variables cancel out.
+#### Indefinite Products
+These are of the form $f(x)\cdot g(x)=0\cdot\infty$. We can rewrite this as a quotient to use L'Hôpital's Rule by making it $\frac{f(x)}{(g(x))^{-1}}$ or $\frac{g(x)}{(f(x))^{-1}}$.
+#### Indefinite Exponentials
+These are of the form $\lim_{x\to c}f(x)^{g(x)}=0^0\text{ or }\infty^0\text{ or }1^\infty$. We can resolve these by applying ==**logarithmic differentiation**==: 
+1. Grab your indefinite exponential and turn it into a logarithm:
+$$y=f(x)^{g(x)}$$
+$$\text{ln}(y)=g(x)\text{ln}(f(x))$$
+2. Resolve the limit and check if it gives you a value: $$\lim_{x\to a}\text{ln}(y)=L$$
+3. If the previous step gives you $L$ then: $$\lim_{x\to a}f(x)^{g(x)}=e^{L}$$
+#### Indefinite Difference
+These are of the form $\lim_{x\to c}\frac{f(x)}{a(x)}-\frac{g(x)}{b(x)}=\infty-\infty$. The way we can resolve these is by:
+1. Finding a common denominator: $$\frac{f(x)b(x)-g(x)a(x)}{a(x)b(x)}$$
+2. Resolving with L'Hôpital's.

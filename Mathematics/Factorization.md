@@ -19,3 +19,13 @@ $$
 \end{matrix}
 $$
 4. The final number will be our remainder. If the remainder is $0$, then the number we divided it by is a root. Otherwise it is not. We can then use the numbers that are left, to write out our new equation, which would be $$(x^2-6x+5)(x+2)$$
+# Factorial
+The operator $!$ is used to denote factorial. The factorial of a number $n!$ is defined as $$1\cdot 2\cdot 3\cdot 4\cdot ... \cdot n$$
+## Properties
+1. $$\frac{n!}{n}=(n-1)!$$
+# Binomial Theorem
+The Binomial coefficient, also called $n$ choose $k$: $${n\choose k}=\frac{n!}{k!(n-k)!}$$is the number of permutations you can have if you have $n$ objects and choose $k$ of them. You can also view these as the layers of pascals triangle.
+$$(a+b)^n=\sum_{k=0}^n{{n\choose k}a^{n-k}b^k}$$
+# Falling and Rising Factorials
+The ==**falling factorial**== is defined as $$x^{\underline{n}}=x(x-1)(x-2)\dotsb(x-n+1)=\prod_{k=1}^n(x-k+1)$$
+Meanwhile the ==**rising factorial**== is defined as $$x^{\overline{n}}=x(x+1)(x+2)\dotsb(x+n-1)=\prod_{k=1}^n(x+k-1)$$

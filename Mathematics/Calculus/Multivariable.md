@@ -5,7 +5,7 @@ The gradient would tell you:
 * The direction to travel to increase the value of $f$ the fastest.
 * The gradient $\nabla f$ is perpendicular to the [[Contours|contour lines]] of $f$.
 # Directional Derivatives
-When we talk about derivatives, we usually make the rate of change of the function, parallel to a particular axis and or [[Linear Algebra#Basis Vectors|basis vector]]. But what if we wanted to take it in any arbitrary direction?. The way we do this is by using direction derivatives. Their definition is provided by a limit, [[Derivatives#Derivative As a Function|similar to that of derivatives]]: $$\lim_{h\to0}{\frac{f(x+hv)-f(x)}{h||v||}}$$ where $||v||$ is the [[Topology#Normed Vector Space|magnitude]] of the vector, to make $v$ normed. We can alter this equation to transform it into: $$\frac{1}{||v||}\frac{d}{dt}f(x+tv){\Huge|}_{t=0}$$
+When we talk about derivatives, we usually make the rate of change of the function, parallel to a particular axis and or [[Linear Algebra#Basis Vectors|basis vector]]. But what if we wanted to take it in any arbitrary direction?. The way we do this is by using direction derivatives. Their definition is provided by a limit, [[Derivatives#Derivative As a Function|similar to that of derivatives]]: $$\lim_{h\to0}{\frac{f(x+hv)-f(x)}{h||v||}}$$where $||v||$ is the [[Topology OLD#Normed Vector Space|magnitude]] of the vector, to make $v$ normed. We can alter this equation to transform it into: $$\frac{1}{||v||}\frac{d}{dt}f(x+tv){\Huge|}_{t=0}$$
 The notation for directional derivatives is [[Derivatives#Notations|similar to that of regular derivatives]], except it has the vector $\vec{\mathbf{v}}$ as its subscript:
 * $\nabla_{\vec{\mathbf{v}}}f$
 * $\frac{\partial f}{\partial \vec{\mathbf{v}}}$

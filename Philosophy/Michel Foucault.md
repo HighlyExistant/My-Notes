@@ -16,3 +16,5 @@ Is the type of power in which through no external force and by their own will, t
 | Ideas that support institutions<br>which give meaning to the world                                     | Instead of looking at <br>institutions for meaning, they<br>looked for the malleability<br>of these institutions.                                                           |
 |                                                                                                        |                                                                                                                                                                             |
 They both still believe that institutions hold lots of power however, on ways of thinking. They also believe in the representing things in terms of relations. Structuralism and poststructuralism can also be viewed as a linguistics movements.
+# On Biopolitics
+Michael Foucault has talked about how us humans like to think of us as the owners of the planet and all beings in the planet. Since us humans view ourselves as the greatest species of the planet, we view all other species as below us, and made to serve us.

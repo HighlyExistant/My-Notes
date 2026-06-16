@@ -15,18 +15,36 @@ A relation on some set $A$ is reflexive if $x\text{R} x, \forall x \in A$. This 
 ### Properties
 * Every element is related to itself
 * Can contain extra pairs unlike the identity.
+## Antireflexive
+A relation on some set $A$ is antireflexive if $\forall x\in A\Rightarrow (x,x)\not\in R$. An example of an antireflexive relation is $<$ because there is no relation $x<x$.
+### Properties
+* Every element is not related to itself
 ### Example
 * $x = x$ means that equality is reflexive
+## Comparable
+Two elements $x, y\in X$ are comparable with respect to a relation $R$ if at least one of these relations is true:
+	$xR y$ or $yR x$
+## Connected, Complete or Total
+A relation $R$ on some set $X$ is connected when $\forall x,y\in X$:
+	$x R y$ or $y R x$ or $x=y$
+Any of those relations can hold for it to be related. A relation on a set is called connected if it relates all distinct pairs of the set in one direction or the other. 
+### Strongly Connected 
+These are strongly connected if it relates all pairs of elements with each other.
 ## Symmetric 
-A relation on some set $A$ is symmetric if $\forall x, y\in A, \text{ if } x\text{R} y \text{ then } y~x$. An example of this is $f: x \leftrightarrow y$. Another example can be a function $f(x,y)=f(y,x)$.
+A relation on some set $A$ is symmetric if $\forall x, y\in A, \text{ if } x\text{R} y \text{ then } y\text{R}x$. An example of this is $f: x \leftrightarrow y$. Another example can be a function $f(x,y)=f(y,x)$.
 ### Example
 * $x = y \Rightarrow y = x$ means that equality is symmetric
-# Antisymmetric
-A relation is antisymmetric if $aRb$ with $a\neq b$ then $bRa$ must not hold. As an example we can see the relation $a \leq b, a\neq b$, that implies that $b \nleq a$, therefore it is antisymmetric. If $a\leq b$ and $b \leq a$ then $a=b$.
+## Antisymmetric
+A relation $R$ on some set $X$ such that for all $a, b\in X$, 
+	if $aRb$ and $bRa$ then $a=b$
+## Trichotomy
+A relation $R$ on some set $X$ such that for all $a, b\in X$
+	either $aRb$ or $bRa$ or $a=b$
 ## Asymmetric
 A relation on some set $A$ is asymmetric if $\forall x, y \in A$, if $x R y \text{ then } y$ does not have a relation with $x$. It's a one way relation: $f: x \to y$. That is if it is both antisymmetric and irreflexive (not reflexive).
 ## Transitive
-A relation on some set $A$ is transitive if $\forall x,y,z\in A, \text{ if } x\text{R} y \text{ and } y\text{R} z \text{ then } x\text{R} z$. 
+A relation on some set $A$ is transitive if 
+	$\forall x,y,z\in A, \text{ if } x\text{R} y \text{ and } y\text{R} z \text{ then } x\text{R} z$. 
 # Antitransitive
 As the name suggests this is the opposite of a transitive relation:
 $$
@@ -42,9 +60,11 @@ Are denoted as
 $$
 	[a]=\{x\in X: a \sim x\}
 $$
-where $X$ is the set where the binary relation $\sim$ is acting on. A way to denote the set of all equivalence classes in $X$ with respect to an equivalence relation $R$ is by saying $X/R$, also called $X$ modulo $R$ which is often referred to as the ==quotient set== or ==quotient space==. ==**When talking of an equivalence class, we need to talk about what it is equivalent to**==. For example in modulo arithmetic of $mod(5)$ the numbers $4$ and $9$ are fundamentally equivalent as $2+4=1$ and $2+9=1$. Each one will give an equivalent result, even when the operation is different. Another example are rotations, specifically equivalent angles. When rotating $380^{\circ}$ it will give you the same result had you just rotated $20^{\circ}$, so they are equivalent.
+where $X$ is the set where the binary relation $\sim$ is acting on. These equivalence classes actually form [[Set Theory#Partition of a set|partitions]] $P_\sim$ of $X$. We can say conversely that the partition belongs to some equivalence class. 
+#### Quotient
+A way to denote the set of all equivalence classes in $X$ and thus the partitions is through this operation: $$X/R:=P_R$$
 ### Example
-A good example of an equivalence class is modulo 2 on the set of integers $\mathbb{Z}$. Lets take the equivalence relation such that for $x, y \in \mathbb{Z}\text{ s.t. }x \sim y \text{ iff }x-y=2n, \text{ where } n\in \mathbb{Z}$. This makes it so that the elements $[5]$, $[7]$, $[9]$, etc, represent the same elements of $\mathbb{Z}/\sim$ since the equivalence relation forms two equivalence classes: odd and even numbers. This is because ==**any two odd numbers that subtract each other equal an even number, and any 2 even numbers that subtract each other make an even number**==.
+A good example of an equivalence class is modulo 2 on the set of integers $\mathbb{Z}$. Lets take the equivalence relation such that for $x, y \in \mathbb{Z}\text{ s.t. }x \sim y \text{ iff }x-y=2n, \text{ where } n\in \mathbb{Z}$. This makes it so that the elements $[5]$, $[7]$, $[9]$, etc, represent the same elements of $\mathbb{Z}/\sim$. This would make: $${\mathbb{Z}/\sim}=\{[0]_\sim, [1]_\sim\}$$
 ## Congruence (Equivalence Relation)
 A congruence relation depends on an operation where a value is interchangeable and gives you the same result.
 ### Example
@@ -67,10 +87,19 @@ Another way of writing modular arithmetic is by giving the binary relation $a=0$
 The transitive closure of the set denoted $R^+$, is the ==**smallest binary relation**== on a set $A$. That is to say that for all elements where there is a transitive relation, the set $A=\{a, b, c\}$ such that $R=\{(a, b), (b, c), (a, c)\}$, it can be reduced to just $R^{+}=\{(a,b), (b,c)\}$, since $a\to c$ can be expressed as $a\to b \to c$.
 ## Preorder
 A binary relation that is ==**reflexive**== and ==**transitive**==. ==**it is not antisymmetric**==.
-# Order
-Is a binary relation that is ==**reflexive**==, ==**transitive**== and ==**antisymmetric**==.
 ### Reflexive Transitive Closure (Smallest Preorder)
 Is the transitive closure of a relation $(R) \cup (I)$ where $I$ is the identity relation. In other words it is the smallest preorder, by acquiring its transitive closure. Represented as $R^{*}$.
+## Partial Orders
+Is a binary relation that is ==**reflexive**==, ==**transitive**== and ==**antisymmetric**==. Not every element in the set needs to be comparable. That means ==**it is not strongly connected**==.
+### Partially Ordered Sets (Poset)
+These are represented as ordered pairs $P=(X, \leq)$ where $X$ is the set of elements and $\leq$ is the ordering.
+### Example
+Given a set of elements $A=\{a, b, c, d\}$ and a set of relations $$O=\{(x,x)|x\in A\}\cup\{(a,b), (b,c), (c,d)\}$$
+where we must remember that $(a,b)$ is $a\to b$, then we can see that these relations are reflexive, transitive and antisymmetric. If we want to find the number that follows $b$ then it is $c$, and the one that follows after would be $d$.
+## Total Order
+Is a binary relation $\leq$ on some set $X$ such that it is ==**reflexive**==, ==**transitive**==, ==**antisymmetric**== and are ==**strongly connected**==. it also satisfies being ==**trichotomous**==.
+## Strict Order
+Is a binary relation $<$ on some set $X$ such that it is ==**antireflexive**==, ==**transitive**==, ==**asymmetric**==.
 ## Symmetric Closure
 The union of the relation $\to$ with its converse $\leftarrow$. That is $(\to) \cup (\leftarrow)=\leftrightarrow$.
 ## Reflexive Transitive Symmetric Closure

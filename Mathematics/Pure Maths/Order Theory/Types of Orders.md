@@ -1,0 +1,3 @@
+# Dictionary Order Relation
+The dictionary order relation, is an order on sets of numbers, wherein the elements on the leftmost part of the ordered set have priority over the rightmost elements. As an example, take the two sets: $a_1\times b_1$ and $a_2\times b_2$, as well as the two order relations $<_A$ and $<_B$. The relation is defined as: $$a_1\times b_1<a_2\times b_2$$
+if $a_1<_Aa_2$ or if $a_1=a_2$ and $b_1 <_B b_2$. 

@@ -12,6 +12,7 @@
 	* Scavengers Reign
 	* Tangled the animated series
 	* The Clone Wars (2008)
+	* Ninjago
 8. The TV Shows I think the most about are:
 	* The Walking Dead
 	* My Little Pony: Friendship is Magic
@@ -19,8 +20,10 @@
 	* Castlevania & Castlevania Nocturne
 	* Tangled the animated series
 	* The Clone Wars (2008)
+	* Ninjago
 9. My favorite movies are:
 	* Tangled
+	* Breadwinner
 	* Everything Everywhere All At Once
 	* Spiderman into the spiderverse & Spiderman across the spiderverse
 	* Up
@@ -54,3 +57,4 @@
 	* Linkin Park: Numb, In the End
 	* Keane: Somewhere Only We Know
 19. My favorite school subject: Math
+20. My favorite candy: Ferrero Rocher

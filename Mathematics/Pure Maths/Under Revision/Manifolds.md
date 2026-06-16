@@ -34,9 +34,9 @@ $$ This is the smallest closed set that includes $A$, that is the intersection o
 A manifold is defined as a topological space that resembles a Euclidean Space near each point (like $\mathbb{R}^2$ ).
 
 #### What are Open Sets?
-In the context of topological spaces an **open set** on some topology $\Large{\tau}$ on set $X$, is each member of $\Large{\tau}$.
+Is a generalization of an open interval $(a, b)$. In the context of topological spaces an **open set** on some topology $\Large{\tau}$ on set $X$, is each member of $\Large{\tau}$.
 #### What are Closed Sets?
-In the context of topological spaces a set $E \subset X$ is closed if and only if its complement (the set of all subsets not in the original topology) is open.
+Is a generalization of a closed interval $[a, b]$. In the context of topological spaces a set $E \subset X$ is closed if and only if its complement (the set of all subsets not in the original topology) is open. We can form a closed set through the union of the boundary set $\partial X$ and the open set $X$. We can denote this as $$\overline{X}:=X\cup \partial X$$
 ##### Example:
 Say we have a topological space $(X, \Large{\tau}\normalsize)$ where $X=\{a, b, c\}$ and $\Large{\tau}$$=\{X, \emptyset, \{a\}, \{a, b\}\}$. 
 * The closed set of the subset $\{a\}$ would be $\{b, c\}$.
@@ -58,11 +58,11 @@ $$
 	p \in U \subseteq V \subseteq X.
 $$
 #### What is an Open Cover?
-An open cover $C$ on a [[Topology#Topological Space|topological space]] $(X, \Large{\tau})$ is a collection of open sets (subsets) of $X$ with the following properties:
+An open cover $C$ on a [[Topology OLD#Topological Space|topological space]] $(X, \Large{\tau})$ is a collection of open sets (subsets) of $X$ with the following properties:
 * The union of all subsets of $C$ equals $X$, that is to say $X=\cup C$
 * The elements of $C$ are also found in the topology $\Large{\tau}$, that is to say: $c \in \Large{\tau}$ and $c \in C \Rightarrow C$ is an open cover$^{(1)}$
 #### What is a Closed Cover?
-A closed cover $C$ on a [[Topology#Topological Space|topological space]] $X$ is a collection of closed subsets of $X$ where:
+A closed cover $C$ on a [[Topology OLD#Topological Space|topological space]] $X$ is a collection of closed subsets of $X$ where:
 * The union of all subsets of $C$ equals $X$, that is to say $X=\cup C$
 * The elements of $C$ are also found in the topology $\Large{\tau}$, that is to say: $c \in \Large{\tau}$ and $c \in C \Rightarrow C$ is an open cover$^{(2)}$
 It is very similar to an **open cover**, except for closed subsets.
@@ -81,9 +81,9 @@ If a function is continuous under a closed interval $[a, b]$, then the function 
 Are spaces formed by gluing points based on an [[Relations#Equivalence|equivalence relation]]. This term is known as **identifying** as all these points are now identified by a single coordinate. A good example of this can be a ==mobius strip==, or ==modulus arithmetic==. These types of mappings from one set to another are considered quotient spaces.
 * These spaces have the nice property that ==**equivalence is now equality**==.
 ### Banach Spaces
-Are **Complete [[Topology#Normed Vector Space|normed spaces]]**.
+Are **Complete [[Topology OLD#Normed Vector Space|normed spaces]]**.
 ### Fréchet space / F-space
-It's a **Complete [[Topology#Vector Space|topological vector space]]**. An **F-space** does not need the **local convexity**, Although some mathematical literature might define them to require local convexity.
+It's a **Complete [[Topology OLD#Vector Space|topological vector space]]**. An **F-space** does not need the **local convexity**, Although some mathematical literature might define them to require local convexity.
 # References
 (1) [E-Academy](https://www.youtube.com/watch?v=auc9CBxi5jM)
 (2) [ncatlab](https://ncatlab.org/nlab/show/closed+cover)

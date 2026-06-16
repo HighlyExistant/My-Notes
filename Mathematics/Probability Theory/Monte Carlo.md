@@ -1,0 +1,11 @@
+# Estimator
+A method of [[Integrals|integration]] for extremely complex functions whose solutions cannot be found. Instead we can estimate them using random sampling. The basic idea is that we can estimate the [[What is Probability and Statistics#Weighted Mean or Average|weighted mean]]: $$\int_a^bf(x)p(x)dx$$such that $f(x)$ is the function we want to integrate, and $p(x)$ is our distribution, by using a discrete sum: $$\frac{1}{N}\sum_{i=1}^N{f(x_i)}\text{ s.t. } x_i\sim p(x)$$
+Due to $x_i$ already being sampled by $p(x)$ it still gives us $E[f(x)p(x)]$. And due to the [[Probability#Law of large numbers|law of large numbers]], this number will approach the true average as $N$ gets large.
+## Biased and Unbiased Estimators
+The expected value you want to approach is: $$E[X_i]=\int_a^bf(x)p(x)dx$$An estimator is unbiased if it approaches this value, and is called biased if it doesn't. A positive bias means that the estimator has a higher value than the original, while a negative bias means it has lesser value than the original.
+
+# Integration
+We can convert the estimator into a standard integral, by dividing out the $p(x)$: $$\int{f(x)dx}\approx \frac{1}{N}\sum_{i=1}^N{\frac{f(x_i)}{p(x_i)}}\text{ s.t. } x_i\sim p(x)$$
+# Importance Sampling
+This is a method to reduce variance in Monte Carlo methods. We do this by introducing a second sampling pdf function $q(x)$. If we want to figure out the mean of the function $$\int_a^bf(x)p(x)dx$$we can do so by altering it in such a way where it remains the same: $$\int_a^b\frac{f(x)p(x)}{q(x)}q(x)dx$$this will achieve the same result, and for such a reason we can do the same translation we did previously with monte carlo to give us: $$\frac{1}{N}\sum_{i=1}^N{\frac{f(x_i)p(x_i)}{q(x_i)}}\text{ s.t. } x_i\sim q(x)$$In this way we can cancel out the $q(x_i)$ and weight back the original probability with $p(x_i)$. By sampling values which contribute to the function more often using $q(x_i)$, we can reduce the [[What is Probability and Statistics#Variance|variance]] in our monte carlo method. If you don't want the mean, and instead want to integrate, you can do the same thing we did previously and just divide the $q(x_i)$ and ignore multiplying the $p(x_i)$, giving us: $$\frac{1}{N}\sum_{i=1}^N{\frac{f(x_i)}{q(x_i)}}\text{ s.t. } x_i\sim q(x)$$
+## Multiple Importance Sampling

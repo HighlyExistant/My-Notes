@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "26baf26cdec52acf",
+    "id": "f5792dd3cbf5866c",
     "type": "split",
     "children": [
       {
-        "id": "dc8091703450d97c",
+        "id": "68de600bd85b5df3",
         "type": "tabs",
         "children": [
           {
-            "id": "03e7ca5d3b6927d0",
+            "id": "eb58b9dea48803af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Probability Theory/What is Probability and Statistics.md",
+                "file": "Mathematics/Pure Maths/Topology/Topology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is Probability and Statistics"
+              "title": "Topology"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6c2ecac283505927",
+    "id": "409f627fe70ed704",
     "type": "split",
     "children": [
       {
-        "id": "243fe847fbfa4fbc",
+        "id": "cc2cd2cd41c338b6",
         "type": "tabs",
         "children": [
           {
-            "id": "067a403290a55181",
+            "id": "35c80d927215b2b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,13 +48,13 @@
             }
           },
           {
-            "id": "7b19952873df986f",
+            "id": "ef664bb053605a27",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "79c26eff5c8b5066",
+            "id": "e12dd8d5cee2c73e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 200
   },
   "right": {
-    "id": "c98a389758d27c09",
+    "id": "ffcb5eabde4d6ab5",
     "type": "split",
     "children": [
       {
-        "id": "de219ec552eb9bfb",
+        "id": "7ae38245137842fa",
         "type": "tabs",
         "children": [
           {
-            "id": "eb802be7ddce2843",
+            "id": "bd60e481b4de0706",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biologia/Cardiovascular System Organized.md",
+                "file": "Mathematics/Pure Maths/Real Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,117 +104,110 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cardiovascular System Organized"
+              "title": "Backlinks for Real Analysis"
             }
           },
           {
-            "id": "146ef76ae2a7352f",
+            "id": "cdde0e49da3ca98b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks/Programming.md",
+                "file": "Mathematics/Pure Maths/Real Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Programming"
+              "title": "Outgoing links from Real Analysis"
             }
           },
           {
-            "id": "5df483424a1dfd0d",
+            "id": "f11ed7f4e5cee29e",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "cea716491404e0c8",
+            "id": "471f7911802abce5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks/Programming.md"
+                "file": "Mathematics/Pure Maths/Real Analysis.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Programming"
+              "title": "Outline of Real Analysis"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "iconic:Open rulebook": false,
-      "random-note:Open random note": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "067a403290a55181",
+  "active": "eb58b9dea48803af",
   "lastOpenFiles": [
-    "What is Statistics.md",
-    "Mathematics/Probability Theory/What is Probability and Statistics.md",
-    "Mathematics/Probability and Statistics/What is Statistics.md",
-    "Linguistics/English/Frankenstein.md",
-    "Philosophy/Retórica.md",
-    "Philosophy/Rhetoric.md",
-    "Law/Terms in Law.md",
-    "Law",
-    "Mathematics/Pure Maths/Proofs.md",
+    "Mathematics/Pure Maths/Under Revision/Topology OLD.md",
+    "Mathematics/Pure Maths/Topology/Topology.md",
+    "Mathematics/Functions.md",
+    "Mathematics/Pure Maths/Real Analysis.md",
+    "Mathematics/Calculus/Multivariable.md",
+    "Linguistics/Grammar/Morphology.md",
+    "Mathematics/Pure Maths/Relations.md",
     "Mathematics/Set Theory.md",
-    "Philosophy/Logic/General Logic.md",
-    "Mathematics/Probability/Binomial Theorem.md",
-    "My-Projects/My Math Library.md",
-    "My-Projects/My Graphics Library.md",
-    "Fleeting-Notes/Adaptors and Theories.md",
-    "To-Do List/Interpreted vs Compile.md",
-    "Physics/Types of Forces.md",
-    "Engineering/Gear Design.md",
-    "Mathematics/Number Theory.md",
-    "Biologia/Human Body/Sistema Coronario, Sistemático y Linfático.md",
-    "Physics/Concepts.md",
-    "Fleeting-Notes/On Pseudo-Language Poetry.md",
-    "Linguistics/Español/Poesía.md",
-    "Philosophy/Logic/Ludwig Wittgenstein/Tractatus Logico Philosophicus.md",
-    "Biologia/Molecules.md",
+    "Mathematics/Pure Maths/Category Theory.md",
+    "Mathematics/Pure Maths/Algebraic Structures.md",
+    "Mathematics/Sequences.md",
+    "Mathematics/Pure Maths/Abstract Algebra.md",
+    "Biologia/Human Body/Reproductive System/Reproductive System.canvas",
+    "Programming/Parsers/Abstract Rewriting System.md",
+    "Mathematics/Pure Maths/Knot Theory/Knot Theory.md",
     "Mathematics/Calculus/Integration/Integrals.md",
-    "Economy/International Economy.md",
-    "Untitled.base",
+    "Mathematics/Calculus/Limits.md",
+    "Mathematics/Calculus/Derivatives.md",
+    "Mathematics/Pure Maths/Under Revision/Category Theory.md",
+    "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterSlide.png",
+    "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterCrossings.png",
     "Pasted image 20260224112549.png",
-    "Civil Rights/Black History/Literature",
-    "Biologia/Ecology",
-    "Programming/Data Structures",
-    "Programming/Application Design",
-    "Untitled 1.base",
-    "Untitled 2.base",
-    "Biologia/The Cell",
-    "Biologia/Human Body",
-    "Biologia/Assets/Pasted image 20260202102430.png",
-    "Biologia/Assets/Estomago.png",
-    "Biologia/Assets/Neuron-Types.png",
-    "Biologia/Assets/Neuron-Parts.png",
-    "Engineering/Assets/Compass 2.jpeg",
-    "Engineering/Assets/Compass 3.jpeg",
-    "Engineering/Assets/Compass 6.jpeg",
-    "Engineering/Assets/Compass 5.jpeg",
-    "Engineering/Assets/Compass 4.jpeg"
+    "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterTwist.png",
+    "Mathematics/Pure Maths/Knot Theory/Assets",
+    "Mathematics/Pure Maths/Knot Theory",
+    "Fleeting-Notes/Why I Do/What I Text vs What I Mean.md",
+    "Fleeting-Notes/My Rules/Action and Forgiveness.md",
+    "Fleeting-Notes/My Rules/Critiques of My Rules.md",
+    "Fleeting-Notes/My Rules/Responsibility to Another.md",
+    "Fleeting-Notes/My Rules/On Induction and Deduction.md",
+    "Fleeting-Notes/My Rules/My Rules Under Revision.md",
+    "Fleeting-Notes/My Rules/My Rules.md",
+    "Fleeting-Notes/My Philosophy/On Either Or.md",
+    "Biologia/Human Body/Reproductive System"
   ]
 }

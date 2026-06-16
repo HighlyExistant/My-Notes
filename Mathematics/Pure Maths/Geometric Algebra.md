@@ -22,7 +22,7 @@ Geometric algebra allows us to express scalars, vectors, matrices, quaternions a
 4. $ki=-ik=j$
 # The Outer Product
 Also known as the exterior product or the wedge product. Using two vectors the wedge product, written as $A\wedge B$ returns a bivector, which forms a directed plane. A few algebraic properties are that:
-![[Topology#Grassman Algebra (Exterior Algebra)]]
+![[Topology OLD#Grassman Algebra (Exterior Algebra)]]
 # Bivectors
 A bivector is given by the wedge product, where it contains both a magnitude and orientation. We can denote bivectors as $\overset{\Rightarrow}{a}$. A way to visualize bivectors, are as oriented planes. The way
 # The Geometric Product

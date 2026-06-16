@@ -9,7 +9,8 @@ $$
 $$
 	F_{n}=F_{n-1}+F_{n-2} \text{ for }n>1
 $$
-
+## Sequences as Functions
+We can describe a sequence as a function which takes in natural numbers and produces some other number:  $$S:\mathbb{N}\to X$$
 ## Arithmetic Sequence
 These sequences are of the form $a_1+(n-1)d$ where:
 * $a_1$ is the first term in the sequence
@@ -34,7 +35,7 @@ $$
 $$
 
 ## Cauchy Sequence
-Is an i``nfinite sequence whose elements get closer to one another (converges) as the sequence progresses. It's important to note that **all Cauchy sequences converge**, and all convergent sequences are Cauchy sequences. This is useful as the [[Rhetoric#Vocabulary|criterion]], for convergence depends only on the terms of the sequence, not on some definition of convergence, which **uses a limit value** as well as the terms.
+Is an infinite sequence whose elements get closer to one another (converges) as the sequence progresses. It's important to note that **all Cauchy sequences converge**, and all convergent sequences are Cauchy sequences. This is useful as the [[Rhetoric#Vocabulary|criterion]], for convergence depends only on the terms of the sequence, not on some definition of convergence, which **uses a limit value** as well as the terms.
 
 A sequence $\langle s_n \rangle$ is called a **Cauchy Sequence** if for every $\epsilon > 0$ there exists an $N \in \mathbb{N}$ such that for all $m, n \in \mathbb{N}$, if $m, n > N$,  then $|s_{n} - s_{m}| < \epsilon$.$^{\text{(1)}}$
 

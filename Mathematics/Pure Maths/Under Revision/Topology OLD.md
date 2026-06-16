@@ -63,8 +63,7 @@ The pair $(X, \Large{\tau}\normalsize)$ are called a topological space. Every se
 * $\Large{\tau}_{\normalsize d}\normalsize = \mathcal{P}(X)$ where $\mathcal{P}$ is the powerset, is called the discrete topology
 * $\Large{\tau}_{\normalsize i}\normalsize = \{ \emptyset, X \}$ is called the indiscrete or trivial topology.
 #### Convergence in Topological Space
-Let $(X, \Large\tau\normalsize)$ be a topological space and let $(a_{n})$ where $n \in \mathbb{N}$ be a [[Sequences|sequence]] in $X$.
-as
+Let $(X, \Large\tau\normalsize)$ be a topological space and let $(a_{n})$ where $n \in \mathbb{N}$ be a [[Sequences|sequence]] in $X$, written as:
 $$
 a_{n} \to a \textnormal{ as } n \to \infty: 
 $$

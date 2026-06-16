@@ -1,0 +1,2 @@
+Sound is the vibrations that enter your eardrums. These vibrations can be expressed by any good [[Unit Circle#Properties of Sinusoidal Waves|sinusoidal wave]]. We can express the basic sine wave used in sound by the equation: $$A\Psi(2\pi (x-C))$$
+where $A$ remains the amplitude and $C$ remains the phase angle. 

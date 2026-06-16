@@ -9,7 +9,7 @@ The tau function $\tau(n)$ is supposed to give you the number of factors of a nu
 # Vocabulary
 * $D$: [[Algebraic Structures#Integral Domain|Integral Domain]]
 * $D^{*}$: Set of nonzero elements of $D$, basically $D-\{0\}$.
-* $U(D)$: [[Algebraic Structures#Rings|Group of units]] of $D$.
+* $U(D)$: [[Algebraic Structures#Rings (Unital Ring)|Group of units]] of $D$.
 * $D^{\#}$: Set of [[Algebraic Structures#Rings|nonzero nonunit]] elements of $D$.
 * $\tau$: A [[Relations#Symmetric|symmetric relation]] on $D^{\#}$.
 	* We say that $\tau$ is ==**associate preserving**== if for $a, b, b' \in D^{\#}$ with $b \sim b', a\tau b\Rightarrow a\tau b'$ and $b\tau a\Rightarrow b'\tau a$  

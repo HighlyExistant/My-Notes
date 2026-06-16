@@ -8,6 +8,7 @@ These are all the powers related to in some form, time manipulation. Within them
 2. Time stop: Or just the extreme version of time dilation.
 3. Time Reversal
 4. Time Acceleration
+5. Time Travel (Forwards and Backwards)
 Or a fusion of these all at once.
 ## Time Stop
 The Ability to stop time, comes with it, a few caveats and limitations, depending on what you write is to be able to do. A few of these questions are:
@@ -25,3 +26,27 @@ This is a listing of the implications of having time stop powers, and ways of lo
 It is 'possible' to stop time, if you were to travel at the speed of light, so then the question becomes, ==**do you have super speed allowing you to travel as fast as light (Also under the assumption that you don't die because of this)?**== which comes with it, its own array of questions, which should be discussed separately.
 #### Formulation 2: Magic
 Nothing needs to be super complicated, just explain it through magic.
+# Time Reversal
+1. Do you remember that you reversed time?
+2. Does the world slightly change when you use your powers?
+3. If you remember that you used your powers, does everyone remember?
+4. Do you age when you use time reversal, due to you remembering the future, and does this lead to dementia!?
+5. If you are dying and reverse time, would you still feel the pain?
+6. How far back can you go? Whats the cooldown to do your powers again?
+# Time Travel
+1. Will you remember the things that happen in between the time travel.
+2. Will you experience everything that happens between the time travel.
+3. Would you also travel through space.
+# Telekinesis
+1. Magnetic Fields
+2. Using mind to command objects.
+## Depends on your imagination.
+1. What if you have an intrusive thought?
+2. How powerful are your powers?
+3. Do you have mind control?
+4. Could you fly?
+5. How would this perform in the medical industry?
+6. How fine tuned is the control, can you control atoms? can you phase through walls?
+7. Can you heat up objects? Do you have pyrokinesis? Can you control wind, water, etc.
+8. Could you reach absolute zero temperature and have the control of coldness.
+9. Could you break the laws of thermodynamics? And make a perfect superconductor

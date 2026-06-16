@@ -20,6 +20,9 @@ kanban-plugin: board
 - [ ] Read W. E. B DuBois
 - [ ] Read Frantz Fanon
 - [ ] Study the Genocide in Ruanda
+- [ ] Read Aristotles view of humans being political beings
+- [ ] Read I have no mouth and I must scream
+- [ ] Learn Shell Integration
 
 
 ## Already studying

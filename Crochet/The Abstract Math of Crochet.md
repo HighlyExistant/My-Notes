@@ -1,0 +1,4 @@
+%% Let us assume that the string used in crochet is a infinite, and that it can self intersect and whatnot.
+# Intuition and Reasoning
+Given a string with no stitches, the set of all possible places to stitch is $$\mathscr{C}_1=\{\emptyset\}$$The reason being that there is no place but on the infinite string to stitch on, and no matter where you start in the infinite string, it will be the same result. Every element $A\in\mathscr{C}_n$ denotes a slip stitch on the chain. denoted as $\text{ss}(\mathscr{C}_n):=\mathscr{C}_n\to\mathscr{C}_{n+1}\cup \{A_{n+1}\}$. The value $n\in\mathbb{N}$ denotes the number of possible stitch locations on $\mathscr{C}$'s chain. A chain can be represented as: $$\mathscr{C_n}=\{\emptyset,A_2,A_3,...,A_n\}$$
+This set also has a relation such that $A_i\to A_j$ if $i < j$ and  %%

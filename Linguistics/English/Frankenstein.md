@@ -6,7 +6,7 @@
 1. ==***Mrs. Saville***==: Sister of the writer of this letter, Robert Walton
 2. ==**Robert Walton**==: The one who writes the letter.
 ## Plot
-In December 11th, 17--s, Robert Walton assures his siter of his good health, and how they will travel from St. Petersburg to Archangel, a Russian port, in hopes of hiring sailors.
+In December 11th, 17--s, Robert Walton assures his sister of his good health, and how they will travel from St. Petersburg to Archangel, a Russian port, in hopes of hiring sailors.
 # Letter 2
 ## Vocabulary
 * ==**Capacious**==: large, lot of space inside.
@@ -123,3 +123,71 @@ They have found the murderer, and it appears to be Justine Moritz!? Victor is sh
 
 Justine is to be tried this morning.
 # Chapter 8
+The family is to attend Justine's trial as witnesses, and so Victor accompanied them to the court. Throughout the trial, Victor blamed themselves for the death of William, and for the possible death of Justine, if they are found guilty. 
+
+> *Several strange facts combined against her. She was out all night on the night when the murder had been committed. In addition, as morning drew near, she had been spotted by a marketwoman not far from the spot where the body of the murdered child had been found. The woman asked her what she was doing, but Justine looked very odd and gave a confused and unintelligible answer. She returned to the house about eight o’clock. When asked where she had passed the night, she replied that she had been out looking for the child and asked if anything had been heard concerning him. When shown the body, she fell into violent hysterics and then remained in bed for several days. The picture was then produced— the one that the servant had found in her pocket. Elizabeth testified, in a shaky voice, that it was the same one she had placed around William’s neck an hour before he went missing. When the spectators heard this, a murmur of horror and indignation filled the court.*
+
+Justine was searching for Victors brother, restless, and so she slept in a barn in hopes of searching for William at dawn. The picture was the one detail she could not dispell worry about. The killer, which was at this point unknown but we the reader know it to be the creature, must have placed it in Justines pockets after the murder.
+
+The family is convinced as well of her innocence, so much so that Elizabeth testifies on her character. Even so the judges believe they are guilty. This caused agony for Victor, as they stepped out of the court. When they returned they asked what verdict Justine recieved, to which the officer had said that Justine was convicted, and that Justine confessed her guilt. The officer added that the case was obvious and that they were surprised they even needed evidence for it. Victor thought he was going crazy upon this remark, and ran home.
+
+Upon the confession of Justine, Elizabeth lost hope in humanity, as she completely believed in Justine's innocence, and that belief was snuffed out the instant Justine confessed.
+
+> *This was a terrible blow to poor Elizabeth. She had been convinced of Justine’s innocence. “Alas!” said she. “How shall I ever again believe in human goodness? Justine, whom I loved and valued as my sister! How could she put on those smiles of innocence only to betray us? Her mild eyes seemed incapable of any severity or guile, and yet she has committed a murder.”*
+
+Justine states that she lied about being guilty in hopes of achieving forgiveness, but even the priest they assigned her attacks her, threatening to excommunicate them and throw them to hellfire. And for that reason she again pronounced her lie to the priest.
+
+> *Justine shook her head sadly. “I am not afraid of death,” she said. “God gives me courage to endure the worst. I am resigned to the fate awaiting me. Learn from me, dear lady, to accept patiently the will of heaven!”*
+
+Elizabeth now believes Justine is innocent, and they say their final goodbyes before, ultimately, Justine is put to death on scaffold. 
+# Chapter 9
+Justine had died, and Victor was feeling remorse and guilt, which took a blow upon their health, as he entered a deep depression. His father, also depressed, tells Victor that although he feels the same, Victor cannot sulk in his depression and deprive themselves of improvement. Although this advice did not help Victor. 
+
+Victor decided instead to pass a few hours by the lake on a boat, to calm his mind. He thought of how the monster he had created was most likely not finished torturing him.
+
+Elizabeth attempts to comfort Victor, but again to no avail. Victor goes on several journey's to distract themself. These include the Alpine Valleys, and the valley of Chamonix which he visited in childhood. He visited the river Arve and the alps, all the way to the village of Chamonix. Although the scenery was beautiful, the happiness Victor felt was temporary. He pays for a room at the village and falls to sleep.
+# Chapter 10
+The next day they go hiking to calm themselves, and although it helped temporarily, the misery remained. As they continued on these hikes, they saw incredibly beautiful scenes, but one of these days, as rain poured from the dark sky, all they could feel was melancholy.
+# Chapter 11
+It seems as though we are now in the perspective of the monster, viewing how they see the world through their eyes. It is almost as if the author wants to imbue a sense of sympathy for the monster. They are confused, weak and miserable. They describe the day night cycle, as well as the nature which surrounds them.
+
+At some point, they locate a fire that was left by some wandering beggars, and finally felt warmth. They were so happy by the warmth, that they put their hands into the red hot coal, which they soon regret.
+
+We can see how quickly the monster understands the world, and how smart they truly are. Even though they have only been born for a few days, they can already grasp how fire works.
+
+They leave the fire behind, and spot a structure with an old man inside sitting next to the fire. They could spot the mans breakfast, which was composed of bread, cheese, milk and wine, which they quickly steal after the creature takes a nap.
+
+While they peruse through the village, the children scream, as the whole village stirs up at their presence. They tossed rocks and stones, as they quickly fled from the scene. This made them try to be more isolated, as they began to mimic the structures they saw, and build their own shelter out of wood, clean straw. They had added a chimney, amongst other things.
+
+At some point a young girl of gentle demeaner with a rough blue petticoat and linen jacket, braided but not adorned hair, was spotted by the creature through a hole, the girl having a patient but sad look. Here the creature learned about music and instruments.
+# Chapter 12
+Still continuing in the creatures POV, they lay in their shelter on the straw, but they failed to sleep. The next morning, they began stalking the old man, which they realized was blind and spent his free time playing his instrument. 
+
+Occasionally they would spot the humans, which they called lovely creatures, cry, which confused the creature. They didn't have a reason to be sad, in their eyes, as they had so much luxury, fire and delicious food, as well as dressed in amazing clothes. They soon found out that the family they were stalking was poor, and that caused their suffering.
+
+Seeing that the cottagers were also struggling with food, the creature stopped stealing their food, and instead, started bringing them piles of wood, and leaving it at their doorstep.
+
+By listening in on the cottagers, the creature also learned language, after several days. They also learned of the names and surnames of the cottagers. **Agatha was the sister**, while **Felix was the brother and son**. **The old man was solely referred father**. 
+
+They saw the cottagers as beautiful people, and soon one day realized once they caught a sight of themselves, that they looked like a monster. They were deformed compared to the cottagers.
+
+They soon wanted to present themselves to the cottagers, and started contemplating ways to present themselves.
+# Chapter 13
+Still stalking the cottagers, the season changed to spring. They spotted Felix, practically head over heels over this woman in a dark veil. Felix had called her "his sweet Arabian". The arabian had a different language than the cottagers, and they both didn't understand eachother very well, but either way they were happy with the arabians presence.
+
+The arabian was also trying to learn the language, and in such, the creature decided to take the opportunity to view the lessons as well.
+
+Felix had also read the book "Ruins of Empires" which they explained the sections in details, which also allowed the creature to understand some history, such as governments and religions, as well as different nations of the earth. They had also talked about the Greeks and the early Romans, the Americas, etc.
+
+The creature learns a lot, including war, bloodshed and crimes, which disgusts them.
+
+The creature believes that the most these creatures want is riches and an aristocratic name.
+
+They quickly realized that although these people have a family, they have none.
+# Chapter 14
+The old man known as father, is also known as **De Lacey**. Before the arrival of the creature, they had apparently lived in Paris.
+
+They had heard of the injustice of the trial that was proposed against a Turkish man. He was wrongfully convicted and sentenced to death. Felix had rescued the man, and in return, the man had lent them the promise of marriage to his daughter.
+
+This chapter is focused heavily on the backstory of the cottagers.
+# Chapter 15
