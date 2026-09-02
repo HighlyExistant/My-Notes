@@ -17,7 +17,9 @@ We say an element $a$ is inside a set $A$ using the $\in$ symbol and $\not\in$ i
 ### Example
 given a set $A=\{a, b, c, d\}$, then $a\in A$, but $e\not\in A$.
 ## Difference
-The difference of two sets $A\setminus B$ removes all elements in $B$ from $A$. That is to say: $$A\setminus B=\{a\in A|a\not\in B\}$$
+The difference of two sets $A\setminus B$ removes all elements in $B$ from $A$. That is to say: $$A\setminus B=\{a\in A|a\not\in B\}$$This is occasionally written as $A-B$.
+## Symmetric Difference
+This is written as $A\oplus B=(A\setminus B)\cup (B\setminus A)$. This gives you the set of all things that aren't intersecting. A different way of writing it is as $(A\cup B)\setminus (A\cap B)$.
 ## Complements
 Given a set $A$ which is a subset of a universal set $U$, so $A\subseteq U$, we say that the complement of $A$, written as either $A'$, $A^C$ or $\overline{A}$, is everything not in $A$ and in $U$. If we were thinking of this in terms of logic, this would be the [[General Logic#Logical Negation|logical not]]. We can think of the complement as: $$A\subseteq U\Rightarrow 
 \overline{A}=U\setminus A$$
@@ -39,14 +41,19 @@ The power set of a set $X$ is every possible subset of $X$. If $X=\{a, b, c\}$ t
 ### Example
 $A=\{a, b, c, d\}, B=\{a, d, e, f\}$, then the intersection would be $$A\cap B=\{a, d\}$$
 # Cardinality
-The cardinality of a set is the number of elements it contains. For example, the set $A=\{a, b, c\}$ has a cardinality $|A|=3$.
+The cardinality of a set is the number of elements it contains. For example, the set $A=\{a, b, c\}$ has a cardinality $|A|=3$. Sometimes we use $\#A$ to number the elements.
+## Aleph Infinities
+The smallest infinity, which belongs to the quantity of natural numbers is $\aleph_0$.
 ## Comparing Cardinalities
 Sometimes we want to check if two sets have the same number of elements as another set. This becomes more complicated for sets with an infinite amount of elements such as $\mathbb{N}$ and $\mathbb{Z}$. Instead the definition for something having the same size as another set, is if there exists a [[Functions#Bijective|bijection]] between one set and another. 
+## Principle of Inclusion-Exclusion
+If $A$ and $B$ are finite sets, the sum of the elements $|A|+|B|$ repeat when $A\cap B$. For that reason we subtract it out. We can write: $$|A\cup B|=|A|+|B|-|A\cap B|$$
+
 # Vocabulary
 ##### Disjoint Sets
 2 sets $A$ and $B$ are disjoint if $A \cap B=\emptyset$.
 ##### Partition of a set
-let $X$ be an arbitrary set, a **partition of set $X$** would be a set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets.  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==) such that for all elements $x \in X$ there exists a disjoint subset $P \subseteq X$. A nice property of this is: $$\cup{P}=X$$
+let $X$ be an arbitrary set, a **partition of set $X$** would be a set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets (e.g. all subsets are disjoint from one another).  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==). A nice property of the partition is that: $$\cup{P}=X$$
   An example of a partition of a set would be, given the set $A=\{a, b, c\}$, the a partition $P=\{\{a\}, \{b, c\}\}$.
 # Absorbing Set
 A set $A\subseteq X$ is an absorbing set if, for each $x\in X$ there is a positive number $s_x$ such that $x\in tA$ whenever $t > s_x$.
@@ -75,5 +82,14 @@ These laws are usually used for logic, but they also apply to sets:
 * $(A\cup B)^C=A^C\cap B^C$
 * $(A\cap B)^C=A^C\cup B^C$
 Written differently, seeing as though $A^C=A-U$ where $U$ is the universal set, this turns to:
-* $A-(B\cup C)=(A-B)\cap(A-C)$
-* $A-(B\cap C)=(A-B)\cup(A-C)$
+* $A\setminus(B\cup C)=(A\setminus B)\cap(A\setminus C)$
+* $A\setminus(B\cap C)=(A\setminus B)\cup(A\setminus C)$
+Generalized, this can be represented as:
+For $A\subseteq X$:
+$$X\setminus\bigcap_{i\in I}{A_i}=\bigcup_{i\in I}{X\setminus A}$$$$X\setminus\bigcup_{i\in I}{A_i}=\bigcap_{i\in I}{X\setminus A}$$
+# Countability
+A set is countable if it is finite or if there is a [[Functions#Bijective|bijection]] between the set and the naturals.
+## Properties
+1. If $A$ and $B$ is countable then $A\cap B$ and $A\cup B$ are countable.
+2. if $A\subseteq B$ and $B$ is countable, then $A$ is countable.
+3. For $A_1,A_2,...,A_n$ are countable, then $\bigcup_{i=1}^n{A_i}$ and $\bigcap_{i=1}^n{A_i}$.

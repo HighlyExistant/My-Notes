@@ -45,7 +45,7 @@ A monoid with the following characteristics:
 * Associativity
 * Identity
 * Inverse
-##  Abelian (Commutative) Groups
+## Abelian (Commutative) Groups
 Are groups that have the added property of commutativity, that is $a \oplus b = b \oplus a$.
 ## Semirings
 Is a ring without the need for an additive inverse.

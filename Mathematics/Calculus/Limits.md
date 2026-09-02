@@ -1,7 +1,7 @@
 Limits represent values that are being approached to, but not necessarily reached. This can mean that you can find values outside the domain of a function, through various different methods which will be explained here. The way you write a limit is: $$\lim_{a\to n} f(x)$$Which reads as, *the limit of f of x as a approaches n*. The definition for a limit is different depending on which field of math you are in, but generally it requires a definition for *closeness*.
 ## Unilateral Limits
 Limits can also come from various directions. If you are coming from the left to right side, you write it as such: $$\lim_{a\to n^{-}}$$
-If you are coming from the right side, and travelling left, you write it as: $$\lim_{1\to n^{+}}$$
+If you are coming from the right side, and travelling left, you write it as: $$\lim_{a\to n^{+}}$$
 # Limits unto Infinity
 What makes limits interesting, is that you can reach numbers, that would generally be regarded as impossible to reach. We can replace the $n$ in the previous limits to $\infty$, and these limits would be able to reach unto the value at infinity.
 # Limit Laws

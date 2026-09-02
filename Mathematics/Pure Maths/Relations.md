@@ -41,7 +41,7 @@ A relation $R$ on some set $X$ such that for all $a, b\in X$,
 A relation $R$ on some set $X$ such that for all $a, b\in X$
 	either $aRb$ or $bRa$ or $a=b$
 ## Asymmetric
-A relation on some set $A$ is asymmetric if $\forall x, y \in A$, if $x R y \text{ then } y$ does not have a relation with $x$. It's a one way relation: $f: x \to y$. That is if it is both antisymmetric and irreflexive (not reflexive).
+A relation on some set $A$ is asymmetric if $\forall x, y \in A$, if $x R y \text{ then } y$ does not have a relation with $x$. It's a one way relation: $a<b$ is satisfied but not $b<a$.
 ## Transitive
 A relation on some set $A$ is transitive if 
 	$\forall x,y,z\in A, \text{ if } x\text{R} y \text{ and } y\text{R} z \text{ then } x\text{R} z$. 

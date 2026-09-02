@@ -4,7 +4,7 @@ $$
 $$
 A line integral constrains the two variables $x$ and $y$, and so can't be integrated separately. A line integral $C$ can be expressed with two functions $x(t)$ and $y(t)$, which define the curve for the respective axis. These functions are known as parametric equations, since they are defined based on a $t$ value.
 $$
-dS=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt
+ds=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt
 $$
 where
 $$

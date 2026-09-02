@@ -1,3 +1,28 @@
+
+# Vector-Valued Functions
+## Limits
+Given a vector $\textbf{r}(t)=\langle f(t), g(t), h(t)\rangle$ the limit of $\textbf{r}(t)$ is: $$\lim_{t\to a}\textbf{r}(t)=(\lim_{t\to a} f(t), \lim_{t\to a} g(t), \lim_{t\to a} h(t))$$ 
+## Calculating Domain
+When getting the domain of a vector valued function $\textbf{r}(t)$ it is the intersection of the domains of each component.
+## Derivate
+The derivative of a vector valued function is calculated much the same way as the standard derivative: $$\frac{d\textbf{r}}{dt}=\textbf{r}'(t)=\lim_{h\to 0}\frac{\textbf{r}(t+h)-\textbf{r}(t)}{h}$$
+So for a vector $\textbf{r}(t)=\langle f(t), g(t), h(t)\rangle$ the derivative is $\textbf{r}'(t)=\langle f'(t), g'(t), h'(t)\rangle$.
+### The Unit Tangent Vector
+Normalizing the derivative of a vector gives you the unit tangent vector, which represents the unit direction of the curve, represented as: $$T(t)=\frac{\textbf{r}'(t)}{|\textbf{r}'(t)|}$$
+### Differentiation Rules
+#### Summation Rules
+The derivative of the sum/difference of vectors are the sum/difference of the derivatives of the individual vectors, similar to scalar valued functions: $$\frac{d}{dt}[\textbf{u}(t)\pm\textbf{v}(t)]=\textbf{u}'(t)\pm\textbf{v}'(t)$$ 
+
+#### Product Rule
+The product rules for both vector products, work the same way as the product rule for scalar valued functions:
+$$\frac{d}{dt}[\textbf{u}(t)\cdot \textbf{v}(t)]=\textbf{u}'(t)\cdot\textbf{v}(t)+\textbf{u}(t)\cdot\textbf{v}'(t)$$
+$$\frac{d}{dt}[\textbf{u}(t)\wedge \textbf{v}(t)]=\textbf{u}'(t)\wedge\textbf{v}(t)+\textbf{u}(t)\wedge\textbf{v}'(t)$$ $$\frac{d}{dt}[c\textbf{u}(t)]=c\textbf{u}'(t)$$
+#### Chain Rule
+Given a scalar valued function $f(t)$.
+$$\frac{d}{dt}[\textbf{u}(f(t))]=f'(t)\textbf{u}'(f(t))$$
+## Integrals
+Extending the [[Integrals#Fundamental Theorem of Calculus|fundamental theorem of calculus]] to vectors: $$\int_a^b\textbf{r}(t)dt=\textbf{R}(t)|_a^b$$
+Generalized this is: $$\int\textbf{r}(t)dt=\langle\int f(t)dt, \int g(t)dt, \int h(t)dt\rangle$$
 # Gradients
 ## Of Scalar-Valued Multivariable Functions
 Scalar-Valued Multivariable Functions are functions which are denoted as $f(x,y,...)=z$. Their gradient is denoted by the nabla symbol $\nabla$. It was introduced by **William Rowan Hamilton**, who you might know for being the creator of quaternions. We would say the gradient of $f$ as $\nabla f$. The gradient carries the [[Derivatives#Partial Derivatives|partial derivative]] information in a vector, meaning that the gradient is a vector: $$\large\nabla f=\begin{bmatrix}\frac{\partial f}{\partial x} \\\frac{\partial f}{\partial y}\\ \vdots\end{bmatrix}$$

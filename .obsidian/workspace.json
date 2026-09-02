@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "68de600bd85b5df3",
+        "id": "84f82147eb6116b1",
         "type": "tabs",
         "children": [
           {
-            "id": "eb58b9dea48803af",
+            "id": "165e0b909dd38e6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Pure Maths/Topology/Topology.md",
+                "file": "Mathematics/Calculus/Surfaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topology"
+              "title": "Surfaces"
+            }
+          },
+          {
+            "id": "9edda7987784ef79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Geometry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Geometry"
             }
           }
         ]
@@ -41,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Pure Maths/Real Analysis.md",
+                "file": "Mathematics/Complex Analysis/Complex Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Real Analysis"
+              "title": "Backlinks for Complex Analysis"
             }
           },
           {
@@ -173,41 +189,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb58b9dea48803af",
+  "active": "165e0b909dd38e6b",
   "lastOpenFiles": [
-    "Mathematics/Pure Maths/Under Revision/Topology OLD.md",
-    "Mathematics/Pure Maths/Topology/Topology.md",
-    "Mathematics/Functions.md",
-    "Mathematics/Pure Maths/Real Analysis.md",
-    "Mathematics/Calculus/Multivariable.md",
-    "Linguistics/Grammar/Morphology.md",
-    "Mathematics/Pure Maths/Relations.md",
     "Mathematics/Set Theory.md",
-    "Mathematics/Pure Maths/Category Theory.md",
-    "Mathematics/Pure Maths/Algebraic Structures.md",
+    "Mathematics/Functions.md",
+    "Mathematics/Pure Maths/Relations.md",
+    "Programming/Computer Programming Basics.md",
+    "Mathematics/Calculus/Surfaces.md",
+    "Mathematics/Calculus/Multivariable.md",
+    "Economy/Microeconomics/Limites, alternativas y opciones.md",
+    "Mathematics/Pure Maths/Discrete Mathematics.md",
     "Mathematics/Sequences.md",
-    "Mathematics/Pure Maths/Abstract Algebra.md",
-    "Biologia/Human Body/Reproductive System/Reproductive System.canvas",
-    "Programming/Parsers/Abstract Rewriting System.md",
-    "Mathematics/Pure Maths/Knot Theory/Knot Theory.md",
-    "Mathematics/Calculus/Integration/Integrals.md",
-    "Mathematics/Calculus/Limits.md",
+    "Mathematics/Pure Maths/Topology/Big List of Problems.md",
+    "Physics/Under Revision/Lagrangian Mechanics.md",
+    "Economy/Microeconomics",
+    "Mathematics/Factorization.md",
+    "Mathematics/Calculus/Lagrange Multiplier.md",
+    "Mathematics/Geometry.md",
+    "Mathematics/Linear Algebra.md",
     "Mathematics/Calculus/Derivatives.md",
-    "Mathematics/Pure Maths/Under Revision/Category Theory.md",
+    "Mathematics/Calculus/Integration/Integrals.md",
+    "Mathematics/Calculus/Integration/Line Integrals.md",
+    "Interviews/With The Lesbian.md",
+    "Mathematics/Summations.md",
+    "Pasted image 20260728153517.png",
+    "Pasted image 20260728151258.png",
+    "Pasted image 20260224112549.png",
+    "Mathematics/Calculus/Integration/Approximations.md",
+    "Programming/Concurrency/Memory.md",
+    "Fleeting-Notes/My Favorite X.md",
+    "Mathematics/Trigonometry/Angles.md",
+    "Mathematics/Pure Maths/Geometric Algebra.md",
+    "Fleeting-Notes/Questions to Ask.md",
+    "Mathematics/Calculus/Series",
+    "Physics/Under Revision",
+    "Mathematics/Complex Analysis",
+    "Biologia/Human Body/Reproductive System/Reproductive System.canvas",
     "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterSlide.png",
     "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterCrossings.png",
-    "Pasted image 20260224112549.png",
     "Mathematics/Pure Maths/Knot Theory/Assets/ReidemeisterTwist.png",
     "Mathematics/Pure Maths/Knot Theory/Assets",
     "Mathematics/Pure Maths/Knot Theory",
-    "Fleeting-Notes/Why I Do/What I Text vs What I Mean.md",
-    "Fleeting-Notes/My Rules/Action and Forgiveness.md",
-    "Fleeting-Notes/My Rules/Critiques of My Rules.md",
-    "Fleeting-Notes/My Rules/Responsibility to Another.md",
-    "Fleeting-Notes/My Rules/On Induction and Deduction.md",
-    "Fleeting-Notes/My Rules/My Rules Under Revision.md",
-    "Fleeting-Notes/My Rules/My Rules.md",
-    "Fleeting-Notes/My Philosophy/On Either Or.md",
     "Biologia/Human Body/Reproductive System"
   ]
 }
