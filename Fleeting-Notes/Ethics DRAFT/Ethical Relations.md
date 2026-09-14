@@ -9,20 +9,23 @@ When given a set of outcomes $O\subseteq\{A\Rightarrow B\}$, then given two outc
 # The Language Context
 In this document we will obviously be using standard english as our primary choice, but it is important to note that different languages have different rules, they might even divide the way sentences are phrased into further subcategories, this is then incomplete. That said, I will continue perfecting the document until it is satisfactory, and reaches a mathematical description of language, ethics, etc. ==**It is important to note that something becomes when it is understood to be**==, this means that if we understand the xenopronoun 'xi' is supposed to denote a particular subject, then it is in the set of pronouns.
 # Sentence Functions
-# Subject
+## Subject
 The set of all subjects is $\mathbf{S}$, and is the union of the set of all nouns, pronouns and nominals (noun phrase). 
 Noun phrases can have optional information added unto them:
 * Nominals = (Determiner or Adjectivals)* + Noun
 I'm under the assumption that some determiners are language specific, so of course only use what is within a language, that said, the important part of determiners are the quantifiers:
 * $\forall$, $\exists$, $\exists!$, and of course the set or element it corresponds to.
-Meanwhile the adjectival is just added structure unto the word. For all subjects, we can use a forgetful function, which forgets a particular determiner or adjectival. We denote this similar to a forgetful functor, mapping the nominal, unto the nominal without that structure e.g.:
+Meanwhile the adjectival is just added structure unto the word. For all subjects, we can use a forgetful function, which forgets a particular determiner or adjectival. We denote this similar to a forgetful functor, mapping the nominal, unto the nominal without that structure e.g:
+### Adjunct Forgetful Functor
 1. "The silly human" $\to$ "Silly human" or "The human" $\to$ "human".
 Repeated application of the forgetful functor until all structure has been stripped will yield a noun for which it is referring to.
-
-We have another function which can add structure by concatenating adjectives and determiners (adjusting for grammer).
+### Adjunct Functor
+We have another function which can add structure by concatenating adjectives and determiners (adjusting for grammer) called the ==**adjunct**==.
 1. "Bunny" $\to$ "Cute bunny" $\to$ "The cute bunny" $\to$ "The only cute bunny"
+## Predicate
+This is the action done on a particular object. Some definitions make predicate = verb + optional object, while others just make it use verb. Similar to the subject this also has an adjunct forgetful functor and adjunct functor. We can map the predicate unto an ordered pair containing the action
 ## Declarative/Exclamatory Sentences
-A declarative and or exclamatory sentence, declares a property onto another, e.g. makes a statement about a particular subject. We will denote the set of all declaratives by the set $\mathscr{D}$ and the set of all exclamatory sentences as $\mathscr{E}$, both of which are subsets on the set of all sentences. Their union will be known as the normal declarative set $\overline{\mathscr{D}}$. It is composed of 2 parts, which are:
+A declarative and or exclamatory sentence, declares a property onto another, e.g. makes a statement about a particular subject. We will denote the set of all declaratives by the set $\mathscr{D}$ and the set of all exclamatory sentences as $\mathscr{E}$, both of which are subsets on the set of all sentences. Their union will be known as the normal declarative set $\overline{\mathscr{D}}$. It is composed of 2 parts, similar to other sentences, which are:
 * The Subject
 * The Predicate
 The third part, which is the punctuation, turns it into either a declarative or exclamatory sentence. Now the punctuation is very general, and depends on language, therefore we will be working purely with the normal declarative set. There exists then two bijections unto either the declarative and exclamatory sentences, from the neutral declarative:
@@ -31,6 +34,8 @@ $$\pi_{\mathscr{E}}:\overline{\mathscr{D}}\to\mathscr{E}=\pi(S)=S!$$
 the preimage of both of these functions is the neutral declarative, and it simply removes the punctuation. By consequence we also find that there is an equal amount of exclamatory sentences, as there are declarative as there are neutral declaratives.
 ## Interrogatives
 An interrogative is a sentence which asks a question. It naturally expects an answer in return. We will call $\mathscr{I}$ the set of all interrogatives, which will be a subset of all sentences.
+## Imperatives
+These are commands, which tell you to do something. These are formed by a verb and an object to direct the verb at.
 # Answering Functions
 Every person $p\in\mathscr{P}$ has an answering function which maps strings onto other strings, denoted: $$f_p: \mathscr{S}\to\mathscr{S}$$
 Basically you are given a sentence, and you answer with a sentence. 
@@ -108,3 +113,7 @@ Then grab 2 people $p,q$. Their respective answering functions said:
 * $A_q(I_2)=1$
 The Jaccard metric would then give: $$d(p,q)=1-\frac{1}{3}=\frac{2}{3}$$
 This denotes that they have very disimilar opinions, but at least agree on one thing. If they were to agree on all opinions $d(p,q)=0$ and if they were to disagree on all opinions $d(p,q)=1$.
+# Reasoning
+For every answer you give to a dilema, there is a reason for that answer, the way we know this reason is because of the subordinating conjunction of reason. Words like "because", "since", "so that", "in order (to)", "as". We can obtain the reason from a sentence, using again a forgetful functor on everything except the subordinating conjunction of reason. Let $f$ be such a forgetful functor, and $S$ be the answer to a dilema, then:
+1. $f(S)=\Lambda$, then $S$ is arbitrary.
+2. $f(S)\neq \Lambda$, then $S$ is rationalized.

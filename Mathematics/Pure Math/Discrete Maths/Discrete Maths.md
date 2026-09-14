@@ -80,3 +80,18 @@ The $\gcd(a,b)$ function denotes the greatest common divisor between two whole n
 * $\gcd(a,b)=\gcd(|a|,|b|)$
 * $\gcd(a,0)=|a|$
 * $\gcd(ka,kb)=|k|\gcd(a,b)$
+### Euclids Lemma
+If $a|bc$ and $\gcd(a,b)=1$ then $a|c$.
+### Fundamental Theorem of Arithmetic
+for all $n\in\mathbb{N}$, it is either prime or a product of powers of primes, that is: $$n=p_1^{k_1}p_2^{k_2}...p_m^{k_m}$$
+### Maximum Common Divisor
+We say that $d=\gcd(a,b)$ if $c|a$ and $c|b$ implies $c|d$
+#### Example
+given $\gcd(40,60)=20$, we can also see that $10$ is a divisor which is a common factor, and also divides $20$, so on and so forth.
+### Bezout Identity
+If $d=\gcd(a,b)$, then there exists $x,y$ such that $$d=ax+by$$This states that we can form $d$ as a sum of linear combinations of those who have its $\gcd$ and 2 integers.
+#### Proposition
+If $a=bq+r$ with $0\leq r\leq b$, then $\gcd(a,b)=gcd(b,r)$
+##### Example
+1. $\gcd(120,340)=\gcd(120,340\% 120=100)=\gcd(120,120\% 100=20)=20$
+2. 

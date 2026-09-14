@@ -11,7 +11,6 @@ A dilema should have both ==**external entities**==, and an ==**internal agent**
 	* In this example, both Charlie and the man are external agents, as you have no control over their actions.
 2. ==**Charlie**== is about to murder ==**Jessie**==, *should Jessie defend themselves*?
 	* In this example, Charlie is an external agent, as you have no control in whether they will murder Jessie, but Jessie is an Internal agent, as you are given the choice on whether Jessie should defend themselves or not.
-	* A very crude dilema, as Jessie
 3. ==**Charlie**== has asked ==**Jessie**== to help them with an assignment. *Is it necessary for Jessie  to help Charlie*?
 	* Charlie is external, Jessie is internal
 	* Oddly enough this could be considered a very crude dilema. Although the choice seems easy enough, one could make the argument that the choice is in whether time should be spent helping Charlie or doing other things. You are torn between spending time or doing what you want.
