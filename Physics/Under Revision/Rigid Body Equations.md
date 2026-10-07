@@ -28,7 +28,7 @@ $$
 $$
 where $\times$ is the cross product of the vectors. $F$ is the force being applied and $a$ is the axis to the point from the center of mass, This however doesn't truly capture the intent of the equation which is to get the perpendicular force of the $F$ so instead we can replace it as just:
 $$
-	\tau = aF_{\perp}=aFsin(\theta)
+	\tau = aF_{\perp}=aF\sin(\theta)
 $$
 where $\theta$ is the angle between the force vector and the lever arm vector.
 ## Moment of Inertia

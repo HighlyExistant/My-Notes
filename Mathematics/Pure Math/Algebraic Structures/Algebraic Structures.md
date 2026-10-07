@@ -2,11 +2,22 @@
 ## Associativity
 $*$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
 $$a * (b * c) = (a * b) * c$$
+## Commutativity
+$*$ is commutative in a structure $X$ if $\forall a,b\in X$: $$a*b=b*a$$
+## Distributivity
+$*$ is distributive along $\oplus$ in a structure $X$ if it is left and right distributive along $\oplus$ in a structure $X$.
+### Left Distributive
+$*$ is left distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$a*(b\oplus c)=ab*ac$$
+### Right Distributive
+$*$ is right distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$(b\oplus c)*a=ba*ca$$
+
 ## Identity
 $b$ is the identity in a structure $X$ if $\forall a \in X$:
 $$a\oplus b=b \oplus a=a$$
 ## Inverse
 $\forall a \in G$ there exists $g^{-1}$ called the inverse of $g$ such that $$g \oplus g^{-1} = g^{-1} \oplus g = e$$ such that $e$ is the identity
+## Idempotency
+A given element $x\in X$ is idempotent under $*$ if $$x*x=x$$
 ## Additivity
 For functions, this means that:
 $$f(x_1+x_2)=f(x_1)+f(x_2)$$
@@ -70,7 +81,7 @@ $$such that $1$ here is the multiplicative identity. This is just a complicated 
 * ==**nonunit**==: also known as an ==**irreducible element**== is a non-zero element that is not invertible $v\neq 0,v\notin U(\mathcal{R})$, can be rewritten as $\mathcal{R}^{\#}$.
 * ==**ideal**==: An ideal $I$ is a nonempty subset of $\mathcal{R}$ such that 
 	1. It is closed under addition
-	2. Has the property of [[Abstract Algebra#Absorbing Element|absorbtion]] such that when it is multiplied by the ideal of a ring it is absorbed into its ideal. This can be rephrased as: for $r\in\mathcal{R}$ and $i\in I$ has the property that $ri\in I$ called the left ideal or that $ir\in I$ is satisfied called the right ideal. If both are satisfied it is called two sided ideal. This is because a ring is not necessarily commutative
+	2. Has the property of ==**absorption**== such that when it is multiplied by the ideal of a ring it is absorbed into its ideal. This can be rephrased as: for $r\in\mathcal{R}$ and $i\in I$ has the property that $ri\in I$ called the left ideal or that $ir\in I$ is satisfied called the right ideal. If both are satisfied it is called two sided ideal. This is because a ring is not necessarily commutative
 	* ==**Example**==: An ideal of the integers can be the set of all even integers $I=\{2n|n \in \mathbb{Z}\}$. This is because it satisfied **1.** closed under addition, any even number summed by an even number gives another even number. **2.** Absorption as when any number is multiplied by an even number, it becomes an even number through associativity: 
 	* ==**Proof**== 
 		* $z \in \mathbb{Z}$ and $i \in I$, then $i=2n$ therefore $iz=2nz$ through associativity it follows that $2(nz)$ and since $\mathbb{Z}$ is closed under multiplication $nz \in \mathbb{Z}$. **Since $\mathbb{Z}$ is a commutative ring it also forms a double ideal**.

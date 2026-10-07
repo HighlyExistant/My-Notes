@@ -133,45 +133,12 @@ then, there exists a value $c$ in the open interval $(a, b)$ such that $f'(c)=0$
 If $f'(x)=0\therefore \forall x\in (a,b)\Rightarrow f(x)=c$, where $c$ is a constant.
 ### Corollary
 If $f'(x)=g'(x),\forall x\in (a,b)\Rightarrow \forall x\in(a, b), f(x)-g(x)=c$ where $c$ is constant. 
-# Physics Applications
-## Time Derivatives
-The average velocity between two points would be: $$\frac{\Delta s}{\Delta t}$$where $s$ is a function of position.
-Some equations relating to physics correspond variables of position such as functions over time, that is $x=x(t)$. This leads to these positions being differentiable over time, written as:
-$$
-	\frac{dx}{dt}x(t)=\dot{x}
-$$
-which is used for velocity. The second derivative $\frac{d^2x}{d^2t}=\ddot{x}$ being acceleration. These $\dot{x}$ and $\ddot{x}$ are also called newtons notation.
-## Distance
-The way we calculate distance is using the formula $$d=vt$$where $v$ is velocity.
 ## Acceleration and Deceleration
 We say that something is accelerating when the velocity and acceleration share the same sign and are not equal to $0$, and that it is decelerating when they have different signs. We can write this down as: $$\text{accelerating}\Rightarrow\text{sign}(v(t))=\text{sign}(a(t))\neq0$$$$\text{decelerating}\Rightarrow\text{sign}(v(t))\neq\text{sign}(a(t))\neq0$$
-# ==**Related Rates (TODO)**==
+# ==Related Rates (TODO)==
 
 # ==**Analyzing functions using derivatives (TODO)**==
 
-# Partial Derivatives
-The partial derivative of a function denotes the **change over time** of a **multivariable function**. The reason why it's called a partial derivative is because you only care about one of those variables in the multivariable function, and treat any other variable as a constant.
-### Example
-Lets say we have some function $f(x, y)=x^2 + xsin(y)$  and we want to compute its partial derivative with respect to $y$. The variables $x$ are treated as constants with derivatives equal to $0$ so if they don't share a term with $y$, they can be ignored. Instead the term we care about is $xsin(y)$ who's derivative is $xcos(y)$. Therefore the answer is $xcos(y)$.
-## Definition
-The definition of a partial derivative, is similar to that of a regular derivative: $$\frac{\partial f}{\partial x}=\lim_{h\to0}{\frac{f(x+h,y)-f(x,y)}{h}}=f_x$$
-# Gradients
-==A gradient is a vector valued function containing the partial derivatives of a function that produces a scalar value==. The symbol for the gradient is **nabla**: $\nabla$. A useful property of the gradient is that it points to the **direction of steepest ascent**, or where the functions value increases, while the length of the vector field shows the steepness of the graph.
-### Example
-Lets say we have some function $f(x, y)=x^2 + xsin(y)$, similar to the last example, and we want to get its gradient. First we'll need to get the partial derivatives of $x$ and $y$.
-$$
-		\large{\frac{\partial f}{\partial x} x^2+xsin(y) = 2x+sin(y)}
-$$
-$$
-		\large{\frac{\partial f}{\partial y} x^2+xsin(y) = xcos(y)}
-$$
-Now that we have both partial derivatives for the multivariable function, we can say that the gradient of this function is
-$$
-	\begin{bmatrix}
-		2x+sin(y) \\
-		xcos(y)
-	\end{bmatrix}
-$$
 # Jacobian
 Before starting to talk about the Jacobian, read a refresher on [[Linear Algebra#Linear Transformations |what a linear transformation is]]. The Jacobian is a way to encode the derivatives of a vector valued function. Even when the transformation that we're dealing with is not linear, it still has local linearity, where if you zoom in enough, the neighborhood of points around it look linear. **By computing the partial derivatives of that nonlinear function we can figure out what that linear transformation is at that point**.
 ## Computation
@@ -192,12 +159,3 @@ $$
 		cos(x) & 1
 	\end{bmatrix}
 $$
-# ==**Exercises**==
-## Chain Rule Exercises
-### Exercise 1
- $(2x+3)^2=4(2x+3)=8x+12$
-### Exercise 2
-$$\frac{1}{(1+sec(x))^2}$$
-$$f(u)=\frac{1}{u^2}, u=1+sec(x)$$
-$$f'(u)\Rightarrow u^{-2}=-2u^{-3}, u'\Rightarrow 1+sec(x)=sec(x)tan(x)$$
-$$(-2(1+sec(x))^{-3})(sec(x)tan(x))$$

@@ -8,9 +8,9 @@ $$
 $$
 Sets are obviously however supposed to contain elements, and these elements can be anything ==**except the set itself**==. That means that $a=\{a\}$ is not a valid set. That said however we can put anything in a set such as numbers $\{1, 2, 3, ...\}$, letters $\{x, y, z\}$ or even just emojis $\{🤓\}$. Important to note however that a set does not have duplicate elements, meaning that $\{a, a\}=\{a\}$. There's multiple ways of writing a set, one of them we have already seen, where we discretely write the elements of the set. the other way is by defining rules for our set:
 $$
-	\{x|x>0\}
+	\{x|P(x)\}
 $$
-the $|$ should be read as, "such that", or "given", therefore the way we read this set is "the set of all $x$ such that $x$ is larger than $0$". To denote that an element is part of some set $X$ we can use $\in$ symbol and say: $$x\in X$$
+the $|$ should be read as, "such that", or "given", therefore the way we read this set is "the set of all $x$ such that $x$ is satisfies $P(x)$". Here $P(x)$ is a [[Propositional Logic#Propositional Function|propositional function]]. To denote that an element is part of some set $X$ we can use $\in$ symbol and say: $$x\in X$$
 # Operations
 ## In
 We say an element $a$ is inside a set $A$ using the $\in$ symbol and $\not\in$ it it is not in the set.
@@ -48,7 +48,8 @@ The smallest infinity, which belongs to the quantity of natural numbers is $\ale
 Sometimes we want to check if two sets have the same number of elements as another set. This becomes more complicated for sets with an infinite amount of elements such as $\mathbb{N}$ and $\mathbb{Z}$. Instead the definition for something having the same size as another set, is if there exists a [[Functions#Bijective|bijection]] between one set and another. 
 ## Principle of Inclusion-Exclusion
 If $A$ and $B$ are finite sets, the sum of the elements $|A|+|B|$ repeat when $A\cap B$. For that reason we subtract it out. We can write: $$|A\cup B|=|A|+|B|-|A\cap B|$$
-
+Similarly through some manipulation: $$|A\cap B|=|A|+|B|-|A\cup B|$$
+Given only 
 # Vocabulary
 ##### Disjoint Sets
 2 sets $A$ and $B$ are disjoint if $A \cap B=\emptyset$.

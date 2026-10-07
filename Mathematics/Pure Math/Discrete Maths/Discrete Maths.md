@@ -4,8 +4,7 @@
 1. [[Set Theory]]
 2. [[Sequences]]
 # The Characteristic Polynomial of a Sequence
-The way we find the characteristic polynomial of a sequence is by the given number of initial values $k$, where $A_n$ are the initial values. We define it by $$a_n=A_1x^{n-1}+A_2x^{n-2}... A_nx^{n-k}$$We can then solve this equation for $0$ to get the list of roots $C_i$ to get the explicit equation as:
-$$B_0(C_0)^n+B_1(C_1)^n+...+B_k(C_k)^n$$ where we must then solve for $B_i$ and replace it unto this equation for us to get the explicit equation
+The way we find the characteristic polynomial of a sequence is by the given number of initial values $k$, where $a_n$ are the initial values. We define it by $$a_n=c_1a_{n-1}+c_2a_{n-2}+...+c_ka_{n-k}$$where $c_1,...,c_k$ are constants. It is called the linear homogeneous equation with constant coefficients. To try and find a close formed solution of the form $a_n=r^n$, we utilize the characteristic polynomial of the form: $$p(r)=r^k-c_1r^{k-1}-c_2r^{k-2}-...-c_k$$
 
 # The Characteristic Function
 ## Definition
@@ -80,18 +79,53 @@ The $\gcd(a,b)$ function denotes the greatest common divisor between two whole n
 * $\gcd(a,b)=\gcd(|a|,|b|)$
 * $\gcd(a,0)=|a|$
 * $\gcd(ka,kb)=|k|\gcd(a,b)$
+* for $a,b\in\mathbb{N}\wedge b>a\Rightarrow \gcd(b,b-a)=\gcd(b,b+a)$.
 ### Euclids Lemma
 If $a|bc$ and $\gcd(a,b)=1$ then $a|c$.
 ### Fundamental Theorem of Arithmetic
 for all $n\in\mathbb{N}$, it is either prime or a product of powers of primes, that is: $$n=p_1^{k_1}p_2^{k_2}...p_m^{k_m}$$
-### Maximum Common Divisor
 We say that $d=\gcd(a,b)$ if $c|a$ and $c|b$ implies $c|d$
 #### Example
 given $\gcd(40,60)=20$, we can also see that $10$ is a divisor which is a common factor, and also divides $20$, so on and so forth.
-### Bezout Identity
+#### Bezout Identity
 If $d=\gcd(a,b)$, then there exists $x,y$ such that $$d=ax+by$$This states that we can form $d$ as a sum of linear combinations of those who have its $\gcd$ and 2 integers.
 #### Proposition
-If $a=bq+r$ with $0\leq r\leq b$, then $\gcd(a,b)=gcd(b,r)$
+If $a=bq+r$ with $0\leq r\leq b$, then $\gcd(a,b)=\gcd(b,r)$
 ##### Example
-1. $\gcd(120,340)=\gcd(120,340\% 120=100)=\gcd(120,120\% 100=20)=20$
-2. 
+$$\gcd(120,340)=\gcd(120,340\% 120=100)=\gcd(120,120\% 100=20)=20$$
+#### Diophantine Equations 
+These are solutions for the equation $ax+by=c$ s.t. $x,y,c\in\mathbb{Z}$. The condition for these types of equations to have a solution is if:
+$$ax+by=c,s.t. \exists c\in\mathbb{Z}\Leftrightarrow\gcd(a,b)| c$$
+### Least Common Multiple
+We say that $\text{lcm}(a,b)=m>0$ if:
+1. $a|m\wedge b|m$
+2. if $\exists c$ another common multiple $c$, where $m|c$.
+#### Theorem
+For $a,b,\in\mathbb{Z}$. $$\gcd(a,b)\cdot\text{lcm}(a,b)=|ab|$$
+From this we can gather that: $$\text{lcm}(a,b)=\frac{|ab|}{\gcd(a,b)}$$
+Notice that if $a,b$ is a product of primes: $$\begin{matrix}a=p_1^{\alpha_1}\cdot p_2^{\alpha_2}\cdot...\cdot p_k^{\alpha_k}\\b=p_1^{\beta_1}\cdot p_2^{\beta_2}\cdot...\cdot p_k^{\beta_k}\end{matrix}$$
+then: $$\begin{matrix}\gcd(a,b)=p_1^{\min(\alpha_1,\beta_1)}\cdot p_2^{{\min(\alpha_2,\beta_2)}}\cdot...\cdot p_k^{\min(\alpha_k,\beta_k)} \\ \text{lcm}(a,b)=p_1^{\max(\alpha_1,\beta_1)}\cdot p_2^{{\max(\alpha_2,\beta_2)}}\cdot...\cdot p_k^{\max(\alpha_k,\beta_k)}\end{matrix}$$
+##### Proof
+By TFA for $a,b\in\mathbb{N}$ by TFA: $$\begin{matrix}a=p_1^{\alpha_1}\cdot p_2^{\alpha_2}\cdot...\cdot p_k^{\alpha_k}\\b=p_1^{\beta_1}\cdot p_2^{\beta_2}\cdot...\cdot p_k^{\beta_k}\end{matrix}$$
+with $\alpha_i,\beta_i>0$ then: $$\gcd(a,b)\cdot\text{lcm}(a,b)=p_1^{\min(\alpha_1,\beta_1)+\max(\alpha_1,\beta_1)}\cdot p_2^{\min(\alpha_2,\beta_2)+\max(\alpha_2,\beta_2)}\cdot...\cdot p_k^{\min(\alpha_k,\beta_k)+\max(\alpha_k,\beta_k)}=ab$$
+if $\min(\alpha_1,\beta_1)=\alpha_1$ then $\max(\alpha_1,\beta_1)=\beta_1$ then: $$\gcd(a,b)\cdot\text{lcm}(a,b)=p_1^{\alpha_1+\beta_1}\cdot p_2^{\alpha_2+\beta_2}\cdot...\cdot p_k^{\alpha_k+\beta_k}=ab$$which is what we were looking for to prove the above statement.
+# Principles of Countability
+
+## Principle of Multiplication
+If a work can be done in $n_1$ forms, and a second work can be done in $n_2$ forms, then doing them consecutively can be done in $n_1n_2$ forms.
+
+In general this can be written as:
+given a task $T_i$, which can be done in $n_i$ forms, then doing these tasks in sequence $T_1,T_2,... T_k$ can be done in $n_1 n_2 ... n_k$ forms
+### Sequences without Repetitions
+If instead the elements cannot repeat and we select $r$ elements, then there are $$\frac{n!}{(n-r)!}$$ permutations.
+### Sequences with Repetitions
+Given a set with $n$ elements and we want to form a sequence of length $r$, where the elements can repeat, then there are $n^r$ options. That said, we can generalize this.
+
+The amount of permutations that a set of $n$ objects where some are indistinguishable, each one with a multiplicity of $K_1,K_2,...,K_r$ and $K_1+...+K_r$ then there are: $$\frac{n!}{K_1!\cdot ...\cdot K_r!}$$
+* The ==**multiplicity**== denotes the amount of repetitions of the specific element.
+* The word ==**indistinguishable**== means that the elements that repeat have some where permuting them with themselves would give the same sequence.
+* ==**Permutation**==, implies that the ordering of the elements matters.
+### Circular Permutations
+Given $n$ objects ordered around in a circular array, such that the same sequence of objects appearing at some point is equivalent, then the amount of permutations in the circular array is: $$(n-1)!$$
+### Examples
+Ways of organizing people in seats. Given people $a, b, c$ and $3$ seats, then there are $3\cdot 2\cdot 1$ different ways of doing it, or $3!$. This is because the number of options (people) given, reduce every time you use one of the options.

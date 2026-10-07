@@ -18,3 +18,17 @@ This uses the assumption that a statement is either true or false. Given a state
 Here we use the rules of [[General Logic|logic]] to manipulate the statement we want to prove into a sepárate statement. 
 #### Example
 $$[P\to(Q \vee R )\equiv [(P \wedge \neg Q ) \to R $$
+# Proof by Induction
+Given some ==**hypothesis**== we prove its ==**base case**== to show that it applies $\forall x\in X$, by showcasing that the previous case implies the next case. It has the following structure:
+1. Base Case: Prove the property for $n=k$.
+2. Induction Hypothesis: Set up the equation with the previous case, the current case implying the next case.
+3. With the base case $P(k+1)$ is satisfied.
+## Example: Proof of sums of numbers
+$$\sum_{i=1}^n{i}=\frac{n(n+1)}{2}$$
+### Base Case
+for $i=1$ then $\frac{1(1+1)}{2}=1$, which is the sum of $1$ term.
+### Hypothesis of Induction
+assume $$\sum_{i=1}^n{i}=\frac{n(n+1)}{2}$$
+### Inductive Pass
+Then $$\frac{n(n+1)}{2}+(n+1)=\frac{(n+1)(n+2)}{2}$$
+If the lefthand side reaches the righthand side, the proof is complete.

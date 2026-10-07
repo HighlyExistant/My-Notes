@@ -1,0 +1,1 @@
+The convolution is another method of combining functions together.

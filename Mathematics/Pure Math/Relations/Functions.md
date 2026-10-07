@@ -1,4 +1,18 @@
 A function $f$ simply maps a set called the ==**domain**== $X$ onto some other set called the ==**codomain**== $Y$, such that for all $x \in X$ there is assigned one element $y\in Y$. We can express this as a mapping $f: X \to Y$. It is possible that not all values of $Y$ are in the functions outputs. The set of all possible outputs of $f$ is called the ==**range**==.
+# Operations
+A function, similar to other mathematical objects, can have operations imposed upon it. Let $f(x), g(x)$ be two separate functions for the following section.
+## Basic Operations
+Similar to numbers, you can compose functions together through multiplication and addition., then: 
+$$(f\cdot g)(x)=f(x)\cdot g(x)$$
+$$(f+ g)(x)=f(x)+ g(x)$$
+## Composition
+When we want to run one function after another we perform a composition: $$(f\circ g)(x)=f(g(x))$$Function composition is associative.
+## Convolution
+A convolution is a more complex operation to understand, compared to the others. We denote it as: $$(f*g)(x)=\int_{-\infty}^{\infty}{f(u)g(x-u)du}$$The discrete case is denoted:
+$$(f*g)[n]=\sum^{\infty}_{m=-\infty}f[m]g[n-m]$$
+Of course for finite cases, we would use $M$ instead of $\infty$, which we would write as: $$(f*g)[n]=\sum^{M}_{m=-M}f[m]g[n-m]$$
+### Properties
+* The convolution is [[Algebraic Structures#Commutativity|commutative]].
 ## Surjective
 As we mentioned previously, a function is a mapping from a domain $X$ to a codomain $Y$. Every possible output value that $f$ can produce is called the **range**. If $\text{Range}(f)=Y$ then the function is surjective, because the range of possible values covers the set $Y$. for example the function $f: \mathbb{R} \to \mathbb{R} \text{ where } f(x)=x^{2}$ is not surjective because it does not include negative numbers in its range, while the codomain $\mathbb{R}$ does contain negative numbers. We say then that functions that are surjective are like maps from $X$ onto $Y$. We can describe this as: $$\forall b\in B,\exists a\in A\text{ s.t. }f(a)=b$$
 ### Example

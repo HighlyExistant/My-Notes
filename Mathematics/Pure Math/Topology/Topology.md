@@ -206,7 +206,7 @@ Given a set $X$ equipped with a topology ${\Large\tau}$, it is considered Hausdo
 ### Theorems
 * Every finite point set in a Hausdorff space $X$ is closed.
 * For any given Hausdorff space $X$, a sequence of points of $X$ converges to at most one point of $X$.
-* Every [[Mathematics (UR)/Pure Maths/Relations#Strict Order|strictly ordered]] (simply ordered) set is a Hausdorff space in the order topology.
+* Every [[Relations#Strict Order|strictly ordered]] (simply ordered) set is a Hausdorff space in the order topology.
 * The Product of two Hausdorff spaces is a Hausdorff space
 * A subspace of a Hausdorff space is a Hausdorff space.
 ## $T_1$ Axiom
@@ -254,7 +254,7 @@ The definition of a metric space is a set $X$ equipped with a metric $d$ for mea
 1. $d(x,y)=d(y,x)$
 2. $d(x,y)\geq 0$ 
 3. $d(x,y)=0\Rightarrow x=y$
-4. $d(x,y) + d(y,z) \geq d(x,z)$
+4. $d(x,y) + d(y,z) \geq d(x,z)$ (Triangle Inequality)
 Where the number $d(x,y)$ is usually called the distance between $x$ and $y$.
 ### Epsilon Balls
 We can form a ball given a metric $d$ using epsilon balls. Consider the set given by $\epsilon > 0$: $$B_d(x,\epsilon)=\{y|d(x,y)<\epsilon\}$$
