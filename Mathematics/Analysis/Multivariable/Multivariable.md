@@ -13,6 +13,7 @@ So for a vector $\textbf{r}(t)=\langle f(t), g(t), h(t)\rangle$ the derivative i
 The higher dimension version of a line equation $y=mx+b$ is the plane equation $z=m_1 x+m_2 y + h$. Remember that in the line equation $m$ represents the slope, which can be represented by the derivative $m=\frac{df}{dx}$. We could therefore represent the linearization of a particular function $f(x)$ as $L(x)=f(a)+f'(a)(x-a)$. The linearization of a higher dimensional function works in a similar fashion, but using partial derivatives. For some higher dimensional function $f(w_1,w_2,...)$, the linear approximation can be represented as: $$L(w_1,w_2,...)=f(a_1,a_2,...)+f_x(a_1,a_2,...)(w_1-a_1)+f_y(a_1,a_2,...)(w_2-a_2)+...$$
 ### The Unit Tangent Vector 
 Normalizing the derivative of a vector gives you the unit tangent vector, which represents the unit direction of the curve, represented as: $$T(t)=\frac{\textbf{r}'(t)}{|\textbf{r}'(t)|}$$
+
 ## Differentiation
 Looking back to the single variable case, we defined a function $f$ to be differentiable at $x_0$ if $$f'(x_0)=\lim_{h\to 0}\frac{f(x_0+h)-f(x_0)}{h}$$
 where the limiting term denotes a secant line as the distance between the two points on the $x$ axis, $h$ approaches 0. While this is fine, it can be rewritten in terms of error values. Let $E(h)$ be a function denoting the given error between the $y$ values of the actual derivative $f'(x_0)$ and the secant line $\frac{f(x_0+h)-f(x_0)}{h}$, in a given $h$ value, such that $\lim_{h\to 0}\frac{E(h)}{h}=0$. We can rewrite the terms as: $$\begin{matrix}f'(x_0)=\frac{f(x_0+h)-f(x_0)}{h}\\f'(x_0)h=f(x_0+h)-f(x_0)\\f'(x_0)h=f(x_0+h)-f(x_0)\color{green}+E(h)\end{matrix}$$
@@ -50,8 +51,9 @@ The partial derivative will then have $n$ terms.
 ## Of Scalar-Valued Multivariable Functions
 Scalar-Valued Multivariable Functions are functions which are denoted as $f(x,y,...)=z$. Their gradient is denoted by the nabla symbol $\nabla$. It was introduced by **William Rowan Hamilton**, who you might know for being the creator of quaternions. We would say the gradient of $f$ as $\nabla f$. The gradient carries the [[Derivatives#Partial Derivatives|partial derivative]] information in a vector, meaning that the gradient is a vector: $$\large\nabla f=\begin{bmatrix}\frac{\partial f}{\partial x} \\\frac{\partial f}{\partial y}\\ \vdots\end{bmatrix}$$
 The gradient would tell you:
-* The direction to travel to increase the value of $f$ the fastest.
-* The gradient $\nabla f$ is perpendicular to the [[Contours|contour lines]] of $f$.
+* The direction $|\nabla f|$ tells you where to travel to increase the value of $f$ the fastest.
+* The gradient $\nabla f$ is perpendicular to the [[Surfaces#Contour Maps|contour lines]] of $f$.
+* The normal to the surface of $f$ at any particular point.
 # Directional Derivatives
 When we talk about derivatives, we usually make the rate of change of the function, parallel to a particular axis and or [[Linear Algebra#Basis Vectors|basis vector]]. But what if we wanted to take it in any arbitrary direction?. The way we do this is by using direction derivatives. Their definition is provided by a limit, [[Derivatives#Derivative As a Function|similar to that of derivatives]]: $$\lim_{h\to0}{\frac{f(x+hv)-f(x)}{h||v||}}$$where $||v||$ is the [[Topology OLD#Normed Vector Space|magnitude]] of the vector, to make $v$ normed. We can alter this equation to transform it into: $$\frac{1}{||v||}\frac{d}{dt}f(x+tv){\Huge|}_{t=0}$$
 The notation for directional derivatives is [[Derivatives#Notations|similar to that of regular derivatives]], except it has the vector $\vec{\mathbf{v}}$ as its subscript:
@@ -70,6 +72,8 @@ The way we compute partial derivatives, we can see it as a weighted sum of their
 We can also compute this as the dot product of the gradient $\nabla f\cdot \vec{\mathbf{v}}$, which I personally think to be the most compact way of defining it: $$\nabla_\vec{\mathbf{v}}f=\nabla f\cdot \vec{\mathbf{v}}$$
 ## When Finding the Slope
 It is important to note that when you are trying to find the slope of the directional derivative, the vector $\vec{\mathbf{v}}$ must be normalized.
+# Hessian Matrix
+The hessian matrix of $f$ is a matrix of second order partial derivatives of $f(x,y)$, written as: $$H_f=\begin{bmatrix}f_{xx} & f_{xy} \\f_{yx} & f_{yy} \end{bmatrix}$$This can be generalized to higher dimensional functions of course. 
 # Local Maximum, Minimum and Saddle Point
 We're trying to find the local maximum and minimum of a multivariable function. Lets first define what the local maximum and minimum is for multivariable functions. 
 ## Definition
@@ -77,6 +81,11 @@ Given a function $f: \mathbb{R}^n\to \mathbb{R}$, the point $p=(t_1,t_2,...,t_n)
 1. The point $p$ is in the [[Topology#Interior of a Set|interior]] of the domain $\text{Dom}(f)$.
 2. at some small disk $D$ around $p$ inside $\text{Dom}(f)$, the point $p$ pertains to the least valued point.
 ## How to Find it
-
 Given a point $(t_1,t_2,...,t_n)\in\mathbb{R}^n$ we consider $p$ to be either a local maximum, minimum, or saddle point if at $f(t_1,t_2,...,t_n)$: $$\nabla f(t_1,t_2,...,t_n)=\langle0,0,...,0\rangle$$
 Better said, ==**if the gradient is the zero vector**==. We can consider this as a generalization of the local maximum and minimum being found when the derivative is $0$ in a single variable function.
+## Second Derivatives Test
+Let $f$ be a function with continuous second order partial derivatives on a disk with center $(a,b)$, and suppose that we are at a critical point in $(a,b)$, e.g. $f_x(a,b)=f_y(a,b)=0$. Then for $$D=|H_f|=\begin{vmatrix}f_{xx} & f_{xy} \\f_{yx} & f_{yy} \end{vmatrix}=f_{xx}f_{yy}-2f_{xy}$$Then:
+1. If $D<0$ $(a,b)$ is a saddle point of $f$.
+2. If $D>0$ and $f_{xx}(a,b)>0$ or $f_{yy}(a,b)>0$ (these are equivalent) then $f(a,b)$ is a local minimum (since the function is increasing).
+3. If $D>0$ and $f_{xx}(a,b)<0$ or $f_{yy}(a,b)<0$ (these are equivalent) then $f(a,b)$ is a local maximum (since the function is decreasing).
+4. If $D=0$ nothing can be said about the function at point $(a,b)$.

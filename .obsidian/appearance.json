@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "timeline_callout"
   ],
-  "showRibbon": true
+  "showRibbon": true,
+  "theme": "obsidian"
 }

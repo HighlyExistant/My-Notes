@@ -20,7 +20,7 @@ Socrates opposes by saying he wants to learn the abstract concept of knowledge, 
 * ==**Jest**==: a thing said or done for amusement; a joke.
 * ==**Quale**==: a quality or property as perceived or experienced by a person.
 * ==**Flux**==: the action or process of flowing or flowing out.
-* ==**Mnemosyne**==: Mother of the muses, goddess of memory. Daughter of Uranus.3
+* ==**Mnemosyne**==: Mother of the muses, goddess of memory. Daughter of Uranus.
 * ==**Base**==: ==**Ignoble**== $\rightarrow$ Not honorable in character or purpose. _without moral principles_.
 * ==**Primeval**==: Primitive, raw and elementary.
 * ==**True Opinion**==: When your assertion of something is correct, but you have not yet deeply examined it.

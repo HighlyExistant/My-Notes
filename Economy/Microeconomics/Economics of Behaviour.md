@@ -1,0 +1,1 @@
+This comes as a critique of the previous [[Consumer Behaviour|neoclassic theory on consumer behaviours]]. It basically states that humans are not always rational beings, and they make mistakes often.

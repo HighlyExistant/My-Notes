@@ -115,6 +115,8 @@ We can see how it can be hard to generalize sentences, especially when such a ti
 ==**When dealing with a polysemous, especially when it is an amphibology in an interrogative, additional context is a must**==. A malformed sentence, while their meaning could be deciphered, can ultimately be a form of trickery.
 # Context
 The context is all knowledge known. There is implicit and explicit context. The implicit context we usually bring to a topic is our life experience. We will usually denote any knowledge we get from the exercise as explicit and any knowledge we get outside the exercise as implicit. Important to note that words and definitions can be categorized as implicit, as a different upbringing could have brought about a different set of definitions for those words
+## Appending Context
+Upon enunciating something, and or making known something, it gets added to our context. For example, if someone states that they believe "$X$ are $Y$", then that would get added to a context.
 ## Context Variance
 We previously talked about the answering function $A_p$ for a particular $p\in\mathscr{P}$. Here we will expand on its properties.
 
@@ -123,8 +125,15 @@ Given a sentence $S_i \in S^*$, and another string $S_j$ such that it is grammat
 As the name suggests, these add adjuncts to sentences, and see if the answering function changes. 
 ### Discrimination and Tolerance
 This is especially useful for adjectival adjuncts, whose variance we will denote as ==**discrimination**==, and whose invariance we will denote ==**tolerance**==.
-
+# Quantifiers
+When talking about a particular subject and or group of people, we make note of it through [[General Logic#Quantifiers|quantifiers]] of the specific group.
 # Metrics
 ## Agreement Characteristic Function
-Let $A_p$ be an answering function for a particular person $p$ restricted on the codomain to some set with 2 elements either denoting, agreement or disagreement called $\mathbb{B}$ (The boolean set). Let $I$ be the interrogative and $\because A$ be the reasoning adjunct. For this specific case, let $0,1\in \mathbb{B}$. Then: $$A_p:S^*\to \mathbb{B}=A_p(S)=\begin{cases}p\text{ agrees with } S & 1\\p\text{ disagrees with } S & 0\end{cases}$$
-This version of $A_p$ is a characteristic function of agreement, since we could, alternatively, have a set $\mathbf{A}_p$ which is all the statements a particular person $p$ agrees with, and see whether a sentence is within it.
+Let $A_p$ be an answering function for a particular person $p$ restricted on the codomain to some set with 2 elements either denoting, agreement or disagreement called $\mathbb{B}$ (The boolean set). For this specific case, let $0,1\in \mathbb{B}$. Then: $$A_p:S^*\to \mathbb{B}=A_p(S)=\begin{cases}p\text{ agrees with } S & 1\\p\text{ disagrees with } S & 0\end{cases}$$
+This version of $A_p$ is a characteristic function of agreement, since we could, alternatively, have a set $\mathbf{A}_p$ which is all the statements a particular person $p$ agrees with, and see whether a sentence is within it. This in turn becomes: $$A_p:S^*\to \mathbb{B}=A_p(S)=\begin{cases}S\in\mathbf{A}_p & 1\\ S\not\in\mathbf{A}_p & 0\end{cases}$$
+Given that these are characteristic functions, then [[Discrete Maths#The Characteristic Function|all operations on characteristic functions]] also apply.
+## Jaccard Metric on Agreement
+Consider a set of sentences $U\subset S^*$, then: $$\overline{A_p}(U)=\frac{\sum_{s\in U}{A_p(s)}}{|U|}$$would be the percentage amount with which you agree with a set of sentences. We can derive from this the Jaccard metric on Agreement: $$d(p,q)=1-\frac{\sum_{s\in U}{A_{p\cap q}(s)}}{|U|}=1-\overline{A_{p\cap q}}(U)$$People with similar opinions will be grouped near one another. It is important to note that $d$ depends on some universe set $U$ of sentences.
+
+## Reasoning
+Let $I$ be the interrogative and $\because A$ be the reasoning adjunct.

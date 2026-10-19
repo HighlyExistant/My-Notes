@@ -4,4 +4,3 @@ My main problems with family, as I have listed so far is that
 1. It is an arbitrary relationship which you must learn to deal with.
 2. It can provide an insular environment for a developing child, which will lead to them carrying the same mentality as their parents, which in some cases, can turn a child into simply a carcass for their parents control.
 3. It is treated as a grander relationship, than others, when it should be unbiased.
-s

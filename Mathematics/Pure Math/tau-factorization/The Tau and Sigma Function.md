@@ -29,3 +29,10 @@ The tau function $\tau(n)$ is supposed to give you the number of factors of a nu
 * $4 |_{\tau} 32$ and so is $8 |_{\tau} 32$  
 * $\lambda=1$
 * $32=1(4*8)$
+
+
+To factor in tau factorization, to be a tau factorization you need the two factors to be equivalent in modulo n. For example
+
+In tau_2 the number 6 is $2\cdot 3$ but in modulo this is $0=1$ which are not equivalent, so in this world the number $6$ is considered a semi prime but is considered a prime in tau_2.
+
+Atoms are irreducibles which are normally the same thing as primes in our normal numbered world.

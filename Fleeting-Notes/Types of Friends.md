@@ -1,5 +1,5 @@
 # Those in my List
-Not to call them best friend, as they have achieved what I consider to be the highest ranking. They are those that have entered my ==**love list**==. As of writing only 4 have entered my love list, and these that have entered my love list, I have known for at least upwards of a year. They have, in times of crisis, decided to lend a hand, and they are people whom I am very glad to have.
+Not to call them best friend, as they have achieved what I consider to be the highest ranking. They are those that have entered my ==**love list**==. As of writing only 3 have entered my love list, and these that have entered my love list, I have known for at least upwards of a year. They have, in times of crisis, decided to lend a hand, and they are people whom I am very glad to have.
 # Friends
 A friend is a person who I have a personal connection with, who I am very fond of. Even though I might not talk to this particular person as much, it does not mean I do not still care for this type of friend.
 # Conditional Friend

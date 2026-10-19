@@ -1,2 +1,0 @@
-# Global Context
-1. 

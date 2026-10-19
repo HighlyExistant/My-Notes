@@ -33,7 +33,7 @@ We can say then, that the Borel $\sigma$-algebra $\mathcal{B}(\mathcal{F})$ gene
 Is an ordered pair $(X, \mathcal{X})$ where $X$ is a set and $\mathcal{X}$ is a sigma algebra.
 # Measure
 ## Definition
-Given a map from a sigma algebra $\mu:\mathcal{X}\to\mathbb{R}\cup \{\infty\}$. To simplify the notation we write: $$\mu:\mathcal{X}\to[0,\infty]$$such that it holds the following properties:
+Given a map from a sigma algebra $\mu:\mathcal{X}\to\mathbb{R}_{\geq 0}\cup \{\infty\}$. To simplify the notation we write: $$\mu:\mathcal{X}\to[0,\infty]$$such that it holds the following properties:
 1. ==**Empty Measure**==: The $\emptyset=0$.
 2. ==**Additivity**==: the $\sum_{i=1}^n{\mu(\mathcal{X}_i)}$ s.t. $\mathcal{X}_i\neq\mathcal{X}_j$, (They are [[Set Theory#Vocabulary#Disjoint Sets|pairwise disjoint]]) is equal to $\mu(\bigcup_{i=1}^n{\mathcal{X}_i})$, $\forall \mathcal{X}_i\in\mathcal{X}$.
 ### $\infty$ properties

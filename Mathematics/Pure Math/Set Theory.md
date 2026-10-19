@@ -54,7 +54,7 @@ Given only
 ##### Disjoint Sets
 2 sets $A$ and $B$ are disjoint if $A \cap B=\emptyset$.
 ##### Partition of a set
-let $X$ be an arbitrary set, a **partition of set $X$** would be a set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets (e.g. all subsets are disjoint from one another).  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==). A nice property of the partition is that: $$\cup{P}=X$$
+let $X$ be an arbitrary set, a **partition of set $X$** would be a finite set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets (e.g. all subsets are disjoint from one another).  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==). A nice property of the partition is that: $$\cup{P}=X$$
   An example of a partition of a set would be, given the set $A=\{a, b, c\}$, the a partition $P=\{\{a\}, \{b, c\}\}$.
 # Absorbing Set
 A set $A\subseteq X$ is an absorbing set if, for each $x\in X$ there is a positive number $s_x$ such that $x\in tA$ whenever $t > s_x$.

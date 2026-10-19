@@ -1,23 +1,23 @@
 # Properties
 ## Associativity
 $*$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
-$$a * (b * c) = (a * b) * c$$
+$$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
 ## Commutativity
-$*$ is commutative in a structure $X$ if $\forall a,b\in X$: $$a*b=b*a$$
+$\oplus$ is commutative in a structure $X$ if $\forall a,b\in X$: $$a\oplus b=b\oplus a$$
 ## Distributivity
 $*$ is distributive along $\oplus$ in a structure $X$ if it is left and right distributive along $\oplus$ in a structure $X$.
 ### Left Distributive
-$*$ is left distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$a*(b\oplus c)=ab*ac$$
+$*$ is left distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$a*(b\oplus c)=(a*b)\oplus (a*c)$$
 ### Right Distributive
-$*$ is right distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$(b\oplus c)*a=ba*ca$$
+$*$ is right distributive along $\oplus$ in a structure $X$ if $\forall a,b,c\in X$: $$(b\oplus c)*a=(b* a)=b \oplus (c*a)$$
 
 ## Identity
 $b$ is the identity in a structure $X$ if $\forall a \in X$:
-$$a\oplus b=b \oplus a=a$$
+$$a\oplus b=a$$
 ## Inverse
-$\forall a \in G$ there exists $g^{-1}$ called the inverse of $g$ such that $$g \oplus g^{-1} = g^{-1} \oplus g = e$$ such that $e$ is the identity
+$\forall a \in G$ there exists $g^{-1}$ called the inverse of $g$ such that $$g \oplus g^{-1} = e$$ such that $e$ is the identity
 ## Idempotency
-A given element $x\in X$ is idempotent under $*$ if $$x*x=x$$
+A given element $x\in X$ is idempotent under $\oplus$ if $$x\oplus x=x$$
 ## Additivity
 For functions, this means that:
 $$f(x_1+x_2)=f(x_1)+f(x_2)$$
@@ -39,10 +39,11 @@ Basic algebraic structure which consists of a set and a binary operation that is
 * Closure
 ## Semigroups
 A Magma with an associative operator. 
-* Associativity
 * Closure
+* Associativity
 ## Monoid
 A semigroup with an identity operation, that means it has a binary operator on a set such that it has
+* Closure
 * Associativity
 * Identity
 # Commutative Monoid

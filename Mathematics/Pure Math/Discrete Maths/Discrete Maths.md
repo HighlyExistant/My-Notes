@@ -116,8 +116,8 @@ If a work can be done in $n_1$ forms, and a second work can be done in $n_2$ for
 
 In general this can be written as:
 given a task $T_i$, which can be done in $n_i$ forms, then doing these tasks in sequence $T_1,T_2,... T_k$ can be done in $n_1 n_2 ... n_k$ forms
-### Sequences without Repetitions
-If instead the elements cannot repeat and we select $r$ elements, then there are $$\frac{n!}{(n-r)!}$$ permutations.
+## Sequences without Repetitions
+If instead the elements cannot repeat and we select $r$ elements, then there are $$nPr=\frac{n!}{(n-r)!}$$ permutations. The $P$ stands for permutation.
 ### Sequences with Repetitions
 Given a set with $n$ elements and we want to form a sequence of length $r$, where the elements can repeat, then there are $n^r$ options. That said, we can generalize this.
 
@@ -127,5 +127,19 @@ The amount of permutations that a set of $n$ objects where some are indistinguis
 * ==**Permutation**==, implies that the ordering of the elements matters.
 ### Circular Permutations
 Given $n$ objects ordered around in a circular array, such that the same sequence of objects appearing at some point is equivalent, then the amount of permutations in the circular array is: $$(n-1)!$$
-### Examples
+## Examples
+### Example 1
 Ways of organizing people in seats. Given people $a, b, c$ and $3$ seats, then there are $3\cdot 2\cdot 1$ different ways of doing it, or $3!$. This is because the number of options (people) given, reduce every time you use one of the options.
+### Example 2
+A classroom with 6 kids of gender $a$ and 6 kids of gender $b$. How many ways of ordering them in interchanging genders can there be?. Theres $2!$ ways of ordering them as $(ab)^6$ and $(ba)^6$. and theres $6!$ per gender ways of composing them, therefore by the principle of countability, there are $6!\cdot 6!$ ways of ordering every type of permutation, and in total there are: $2\cdot 6!\cdot 6!$.
+# Combinations without Repetitions
+Given a set $A$ with $n$ elements, the amount of subsets of $A$ with $r$ elements is: $$nCr={n \choose r}=\frac{n!}{(n-r)!r!}$$The $C$ stands for combination
+## Combinations with Repetitions
+Given $r$ selections between $n$ items, with repetitions, we have $$n+r-1 Cr={n+r-1\choose r}$$
+# Properties of the Binomial
+## Pascals Identity
+$${n\choose r}+{n\choose r-1}={n+1\choose r}$$
+We can go back to set theories cardinality of [[Set Theory#Power Set|power sets]] and see that: $$\sum_{r=0}^n{n\choose r}=2^n$$For reductions of binomials we can use the recursive algorithm: $${n\choose r}=\frac{n}{r}{n-1\choose r-1}$$
+## Examples
+### Example 1
+In a game of cards with $52$ cards, where each hand is $5$ cards, has $52\choose 5$ amount of hand possibilities.

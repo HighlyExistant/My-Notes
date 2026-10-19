@@ -1,8 +1,12 @@
 Proofs are the way we show that things are true in math. There are various types of proofs, and depending on which axioms you are working with, there are different ways of proving things logically.
 # Pigeonhole Principle
 Given a number of "holes" $m$ and a number of "pigeons" which will enter the holes $n$, such that $n>m$, the pigeonhole principle states that at least one hole will have more than 1 pigeon.
+## Generalized Pigeonhole Principle
+This version of the principle not only states that there will have more than 1 element in a single group, but also counts the minimum in such a group.
+
+Given $n$ elements and $m$ groups such that $n>m$, then there exists a group with: $$\lfloor{\frac{n-1}{m}}\rfloor+1$$ elements.
 # Proof by Contrapositive
-If $p\Rightarrow q$ then $\neg q \Rightarrow \neg p$. Instead of proving that one true statement leads to another true statement, we prove that a false statement leads to another false statement.
+If $p\Rightarrow q$ then $\neg q \Rightarrow \neg p$. Instead of proving that one true antecedent leads to a consequent, we prove that a false consequent leads to a false antecedent.
 # Proof by Contradiction
 This uses the assumption that a statement is either true or false. Given a statement $p$ which we want to prove, we first assume that $p$ is already true to begin with and show how that leads to a contradiction. These are usually of the form $p\wedge \neg p$ 
 ## Example: Proof that $\sqrt{2}$ is irrational

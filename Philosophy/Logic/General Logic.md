@@ -77,6 +77,7 @@ In a statement $p\Rightarrow q$:
 ### Converse and Contrapositive
 * If $p\Rightarrow q$, then the converse would be $q\Rightarrow p$.
 * If $p\Rightarrow q$ then the contrapositive would be $\neg q \Rightarrow \neg p$.
+* If $p\Rightarrow q$ then the inverse would be $\neg p \Rightarrow \neg q$.
 ### Example
 The truth table might look odd, but my discrete math teacher has given me the following example:
 Let $p(f)$ denote that $f$ is differentiable and $q(f)$ denote that $f$ is continuous. We can say that $p(f)\Rightarrow q(f)$ which would be true, but $q(f)\Rightarrow p(f)$ would be false.
@@ -103,8 +104,8 @@ A ==**tautology**== is a propositional statement which is true for any values gi
 ## Equivalence
 If a given biconditional $p\Leftrightarrow q$ is a tautology, then we can write $p\equiv q$ which means that these are [[Mathematics/Pure Math/Relations/Relations#Equivalence|equivalent]].
 ## Theorem Listing
-1. $p\Rightarrow q \equiv \neg p \vee q$.
+1. $p\Rightarrow q \equiv \neg p \vee q$ (==**Modus Ponens / Disjunctive Syllogism**==)
 2. $p\Rightarrow q\equiv \neg q \Rightarrow \neg p$ (==**Contrapositivo**==)
 3. $p\Leftrightarrow q\equiv p\Rightarrow q\wedge p\Rightarrow q$
 4. $\neg (p\Rightarrow q)\equiv p\wedge \neg q$ (==**Reducto ad absurdum**==)
-5. $\neg (p\Leftrightarrow q)\equiv (p\neg q)\vee (q\wedge \neg p)$
+5. $\neg (p\Leftrightarrow q)\equiv (p\wedge \neg q)\vee (q\wedge \neg p)$
