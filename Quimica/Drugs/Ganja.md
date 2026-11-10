@@ -14,9 +14,9 @@
 	* Cart, using it in a pen (electronic cigarette)
 	* Using it in a Bong.
 	* Using it in a tea or baking
+* Ointment:
+	* Applied directly, usually used for pain relief.
 # Greening Out
 Not the same thing as overdosing. Although it is not life threatening, it can pose health risks. It's like a sensory overload.
-
 # Sources
 1. [Harvard Health](https://www.health.harvard.edu/blog/cannabidiol-cbd-what-we-know-and-what-we-dont-201808242496)
-2. 

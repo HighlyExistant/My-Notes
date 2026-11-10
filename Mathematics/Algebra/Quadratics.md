@@ -11,3 +11,5 @@ We can also use identities that have already been proven to quickly fill out spe
 We can also find zeroes by using our ultimate weapon, the quadratic formula: $$\frac{-b \pm\sqrt{b^2-4ac}}{2a}$$
 ## PQ Formula
 Although only for monic quadratics, if we simplify the expression $$ax^2+bx+c$$ by dividing by $a$: $$\frac{ax^2+bx+c}{a}=x^2+\frac{b}{a}x+\frac{c}{a}$$then we can use the $pq$ formula, for $x^2+px+q$: $$-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2+q}$$Which is simply the quadratic formula, where $a=1$.
+# Inverse of arbitrary Quadratic
+We can turn a function $f(x)=ax^2+bx+c$ into a function of $y$ by getting the quadratic formula and doing it like so: $$f(y)=\frac{-b\pm\sqrt{b^2-4a(c-y)}}{2a}$$

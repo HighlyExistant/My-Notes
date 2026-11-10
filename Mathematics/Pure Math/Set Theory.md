@@ -34,6 +34,8 @@ Given a set $A$ and a set $B$ the intersection $A\cap B$ would be the set contai
 * We say a set $A$ intersects a set $B$ if $A\cap B\neq \emptyset$.
 ## Cartesian Product
 The cartesian product of two sets $X, Y$ is every ordered pair that can be created from them. If $X=\{a, b\}$ and $Y=\{c, d\}$ then: $$X\times Y=\{(a, c), (a, d), (b, c), (b, d)\}$$
+### Theorems
+Given two sets $X, Y$: $$|X\times Y|=|X|\cdot|Y|$$
 ## Power Set
 The power set of a set $X$ is every possible subset of $X$. If $X=\{a, b, c\}$ then $$\mathcal{P}(X)=\{\emptyset, X, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}\}$$
 
@@ -51,11 +53,18 @@ If $A$ and $B$ are finite sets, the sum of the elements $|A|+|B|$ repeat when $A
 Similarly through some manipulation: $$|A\cap B|=|A|+|B|-|A\cup B|$$
 Given only 
 # Vocabulary
-##### Disjoint Sets
+## Disjoint Sets
 2 sets $A$ and $B$ are disjoint if $A \cap B=\emptyset$.
-##### Partition of a set
-let $X$ be an arbitrary set, a **partition of set $X$** would be a finite set of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets (e.g. all subsets are disjoint from one another).  What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==trivial partition==). A nice property of the partition is that: $$\cup{P}=X$$
-  An example of a partition of a set would be, given the set $A=\{a, b, c\}$, the a partition $P=\{\{a\}, \{b, c\}\}$.
+## Partition of a set
+let $X$ be an arbitrary set, a **partition of set $X$** would be a set (either finite or infinite) of non-empty subsets of $X$ such that 
+* every element $x \in X$ is in exactly one of these subsets (e.g. all subsets are disjoint from one another).  
+What this is saying is that the partition $P$ contains subsets of $X$, which could equal the set $X$ itself ($P=\{X\}$ is known as the ==**trivial partition**==).  
+### Properties
+A nice property of the partition is that: 
+$$\cup{P}=X$$
+### Examples
+#### Partition on a set of 3 elements
+An example of a partition of a set would be, given the set $A=\{a, b, c\}$, the a partition $P=\{\{a\}, \{b, c\}\}$.
 # Absorbing Set
 A set $A\subseteq X$ is an absorbing set if, for each $x\in X$ there is a positive number $s_x$ such that $x\in tA$ whenever $t > s_x$.
 # Intervals

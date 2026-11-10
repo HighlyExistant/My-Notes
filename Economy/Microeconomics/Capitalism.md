@@ -1,4 +1,3 @@
-...
 # What is Capitalism
 System of free market, wherein people have access to private property, which we can refer to as capital. This concept of private property gives incentives to people to invest, to increase the value of the capital. For this system of free market to work, you need to be able to choose between different corporations (against monopolies), so that you can choose which companies are the best. Without a choice between companies, you don't have competitors and therefore companies have no incentives to give you a better service.
 ## Price as a coordinator

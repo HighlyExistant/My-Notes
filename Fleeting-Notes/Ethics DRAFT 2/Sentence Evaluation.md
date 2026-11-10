@@ -135,5 +135,5 @@ Given that these are characteristic functions, then [[Discrete Maths#The Charact
 ## Jaccard Metric on Agreement
 Consider a set of sentences $U\subset S^*$, then: $$\overline{A_p}(U)=\frac{\sum_{s\in U}{A_p(s)}}{|U|}$$would be the percentage amount with which you agree with a set of sentences. We can derive from this the Jaccard metric on Agreement: $$d(p,q)=1-\frac{\sum_{s\in U}{A_{p\cap q}(s)}}{|U|}=1-\overline{A_{p\cap q}}(U)$$People with similar opinions will be grouped near one another. It is important to note that $d$ depends on some universe set $U$ of sentences.
 
-## Reasoning
-Let $I$ be the interrogative and $\because A$ be the reasoning adjunct.
+## Inferences
+We denote inferences as a relation $\because_p$ (using $\because$ when it is clear who the person $p$ is). The relation $$\because\subseteq S^*\times S^*$$

@@ -26,3 +26,5 @@ You don't need to text all the time if you don't feel like it of course. In this
 Out of every time I have texted a friend, while I felt bad, I usually felt better. Of course, I have good friends, and if you don't have that, then you should consider getting new friends.
 # They haven't been responding
 If this is the case, evaluate whether or not this is because they are busy, and think back to whether or not they have something planned for that day. If they don't have something planned for that day, you can assume they are tired, and you should wait, in which case you can text 5 hours later (unless it falls between a period of time they are surely sleeping). If they still don't answer, then you should space your texts at least every Fibonacci sequence, starting in the 6th iteration, therefore it will go: $$5, 8, 13, 21, 34, 55, 89, 144, \text{...}$$ this resets when they text back.
+
+$$\lim_{x\to 0}$$

@@ -101,7 +101,7 @@ Which would result in: $$F(x)=2\pi(\frac{x^4}{2}-\frac{x^5}{5})$$which you then 
 ## Mean Value Theorem
 Assume $f(x)$ is continuous on the interval $[a,b]$. Then $\exists c\in[a,b]$ such that $$f(c)(b-a)=\int_a^b{f(x)}dx$$It just so happens that this value is: $$f(c)=\frac{1}{b-a}\int_a^b{f(x)}dx$$which is the mean of the function on that interval. The geometric intuition is that the product $f(c)(b-a)$ forms a rectangle with the same area as the area under the curve of $f(x)$.
 # Solving Trigonometric Integrals
-If we have an integral $$\int{\text{sin}^n(x)dx}$$such that $n$ is odd, we can use trig identities to resolve it: $$\int{(1-\text{cos}^2(x))^{n-1}(x)dx}$$and then resolve it using u substitution. We can follow a similar path when integrating for $\text{cos}^n(x)$.
+If we have an integral $$\int{\text{sin}^n(x)dx}$$such that $n$ is odd, we can use trig identities to resolve it: $$\int{(1-\text{cos}^2(x))^{n-1}\sin(x)dx}$$and then resolve it using u substitution. We can follow a similar path when integrating for $\text{cos}^n(x)$.
 
 When $n$ is even, we need to use the half angle identities, which are: $$\begin{matrix}\text{cos}^2(x)=\frac{1+\text{cos}(2x)}{2}\\ \text{sin}^2(x)=\frac{1-\text{cos}(2x)}{2}\end{matrix}$$
 # Integrals of Rational Functions
@@ -137,3 +137,4 @@ Let $\int_a^b{f(x)}dx$ be the integral of a function which is continuous over $[
 Parametric curves can be viewed as scalar valued functions which produce vectors, e.g. $f(t)=(x(t),y(t))$. We obtain their integral as follows: $$\int{y(t)x'(t)dt}$$ or more simply: $$\int{ydx}$$
 ## Line Integrals of Parametric Curves
 The line integral of a parametric curve is: $$\int{\sqrt{x'(x)^2+y'(x)^2}}dt$$
+More generally we can represent: $ds=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt$ and the integral becomes: $$\int f(t) ds$$

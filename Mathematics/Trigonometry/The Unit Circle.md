@@ -40,3 +40,5 @@ If you were to multiply two angles, e.g: $\cos(2\alpha)$ then $\cos(2\alpha)=\co
 Similarly with $\sin(2\alpha)$: $$\sin(2\alpha)=2\text{sin}(\alpha)\text{cos}(\alpha)$$
 We can use these formulas to help simplify squares of trigonometric functions, such as: $$\begin{matrix}\sin^2(\alpha)=\frac{1-\cos(2\alpha)}{2} \\ \cos^2(2\alpha)=\frac{1+\cos(2\alpha)}{2}\end{matrix}$$
 Finally we can derive the half angle formulas to obtain: $$\begin{matrix}\cos(\frac{\alpha}{2})=\pm \sqrt{\frac{1+\cos(\alpha)}{2}} \\ \sin(\frac{\alpha}{2})=\pm \sqrt{\frac{1-\cos(\alpha)}{2}}\end{matrix}$$
+# Polar Coordinates
+The cartesian plane typically uses what are called square coordinates, but we can similarly express all values in the plane via polar coordinates. In square coordinates, points are represented as $(x,y)$ but in polar coordinates these are represented instead by a radius $r$ and an angle $\theta$ as $(r, \theta)$. The translation between polar and square coordinates is as follows: $$\begin{matrix}x=r\cos(\theta)\\y=r\sin(\theta)\end{matrix}\\\theta=\tan^{-1}(\frac{y}{x})\\r=\sqrt{x^2+y^2}$$

@@ -13,6 +13,7 @@ The tau function $\tau(n)$ is supposed to give you the number of factors of a nu
 * $D^{\#}$: Set of [[Algebraic Structures#Rings|nonzero nonunit]] elements of $D$.
 * $\tau$: A [[Relations#Symmetric|symmetric relation]] on $D^{\#}$.
 	* We say that $\tau$ is ==**associate preserving**== if for $a, b, b' \in D^{\#}$ with $b \sim b', a\tau b\Rightarrow a\tau b'$ and $b\tau a\Rightarrow b'\tau a$  
+* $\tau_{(n)}$ relation on mods, is equivalent to saying congruent in modulo $n$. 
 * $|_{\tau}$ is used to denote something as a $\tau$-factor. ej. $a_i|_{\tau}a$ means that $a_i$ is a $\tau$-factor of $a$.
 * $*$ is the symbol to denote a $\tau$-product.
 * ==**Definition 1**==: $\tau$-factorization of element $a\in D^{\#}$  is an expression $a=\lambda a_1 *...* a_k$ where $a_j \in D^{\#}$ and $\lambda \in U(D)$ and for any $i\neq j, a_i\tau a_j$.
@@ -25,7 +26,7 @@ The tau function $\tau(n)$ is supposed to give you the number of factors of a nu
 * $D=(\mathbb{Z}, *)$ be our integral domain. 
 * $U(D)=\{1\}$
 * $D^{\#}$ would then contain in its objects $\mathbb{Z}-\{0, 1\}$.
-* $\tau$ will be the equivalence relation $[a]_4$ a $mod(4)$ on the integers.
+* $\tau$ will be the equivalence relation $[a]_4$ a $\mod(4)$ on the integers.
 * $4 |_{\tau} 32$ and so is $8 |_{\tau} 32$  
 * $\lambda=1$
 * $32=1(4*8)$

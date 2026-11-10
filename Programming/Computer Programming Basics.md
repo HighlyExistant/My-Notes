@@ -19,3 +19,9 @@ In a strongly typed language, you cannot redefine types, while in a weakly typed
 2. Learn the basic keywords in the programming language.
 # Semantics
 Is the meaning behind the word 
+
+# IPO Style Programming
+This is the method of typing a program by separating things between:
+1. Input
+2. Process
+3. Output

@@ -32,3 +32,5 @@ This principle can override any other principle as long as it can be proven that
 ### Problems Section
 1. Rephrase the language for what ought means
 # Draft 3
+##  <mark style="background: #ABF7F7A6;">Principle of Consequence</mark>
+For every action with 

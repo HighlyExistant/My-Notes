@@ -16,4 +16,3 @@ Let $\epsilon_I$ represent the elasticity.
 Things that are inelastic are typically necessities, which are hard to replace, e.g. medicine, electricity, water.
 # Crossed Elasticity
 This is defined as the percentage change of demand in a product $x$ over the percentage change in the price of some good $y$. $$\frac{Q_{x2}-Q_{x1}}{Q_{x1}}\cdot\frac{P_{y1}}{P_{y2}-P_{y1}}=\frac{\Delta Q_x}{Q_{x1}}\cdot\frac{P_{y1}}{\Delta P_y}$$
-

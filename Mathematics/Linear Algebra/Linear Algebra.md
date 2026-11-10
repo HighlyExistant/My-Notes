@@ -1,7 +1,9 @@
 Is the study of linear transformations and the spaces they lie in.
 # Definitions
-* ==**Orthogonal**==: Two vectors are orthogonal if their inner product is 0. One way to achieve this is if both vectors are perpendicular, or if they are both 0 vectors.
-* ==**Orthonormal**==: Two vectors are orthonormal if they are orthogonal and have a magnitude of 1.
+## Orthogonal
+Two vectors are orthogonal if their inner product is 0. One way to achieve this is if both vectors are perpendicular, or if they are both 0 vectors (The 0 vector is perpendicular to all vectors).
+## Orthonormal
+Two vectors are orthonormal if they are orthogonal and have a magnitude of 1.
 # Basis Vectors
 A set of vectors that span the entire vector space which are linearly independent (meaning they cannot be written in terms of themselves) and can form every other vector in the vector space as a linear combination of said basis vectors. The basis of this vector defines the coordinate system. The standard basis vectors are $x=\begin{bmatrix}1 & 0\end{bmatrix}, y=\begin{bmatrix}0 & 1\end{bmatrix}$.
 ## Examples
@@ -19,3 +21,4 @@ for all $V$. It also satisfies that the identity maps unto the field identity: $
 An upgraded form of linear form, which uses two vector spaces to a field $F$ $$B:V\times V\rightarrow F$$ where it satisfies:
 $$B(u, \lambda w + v) = \lambda B(u, w) + B(u,v)$$
 $$B(\lambda w + v, u) = \lambda B(w, u) + B(v,u)$$
+s

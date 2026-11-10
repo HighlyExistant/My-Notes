@@ -1,6 +1,8 @@
 # Properties
+## Closure
+$\oplus$ is closed under $X$ if $\forall a, b\in X$: $$a\oplus b\in X$$
 ## Associativity
-$*$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
+$\oplus$ is associative in a structure $X$ if $\forall( a, b, c) \in X$:
 $$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
 ## Commutativity
 $\oplus$ is commutative in a structure $X$ if $\forall a,b\in X$: $$a\oplus b=b\oplus a$$
@@ -155,4 +157,12 @@ $$
 $$
 (a+b)v=av+bv
 $$
+## Grassman Algebra (Exterior Algebra)
+A vector space which forms an associative algebra containing that vector space. It adds the exterior product, also known as the wedge product $\wedge$. It can be viewed as a more general version of the determinant, as it gives the signed area of the parallelogram formed by the vectors. The wedge product and anticommutative such that: $$u \wedge v = -v \wedge u$$and [[Relations#Antisymmetric|antisymmetric]]. If the wedge product is performed on two parallel vectors, their magnitude is $0$: $$|\lambda e_1 \wedge \delta e_1|=0$$
+It is left associative:
+$$\alpha(u+v)\wedge w=\alpha(u\wedge w)+v\wedge w$$
+Right associative: $$u\wedge(\beta v + w)=\beta u\wedge v + u \wedge w$$
+Distributive over addition: $$u\wedge (v+w)=u\wedge v + u\wedge w$$
+The wedge product produces a bivector. We can also say that the wedge products magnitude is is $||\vec{u}\wedge \vec{v}||=||\vec{u}||||\vec{v}||sin(\theta)$. Two bivectors are equivalent if their area and orientation are the same.
 
+In 2D with orthogonal basis vectors, the wedge product is equivalent to the determinant, while in 3D it is equivalent to the cross product.

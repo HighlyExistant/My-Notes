@@ -34,9 +34,6 @@ $$\frac{d}{dt}[\textbf{u}(f(t))]=f'(t)\textbf{u}'(f(t))$$
 #### Clairaut's Theorem
 Suppose $f$ is defined on a disk $D$ that contains the point $(a,b)$. If the functions $f_{xy}$ and $f_{yx}$ are both continuous on $D$ then $$f_{xy}(a,b)=f_{yx}(a,b)$$
 Important to note that this applies for higher order partially differentiated functions, as long as we differentiate $f$ by the same variables the same number of times, e.g. $$f_{xyyzy}=f_{yxzyy}$$
-## Integrals
-Extending the [[Integrals#Fundamental Theorem of Calculus|fundamental theorem of calculus]] to vectors: $$\int_a^b\textbf{r}(t)dt=\textbf{R}(t)|_a^b$$
-Generalized this is: $$\int\textbf{r}(t)dt=\langle\int f(t)dt, \int g(t)dt, \int h(t)dt\rangle$$
 # Partial Derivatives
 The partial derivative of a function denotes the **change over time** of a **multivariable function**. The reason why it's called a partial derivative is because you only care about one of those variables in the multivariable function, and treat any other variable as a constant.
 ### Example
@@ -74,8 +71,8 @@ We can also compute this as the dot product of the gradient $\nabla f\cdot \vec{
 It is important to note that when you are trying to find the slope of the directional derivative, the vector $\vec{\mathbf{v}}$ must be normalized.
 # Hessian Matrix
 The hessian matrix of $f$ is a matrix of second order partial derivatives of $f(x,y)$, written as: $$H_f=\begin{bmatrix}f_{xx} & f_{xy} \\f_{yx} & f_{yy} \end{bmatrix}$$This can be generalized to higher dimensional functions of course. 
-# Local Maximum, Minimum and Saddle Point
-We're trying to find the local maximum and minimum of a multivariable function. Lets first define what the local maximum and minimum is for multivariable functions. 
+# Finding Local Extrema
+We're trying to find the local maximum and minimum of a multivariable function. Lets first define what the local maximum and minimum is for multivariable functions. Due to the fact that we are dealing with 2+ variables, we also need to account for saddle points, which is when one of the variables is decreasing while the other one is increasing. 
 ## Definition
 Given a function $f: \mathbb{R}^n\to \mathbb{R}$, the point $p=(t_1,t_2,...,t_n)$ is considered the local minimum if: 
 1. The point $p$ is in the [[Topology#Interior of a Set|interior]] of the domain $\text{Dom}(f)$.
